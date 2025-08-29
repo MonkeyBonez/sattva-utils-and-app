@@ -1,0 +1,5 @@
+[submodule "Bhagavad-Gita-Verses-iOS-App"]
+	path = Bhagavad-Gita-Verses-iOS-App
+	url = https://github.com/MonkeyBonez/Bhagavad-Gita-Verses-iOS-App
+	branch = main
+
