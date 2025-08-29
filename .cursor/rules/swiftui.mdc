@@ -1,0 +1,55 @@
+---
+alwaysApply: true
+---
+# Sattva — Cursor SwiftUI Rules
+
+project:
+  name: Sattva
+  platform: iOS 18+ (SwiftUI + MVVM)
+  constraints:
+    - Offline-first (all verses/lessons embedded in app).
+    - English-only.
+    - Apple Intelligence foundation model usage only if available.
+
+architecture:
+  - Use MVVM: SwiftUI Views + ObservableObject ViewModels.
+  - State:
+      - @State for local view state.
+      - @StateObject for owned ViewModels.
+      - @ObservedObject for injected ViewModels.
+  - Navigation: use NavigationStack or ScrollView paging (already in VerseView).
+  - Data: reuse VersesReader, QuoteReader, and existing JSON loaders.
+
+ui:
+  - Use EB Garamond with Dynamic Type.
+  - Use peacock-feather-inspired colors (Colors.swift).
+  - VerseView: one verse at a time, horizontal paging.
+  - Lock screen widget shows Lesson of the Week text only.
+  - Control Center / App Intent opens verse of the week.
+  - Animations should be subtle
+  - Minimalist UI
+
+advice:
+  - Always compute embeddings on-device (Core ML).
+  - Retrieve top-k lessons via cosine similarity.
+  - If Apple Intelligence foundation model available → re-rank.
+  - Else fallback deterministically to first verse of top lesson.
+  - No network calls for retrieval.
+
+bookmarks:
+  - Persist locally (UserDefaults).
+  - Toggle “bookmarked-only” mode switches dataSource.
+  - Bookmarked state survives app restarts.
+
+sharing:
+  - Share plain text: verse text + reference + lesson guidance if applicable.
+
+style:
+  - Swift 5.10+ idioms, async/await.
+  - Keep heavy logic out of Views, in ViewModels.
+  - Avoid singletons, prefer simple DI.
+
+guardrails:
+  - Do not add new dependencies without approval.
+  - Do not add network calls for LLMs/embeddings.
+  - Apple Intelligence usage must be availability-gated.

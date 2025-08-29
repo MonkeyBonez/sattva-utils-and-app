@@ -1,0 +1,59 @@
+---
+alwaysApply: true
+---
+# Sattva — Product Requirements
+
+## Purpose
+Help users live everyday lives in alignment with the Bhagavad Gita by surfacing verses and weekly lessons, with offline-first design and minimalist UX.
+
+## Core Features
+- **Verse Navigation**
+  - Home shows one verse at a time.
+  - Swipe left/right to move between verses.
+  - On launch: open to verse of the current Lesson of the Week.
+  - Intro: quick “book flipping” animation to current verse.
+
+- **Lesson of the Week (LoW)**
+  - One-sentence guidance tied to one or more verses.
+  - Rolls over at **Sunday 00:00** local.
+  - Displayed as text in **lock screen widget**.
+  - Tap widget → deep link into verse of the week.
+
+- **Bookmarks & Sharing**
+  - Users can bookmark verses and toggle “bookmarked-only” mode.
+  - Share button: text output including verse, reference, and lesson if applicable.
+
+- **Advice Retrieval**
+  - Input: free text query.
+  - Compute embedding on-device via Core ML.
+  - Compare against precomputed lesson embeddings.
+  - **If Apple Intelligence foundation model available:** re-rank top candidates and choose the best verse.
+  - **Else:** deterministically pick the first verse of the closest lesson (or first verse in its range).
+  - Always return a verse.
+
+- **Emotion Input**
+  - Emotion wheel (hierarchical, ~3 clicks deep).
+  - Color input mapped to nearest emotion → lesson → verse.
+
+- **HealthKit Mood (Optional)**
+  - Opt-in to read weekly moods.
+  - If recurring pattern, next week’s lesson may adapt (feature-flagged).
+
+- **Definitions (Do Later)**
+  - Users should be able to highlight verse text and have an option "definition" where they can look up the definition of the word they highlighted
+
+## Data
+- **Verses**: full Bhagavad Gita, bundled JSON with chapter/verse metadata.
+- **Lessons**: curated offline, bundled JSON mapping lessons → verse refs.
+- **Embeddings**: precomputed lesson embeddings bundled; user query embeddings computed on-device.
+
+## UX & Brand
+- Inspired by Krishna’s **peacock feather**; minimalist, calm, and enlightening.
+- Colors: parchment, lavender, peacock gradients.
+- Typography: EB Garamond, with Dynamic Type scaling.
+- Motion: subtle micro-animations, haptics for small state changes.
+- Accessibility: Dynamic Type + VoiceOver (to be polished fully later).
+- English-only, offline-first.
+
+## Out of Scope (v1)
+- Accounts, sync, push notifications, payments, multi-language, server inference.
