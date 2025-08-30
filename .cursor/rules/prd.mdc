@@ -18,6 +18,7 @@ Help users live everyday lives in alignment with the Bhagavad Gita by surfacing 
   - Rolls over at **Sunday 00:00** local.
   - Displayed as text in **lock screen widget**.
   - Tap widget → deep link into verse of the week.
+  - Adapt lessons of the week to bookmarked verses. Take lessons associated with bookmarked verses and mark as more important.
 
 - **Bookmarks & Sharing**
   - Users can bookmark verses and toggle “bookmarked-only” mode.
@@ -34,6 +35,7 @@ Help users live everyday lives in alignment with the Bhagavad Gita by surfacing 
 - **Emotion Input**
   - Emotion wheel (hierarchical, ~3 clicks deep).
   - Color input mapped to nearest emotion → lesson → verse.
+  - Create a "retry" mechanism if the output verse is not to users liking.
 
 - **HealthKit Mood (Optional)**
   - Opt-in to read weekly moods.

@@ -517,7 +517,7 @@ export default function App() {
                             disabled={selectedCandidateIds.size === 0 || moveTargetId.trim().length === 0}
                           >
                             Move
-                          </button>
+        </button>
                         </div>
                       </div>
                       <div className="space-y-2">
