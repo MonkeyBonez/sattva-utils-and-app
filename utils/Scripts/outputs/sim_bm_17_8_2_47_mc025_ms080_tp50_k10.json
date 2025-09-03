@@ -1,0 +1,17 @@
+{
+  "bookmarks": [
+    "17:8",
+    "2:47"
+  ],
+  "seed_lessons": [
+    383,
+    12
+  ],
+  "results": [],
+  "params": {
+    "min_cos": 0.25,
+    "max_similar": 0.8,
+    "topk_per_seed": 50,
+    "overall_topk": 10
+  }
+}

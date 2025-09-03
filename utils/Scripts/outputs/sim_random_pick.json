@@ -1,0 +1,78 @@
+{
+  "bookmarks": [
+    "17:8",
+    "2:47"
+  ],
+  "seed_lessons": [
+    383,
+    12
+  ],
+  "weights": {
+    "383": 0.4999999999979332,
+    "12": 0.5000000000020668
+  },
+  "results": [
+    {
+      "index": 403,
+      "score": 0.4598009586353235,
+      "text": "Act without attachment or desire for reward."
+    },
+    {
+      "index": 92,
+      "score": 0.45712971687505854,
+      "text": "Act without attachment to achieve true fulfillment."
+    },
+    {
+      "index": 114,
+      "score": 0.45075520873256086,
+      "text": "Act without attachment to excel in your duties."
+    },
+    {
+      "index": 82,
+      "score": 0.4495105743426784,
+      "text": "Act without attachment to achieve excellence."
+    },
+    {
+      "index": 384,
+      "score": 0.44939225911908354,
+      "text": "Choose nourishment that uplifts and energizes."
+    },
+    {
+      "index": 390,
+      "score": 0.4491403996962993,
+      "text": "Give without expectation or attachment."
+    },
+    {
+      "index": 54,
+      "score": 0.4470621049422624,
+      "text": "Act with steadiness, free from attachment to results."
+    },
+    {
+      "index": 56,
+      "score": 0.44624578952973765,
+      "text": "Act without desire for selfish gain."
+    },
+    {
+      "index": 61,
+      "score": 0.44620963931268126,
+      "text": "Act without attachment to achieve your highest purpose."
+    },
+    {
+      "index": 120,
+      "score": 0.44609338045304636,
+      "text": "Perform actions without attachment to reach higher understanding."
+    }
+  ],
+  "random_pick": null,
+  "params": {
+    "min_cos": 0.25,
+    "max_similar": 1.0,
+    "topk_per_seed": 50,
+    "overall_topk": 10,
+    "tau_days": 7.0,
+    "w_min": 0.2,
+    "combine": "max",
+    "random_pick_threshold": 0.8,
+    "random_seed": 42
+  }
+}

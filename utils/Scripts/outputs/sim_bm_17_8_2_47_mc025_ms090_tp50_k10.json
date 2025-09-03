@@ -1,0 +1,68 @@
+{
+  "bookmarks": [
+    "17:8",
+    "2:47"
+  ],
+  "seed_lessons": [
+    383,
+    12
+  ],
+  "results": [
+    {
+      "index": 54,
+      "score": 0.8941242098808289,
+      "text": "Act with steadiness, free from attachment to results."
+    },
+    {
+      "index": 59,
+      "score": 0.889736533164978,
+      "text": "Act with purpose and free from attachment."
+    },
+    {
+      "index": 407,
+      "score": 0.8873465061187744,
+      "text": "Act with duty, free from attachment to rewards."
+    },
+    {
+      "index": 72,
+      "score": 0.881150484085083,
+      "text": "Engage in action with a steady mind, free from attachment."
+    },
+    {
+      "index": 97,
+      "score": 0.874279260635376,
+      "text": "Act without attachment for the welfare of all."
+    },
+    {
+      "index": 122,
+      "score": 0.8725503087043762,
+      "text": "Act with clarity and free yourself from attachment."
+    },
+    {
+      "index": 58,
+      "score": 0.8720229864120483,
+      "text": "Act with knowledge, free from ego and attachment."
+    },
+    {
+      "index": 73,
+      "score": 0.8689781427383423,
+      "text": "Act with single-pointed determination and remain balanced in success and failure."
+    },
+    {
+      "index": 64,
+      "score": 0.8669360876083374,
+      "text": "Abandon attachment to outcomes for true wisdom."
+    },
+    {
+      "index": 26,
+      "score": 0.86409592628479,
+      "text": "Abandon attachment to outcomes for true freedom."
+    }
+  ],
+  "params": {
+    "min_cos": 0.25,
+    "max_similar": 0.9,
+    "topk_per_seed": 50,
+    "overall_topk": 10
+  }
+}

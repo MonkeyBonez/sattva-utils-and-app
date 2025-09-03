@@ -1,0 +1,68 @@
+{
+  "bookmarks": [
+    "17:8",
+    "2:47"
+  ],
+  "seed_lessons": [
+    383,
+    12
+  ],
+  "results": [
+    {
+      "index": 73,
+      "score": 0.8689781427383423,
+      "text": "Act with single-pointed determination and remain balanced in success and failure."
+    },
+    {
+      "index": 342,
+      "score": 0.8483080863952637,
+      "text": "Remain unaffected by dualities; cultivate inner steadiness."
+    },
+    {
+      "index": 273,
+      "score": 0.8459998965263367,
+      "text": "Practice steadfastness to achieve liberation from the fruits of actions."
+    },
+    {
+      "index": 397,
+      "score": 0.8409193754196167,
+      "text": "Act with purpose, not out of confusion."
+    },
+    {
+      "index": 80,
+      "score": 0.840323269367218,
+      "text": "Act consistently, as action is inherent to existence."
+    },
+    {
+      "index": 367,
+      "score": 0.8391888737678528,
+      "text": "Abandon lust, anger, and greed for liberation."
+    },
+    {
+      "index": 32,
+      "score": 0.8388603329658508,
+      "text": "Let go of longing to find true fulfillment."
+    },
+    {
+      "index": 352,
+      "score": 0.8384900093078613,
+      "text": "Seek refuge in the eternal, free from attachment."
+    },
+    {
+      "index": 323,
+      "score": 0.8384349942207336,
+      "text": "Detach from qualities to transcend pleasure and pain."
+    },
+    {
+      "index": 95,
+      "score": 0.8368929028511047,
+      "text": "Act with purpose, regardless of personal gain."
+    }
+  ],
+  "params": {
+    "min_cos": 0.3,
+    "max_similar": 0.85,
+    "topk_per_seed": 50,
+    "overall_topk": 10
+  }
+}

@@ -1,0 +1,301 @@
+/**
+ * GLOBAL STYLES FOR BHAGAVAD GITA BOOKMARK APP
+ * 
+ * This file contains the complete styling system for the iOS-inspired
+ * bookmark app with dark green theme. It includes:
+ * 
+ * 1. Design Tokens - Color palette and spacing variables
+ * 2. Typography System - Consistent text styling across the app
+ * 3. Custom Components - Special styling for cards and shadows
+ * 4. Theme Support - Dark/light theme definitions (currently using dark)
+ * 
+ * Design Philosophy:
+ * - Sophisticated dark green theme (#1a2e2a background)
+ * - Clean white text on dark backgrounds
+ * - iOS-inspired shadows and interactions
+ * - Minimal, elegant design without clutter
+ */
+
+/* Tailwind V4 custom dark variant declaration */
+@custom-variant dark (&:is(.dark *));
+
+/**
+ * ROOT DESIGN TOKENS
+ * 
+ * Main color palette and design system variables.
+ * These define the sophisticated dark green theme with proper contrast ratios.
+ */
+:root {
+  /* Base typography */
+  --font-size: 16px;
+  
+  /* Primary theme colors - Dark green sophistication */
+  --background: #1a2e2a;        /* Main dark teal background */
+  --foreground: #ffffff;        /* Primary white text */
+  --card: #243732;              /* Slightly lighter card backgrounds */
+  --card-foreground: #ffffff;   /* White text on cards */
+  /* UI component colors */
+  --popover: #243732;           /* Popup/modal backgrounds */
+  --popover-foreground: #ffffff;
+  --primary: #ffffff;           /* Primary action color (white) */
+  --primary-foreground: #1a2e2a; /* Text on primary backgrounds */
+  --secondary: #2a4a42;         /* Secondary elements */
+  --secondary-foreground: #ffffff;
+  --muted: #2a4a42;             /* Muted/disabled elements */
+  --muted-foreground: #a0b5b0;  /* Subtle text (60% opacity effect) */
+  /* Accent and interaction colors */
+  --accent: #2a4a42;            /* Accent elements */
+  --accent-foreground: #ffffff;
+  --destructive: #d4183d;       /* Error/danger states */
+  --destructive-foreground: #ffffff;
+  
+  /* Border and input styling */
+  --border: rgba(255, 255, 255, 0.1);    /* Subtle white borders */
+  --input: transparent;                    /* Transparent input backgrounds */
+  --input-background: #243732;            /* Input field backgrounds */
+  --switch-background: #2a4a42;           /* Toggle/switch backgrounds */
+  
+  /* Typography weights */
+  --font-weight-medium: 500;    /* Medium weight for headings/emphasis */
+  --font-weight-normal: 400;    /* Normal weight for body text */
+  
+  /* Focus and selection styling */
+  --ring: rgba(255, 255, 255, 0.2);      /* Focus ring color */
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --radius: 0.75rem;
+  --sidebar: #1a2e2a;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #ffffff;
+  --sidebar-primary-foreground: #1a2e2a;
+  --sidebar-accent: #2a4a42;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: rgba(255, 255, 255, 0.1);
+  --sidebar-ring: rgba(255, 255, 255, 0.2);
+}
+
+/**
+ * DARK THEME OVERRIDE
+ * 
+ * Alternative dark theme using oklch color space for better color accuracy.
+ * Currently not used since we're using the custom dark green theme above,
+ * but kept for potential future theming options.
+ */
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.145 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.145 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.985 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.396 0.141 25.723);
+  --destructive-foreground: oklch(0.637 0.237 25.331);
+  --border: oklch(0.269 0 0);
+  --input: oklch(0.269 0 0);
+  --ring: oklch(0.439 0 0);
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(0.269 0 0);
+  --sidebar-ring: oklch(0.439 0 0);
+}
+
+/**
+ * TAILWIND V4 THEME INTEGRATION
+ * 
+ * Maps CSS custom properties to Tailwind's design token system.
+ * This allows us to use our custom colors with Tailwind classes like:
+ * - bg-background, text-foreground, border-border, etc.
+ */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-switch-background: var(--switch-background);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+/**
+ * BASE ELEMENT STYLING
+ * 
+ * Default styling for all elements and the body.
+ * Sets up the foundation for the dark green theme.
+ */
+@layer base {
+  /* Universal border and focus ring styling */
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  /* Body uses the main background and text colors */
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/**
+ * TYPOGRAPHY SYSTEM
+ * 
+ * Defines consistent typography across the app without using Tailwind font classes.
+ * This creates a clean, readable hierarchy with proper spacing and weights.
+ * 
+ * Note: Only applies when elements don't have Tailwind text classes,
+ * allowing for component-specific overrides when needed.
+ */
+@layer base {
+  /* Typography applies only when Tailwind text classes aren't used */
+  :where(:not(:has([class*=" text-"]), :not(:has([class^="text-"])))) {
+    
+    /* Heading hierarchy with consistent spacing */
+    h1 {
+      font-size: var(--text-2xl);           /* Large heading for main titles */
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    h2 {
+      font-size: var(--text-xl);            /* Section headings */
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    h3 {
+      font-size: var(--text-lg);            /* Subsection headings */
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    h4 {
+      font-size: var(--text-base);          /* Small headings */
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    /* Body text with normal weight */
+    p {
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-normal);
+      line-height: 1.5;                     /* Comfortable reading line height */
+    }
+
+    /* Interactive elements with medium weight for emphasis */
+    label {
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    button {
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-medium);  /* Buttons need emphasis */
+      line-height: 1.5;
+    }
+
+    /* Form inputs with normal weight for readability */
+    input {
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-normal);
+      line-height: 1.5;
+    }
+  }
+}
+
+/**
+ * ROOT FONT SIZE
+ * 
+ * Sets the base font size for the entire app.
+ * All rem units are calculated relative to this 16px base.
+ */
+html {
+  font-size: var(--font-size);
+}
+
+/**
+ * CUSTOM UTILITY CLASSES
+ * 
+ * Special-purpose classes for specific functionality not covered by Tailwind.
+ */
+
+/* Text truncation utility for verse previews */
+.line-clamp-3 {
+  display: -webkit-box;           /* Required for line clamping */
+  -webkit-line-clamp: 3;          /* Limit to 3 lines */
+  -webkit-box-orient: vertical;   /* Vertical text flow */
+  overflow: hidden;               /* Hide overflow text */
+}
+
+/**
+ * IOS-INSPIRED SHADOW SYSTEM
+ * 
+ * Custom shadow classes that create depth and respond to user interaction.
+ * Designed specifically for the dark green theme with proper contrast.
+ */
+
+/* Default card shadow - creates floating effect */
+.shadow-card {
+  box-shadow: 
+    0 4px 12px rgba(0, 0, 0, 0.15),        /* Main drop shadow */
+    0 2px 4px rgba(0, 0, 0, 0.1),          /* Subtle close shadow */
+    inset 0 1px 0 rgba(255, 255, 255, 0.05); /* Inner highlight for depth */
+}
+
+/* Pressed state shadow - creates "pushed in" iOS effect */
+.shadow-card-pressed {
+  box-shadow: 
+    0 1px 3px rgba(0, 0, 0, 0.2),          /* Minimal shadow when pressed */
+    inset 0 1px 0 rgba(255, 255, 255, 0.03); /* Reduced inner highlight */
+}

@@ -1,0 +1,84 @@
+{
+  "bookmarks": [
+    "2:47"
+  ],
+  "seed_lessons": [
+    12
+  ],
+  "weights": {
+    "12": 1.0
+  },
+  "results": [
+    {
+      "index": 421,
+      "score": 0.8502323627471924,
+      "text": "Overcome obstacles by letting go of ego."
+    },
+    {
+      "index": 365,
+      "score": 0.848953127861023,
+      "text": "Seek clarity to avoid the traps of delusion."
+    },
+    {
+      "index": 184,
+      "score": 0.8479629755020142,
+      "text": "Balance action and inaction for growth."
+    },
+    {
+      "index": 353,
+      "score": 0.8465398550033569,
+      "text": "Seek freedom from attachment to reach your true goal."
+    },
+    {
+      "index": 32,
+      "score": 0.8461159467697144,
+      "text": "Let go of longing to find true fulfillment."
+    },
+    {
+      "index": 375,
+      "score": 0.8454908132553101,
+      "text": "Pursue purity of intention over fleeting desires."
+    },
+    {
+      "index": 181,
+      "score": 0.8453887104988098,
+      "text": "Find happiness within yourself, not in external pleasures."
+    },
+    {
+      "index": 363,
+      "score": 0.844772458076477,
+      "text": "Cultivate contentment to reduce desire."
+    },
+    {
+      "index": 327,
+      "score": 0.8446182012557983,
+      "text": "Overcome ignorance to free yourself from delusion."
+    },
+    {
+      "index": 242,
+      "score": 0.8438739776611328,
+      "text": "Seek deeper understanding beyond superficial appearances."
+    }
+  ],
+  "goldilocks_pick": {
+    "index": 32,
+    "score": 0.8461159467697144,
+    "text": "Let go of longing to find true fulfillment.",
+    "band": [
+      0.814100444316864,
+      0.8503524661064148
+    ]
+  },
+  "random_pick": null,
+  "params": {
+    "min_cos": 0.25,
+    "max_similar": 1.0,
+    "topk_per_seed": 50,
+    "overall_topk": 10,
+    "tau_days": 7.0,
+    "w_min": 0.2,
+    "combine": "max",
+    "random_pick_threshold": -1.0,
+    "random_seed": 42
+  }
+}

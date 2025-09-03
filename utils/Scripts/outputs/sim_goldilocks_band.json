@@ -1,0 +1,62 @@
+{
+  "bookmarks": [
+    "17:8",
+    "2:47"
+  ],
+  "seed_lessons": [
+    383,
+    12
+  ],
+  "weights": {
+    "383": 0.4999999999971065,
+    "12": 0.5000000000028936
+  },
+  "results": [
+    {
+      "index": 381,
+      "score": 0.8730949759483337,
+      "text": "Choose thoughts and actions that nurture rather than harm."
+    },
+    {
+      "index": 393,
+      "score": 0.8716368675231934,
+      "text": "Practice purity and self-control for inner strength."
+    },
+    {
+      "index": 58,
+      "score": 0.8716304898262024,
+      "text": "Act with knowledge, free from ego and attachment."
+    },
+    {
+      "index": 21,
+      "score": 0.8715002536773682,
+      "text": "Cultivate a steady mind to achieve inner peace."
+    },
+    {
+      "index": 285,
+      "score": 0.8712818622589111,
+      "text": "Cultivate wisdom through meditation and self-awareness."
+    }
+  ],
+  "goldilocks_pick": {
+    "index": 393,
+    "score": 0.8716368675231934,
+    "text": "Practice purity and self-control for inner strength.",
+    "band": [
+      0.8533930778503418,
+      0.8731128573417664
+    ]
+  },
+  "random_pick": null,
+  "params": {
+    "min_cos": 0.25,
+    "max_similar": 0.9,
+    "topk_per_seed": 50,
+    "overall_topk": 5,
+    "tau_days": 7.0,
+    "w_min": 0.2,
+    "combine": "max",
+    "random_pick_threshold": -1.0,
+    "random_seed": 7
+  }
+}

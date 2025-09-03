@@ -1,0 +1,72 @@
+{
+  "bookmarks": [
+    "2:47"
+  ],
+  "seed_lessons": [
+    12
+  ],
+  "weights": {
+    "12": 1.0
+  },
+  "results": [
+    {
+      "index": 403,
+      "score": 0.9196019172668457,
+      "text": "Act without attachment or desire for reward."
+    },
+    {
+      "index": 92,
+      "score": 0.9142594337463379,
+      "text": "Act without attachment to achieve true fulfillment."
+    },
+    {
+      "index": 114,
+      "score": 0.9015104174613953,
+      "text": "Act without attachment to excel in your duties."
+    },
+    {
+      "index": 82,
+      "score": 0.8990211486816406,
+      "text": "Act without attachment to achieve excellence."
+    },
+    {
+      "index": 390,
+      "score": 0.8982807993888855,
+      "text": "Give without expectation or attachment."
+    },
+    {
+      "index": 54,
+      "score": 0.8941242098808289,
+      "text": "Act with steadiness, free from attachment to results."
+    },
+    {
+      "index": 56,
+      "score": 0.8924915790557861,
+      "text": "Act without desire for selfish gain."
+    },
+    {
+      "index": 61,
+      "score": 0.8924192786216736,
+      "text": "Act without attachment to achieve your highest purpose."
+    },
+    {
+      "index": 120,
+      "score": 0.8921867609024048,
+      "text": "Perform actions without attachment to reach higher understanding."
+    },
+    {
+      "index": 59,
+      "score": 0.889736533164978,
+      "text": "Act with purpose and free from attachment."
+    }
+  ],
+  "params": {
+    "min_cos": 0.25,
+    "max_similar": 1.0,
+    "topk_per_seed": 50,
+    "overall_topk": 10,
+    "tau_days": 7.0,
+    "w_min": 0.2,
+    "combine": "max"
+  }
+}
