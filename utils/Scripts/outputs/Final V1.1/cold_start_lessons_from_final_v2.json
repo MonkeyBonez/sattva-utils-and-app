@@ -1,0 +1,127 @@
+{
+  "source": "/mnt/data/finalClusters_FINAL_v2.json",
+  "lessons": [
+    {
+      "cluster_id": 69,
+      "text": "Act with steadiness, free from attachment to results.",
+      "verses": [
+        "2:47-48"
+      ],
+      "best_verse": "2:47",
+      "bestVerseForUnit": [
+        "2:47"
+      ],
+      "position": 1
+    },
+    {
+      "cluster_id": 39,
+      "text": "Cultivate wisdom to transcend good and evil actions.",
+      "verses": [
+        "2:50"
+      ],
+      "best_verse": "2:50",
+      "bestVerseForUnit": [
+        "2:50"
+      ],
+      "position": 2
+    },
+    {
+      "cluster_id": 122,
+      "text": "Fulfill your own responsibilities with courage.",
+      "verses": [
+        "3:35",
+        "13:25"
+      ],
+      "best_verse": "3:35",
+      "bestVerseForUnit": [
+        "3:35",
+        "13:25"
+      ],
+      "position": 3
+    },
+    {
+      "cluster_id": 115,
+      "text": "Recognize the influence of nature in your actions.",
+      "verses": [
+        "3:27"
+      ],
+      "best_verse": "3:27",
+      "bestVerseForUnit": [
+        "3:27"
+      ],
+      "position": 4
+    },
+    {
+      "cluster_id": 179,
+      "text": "Act with awareness in all actions.",
+      "verses": [
+        "5:8"
+      ],
+      "best_verse": "5:8",
+      "bestVerseForUnit": [
+        "5:8"
+      ],
+      "position": 5
+    },
+    {
+      "cluster_id": 210,
+      "text": "Practice moderation in all aspects of life.",
+      "verses": [
+        "6:10-24"
+      ],
+      "best_verse": "6:16",
+      "bestVerseForUnit": [
+        "6:16"
+      ],
+      "position": 6
+    },
+    {
+      "cluster_id": 216,
+      "text": "Restrain the restless mind to regain control.",
+      "verses": [
+        "6:26"
+      ],
+      "best_verse": "6:26",
+      "bestVerseForUnit": [
+        "6:26"
+      ],
+      "position": 7
+    },
+    {
+      "cluster_id": 324,
+      "text": "Cultivate compassion and balance in all situations.",
+      "verses": [
+        "12:12-15"
+      ],
+      "best_verse": "12:13",
+      "bestVerseForUnit": [
+        "12:13"
+      ],
+      "position": 8
+    },
+    {
+      "cluster_id": 352,
+      "text": "Choose actions that lead to purity and clarity.",
+      "verses": [
+        "14:16-17"
+      ],
+      "best_verse": "14:17",
+      "bestVerseForUnit": [
+        "14:17"
+      ],
+      "position": 9
+    },
+    {
+      "cluster_id": 445,
+      "text": "Reflect deeply before taking action.",
+      "verses": [
+        "18:63"
+      ],
+      "best_verse": "18:63",
+      "bestVerseForUnit": [
+        "18:63"
+      ],
+      "position": 10
+    }
+  ]
+}
