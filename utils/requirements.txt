@@ -1,0 +1,20 @@
+# Python dependencies for the ML asset-generation pipeline in utils/Scripts.
+# Target interpreter: Python 3.9 (matches the repo's .venv).
+#
+# These are the direct imports used across the clustering, embedding, CoreML
+# conversion, and search/eval scripts. Version floors below are known-compatible
+# with Python 3.9 + coremltools; after a clean install, run
+#   pip freeze > utils/requirements.lock.txt
+# to capture an exact, reproducible pin set.
+#
+# Setup:
+#   python3.9 -m venv .venv
+#   source .venv/bin/activate
+#   pip install -r utils/requirements.txt
+
+numpy>=1.24,<2.0
+torch>=2.0
+sentence-transformers>=2.2
+transformers>=4.30
+coremltools>=7.0
+tqdm>=4.65
