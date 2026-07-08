@@ -1,0 +1,7232 @@
+{
+  "config": {
+    "topk": 10,
+    "rerank": 5,
+    "retrieval_model": "intfloat/e5-small-v2",
+    "rerank_model": "cross-encoder/ms-marco-MiniLM-L-6-v2"
+  },
+  "results": [
+    {
+      "emotion_path": "Sad > Lonely > Isolated",
+      "root": "Sad",
+      "mid": "Lonely",
+      "leaf": "Isolated",
+      "query": "I feel Sad because I feel Lonely, because I feel Isolated",
+      "top_cosine": 0.8049,
+      "top_ce": -5.9267,
+      "results": [
+        {
+          "lesson_id": 163,
+          "lesson_text": "Maintain a steady mind through solitude and self-control.",
+          "cosine": 0.8013,
+          "ce_score": -5.9267,
+          "verse_units": [
+            {
+              "chapter": 6,
+              "start": 10,
+              "end": 10
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 198,
+          "lesson_text": "Focus your mind and seek inner refuge.",
+          "cosine": 0.8049,
+          "ce_score": -7.8495,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 1,
+              "end": 1
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 157,
+          "lesson_text": "Let go of attachment to find inner peace.",
+          "cosine": 0.7972,
+          "ce_score": -8.4354,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 12,
+              "end": 12
+            },
+            {
+              "chapter": 5,
+              "start": 11,
+              "end": 18
+            },
+            {
+              "chapter": 6,
+              "start": 4,
+              "end": 4
+            },
+            {
+              "chapter": 13,
+              "start": 9,
+              "end": 17
+            },
+            {
+              "chapter": 15,
+              "start": 3,
+              "end": 3
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 278,
+          "lesson_text": "Cultivate devotion through solitude and self-reflection.",
+          "cosine": 0.8015,
+          "ce_score": -8.5625,
+          "verse_units": [
+            {
+              "chapter": 13,
+              "start": 11,
+              "end": 11
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 29,
+          "lesson_text": "Let go of longing to find true fulfillment.",
+          "cosine": 0.7991,
+          "ce_score": -8.9898,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 59,
+              "end": 59
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Sad > Lonely > Abandoned",
+      "root": "Sad",
+      "mid": "Lonely",
+      "leaf": "Abandoned",
+      "query": "I feel Sad because I feel Lonely, because I feel Abandoned",
+      "top_cosine": 0.828,
+      "top_ce": -5.7986,
+      "results": [
+        {
+          "lesson_id": 60,
+          "lesson_text": "Abandon ego and desire to find peace.",
+          "cosine": 0.8105,
+          "ce_score": -5.7986,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 53,
+              "end": 53
+            },
+            {
+              "chapter": 18,
+              "start": 53,
+              "end": 56
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 327,
+          "lesson_text": "Abandon lust, anger, and greed for liberation.",
+          "cosine": 0.8086,
+          "ce_score": -7.4076,
+          "verse_units": [
+            {
+              "chapter": 16,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 16,
+              "start": 19,
+              "end": 24
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 198,
+          "lesson_text": "Focus your mind and seek inner refuge.",
+          "cosine": 0.803,
+          "ce_score": -7.8421,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 1,
+              "end": 1
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 157,
+          "lesson_text": "Let go of attachment to find inner peace.",
+          "cosine": 0.8041,
+          "ce_score": -8.082,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 12,
+              "end": 12
+            },
+            {
+              "chapter": 5,
+              "start": 11,
+              "end": 18
+            },
+            {
+              "chapter": 6,
+              "start": 4,
+              "end": 4
+            },
+            {
+              "chapter": 13,
+              "start": 9,
+              "end": 17
+            },
+            {
+              "chapter": 15,
+              "start": 3,
+              "end": 3
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 29,
+          "lesson_text": "Let go of longing to find true fulfillment.",
+          "cosine": 0.828,
+          "ce_score": -8.4896,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 59,
+              "end": 59
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Sad > Vulnerable > Fragile",
+      "root": "Sad",
+      "mid": "Vulnerable",
+      "leaf": "Fragile",
+      "query": "I feel Sad because I feel Vulnerable, because I feel Fragile",
+      "top_cosine": 0.8083,
+      "top_ce": -8.3347,
+      "results": [
+        {
+          "lesson_id": 198,
+          "lesson_text": "Focus your mind and seek inner refuge.",
+          "cosine": 0.8083,
+          "ce_score": -8.3347,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 1,
+              "end": 1
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 157,
+          "lesson_text": "Let go of attachment to find inner peace.",
+          "cosine": 0.7926,
+          "ce_score": -8.5029,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 12,
+              "end": 12
+            },
+            {
+              "chapter": 5,
+              "start": 11,
+              "end": 18
+            },
+            {
+              "chapter": 6,
+              "start": 4,
+              "end": 4
+            },
+            {
+              "chapter": 13,
+              "start": 9,
+              "end": 17
+            },
+            {
+              "chapter": 15,
+              "start": 3,
+              "end": 3
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 290,
+          "lesson_text": "Detach from qualities to transcend pleasure and pain.",
+          "cosine": 0.7938,
+          "ce_score": -9.1722,
+          "verse_units": [
+            {
+              "chapter": 13,
+              "start": 20,
+              "end": 20
+            },
+            {
+              "chapter": 13,
+              "start": 15,
+              "end": 22
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 29,
+          "lesson_text": "Let go of longing to find true fulfillment.",
+          "cosine": 0.7918,
+          "ce_score": -9.1787,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 59,
+              "end": 59
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 109,
+          "lesson_text": "Act with clarity and free yourself from attachment.",
+          "cosine": 0.7951,
+          "ce_score": -9.4486,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 30,
+              "end": 30
+            },
+            {
+              "chapter": 3,
+              "start": 28,
+              "end": 34
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Sad > Vulnerable > Victimized",
+      "root": "Sad",
+      "mid": "Vulnerable",
+      "leaf": "Victimized",
+      "query": "I feel Sad because I feel Vulnerable, because I feel Victimized",
+      "top_cosine": 0.8099,
+      "top_ce": -8.2183,
+      "results": [
+        {
+          "lesson_id": 369,
+          "lesson_text": "Seek joy through practice to overcome suffering.",
+          "cosine": 0.7954,
+          "ce_score": -8.2183,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 36,
+              "end": 36
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 198,
+          "lesson_text": "Focus your mind and seek inner refuge.",
+          "cosine": 0.8099,
+          "ce_score": -8.5547,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 1,
+              "end": 1
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 327,
+          "lesson_text": "Abandon lust, anger, and greed for liberation.",
+          "cosine": 0.7983,
+          "ce_score": -8.5564,
+          "verse_units": [
+            {
+              "chapter": 16,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 16,
+              "start": 19,
+              "end": 24
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 106,
+          "lesson_text": "Recognize and overcome desire and anger to find clarity.",
+          "cosine": 0.7994,
+          "ce_score": -8.8169,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 37
+            },
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 40
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 290,
+          "lesson_text": "Detach from qualities to transcend pleasure and pain.",
+          "cosine": 0.7941,
+          "ce_score": -9.4126,
+          "verse_units": [
+            {
+              "chapter": 13,
+              "start": 20,
+              "end": 20
+            },
+            {
+              "chapter": 13,
+              "start": 15,
+              "end": 22
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Sad > Despair > Powerless",
+      "root": "Sad",
+      "mid": "Despair",
+      "leaf": "Powerless",
+      "query": "I feel Sad because I feel Despair, because I feel Powerless",
+      "top_cosine": 0.7996,
+      "top_ce": -8.1359,
+      "results": [
+        {
+          "lesson_id": 369,
+          "lesson_text": "Seek joy through practice to overcome suffering.",
+          "cosine": 0.792,
+          "ce_score": -8.1359,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 36,
+              "end": 36
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 151,
+          "lesson_text": "Control your mind and senses to achieve liberation.",
+          "cosine": 0.7989,
+          "ce_score": -8.1827,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 28,
+              "end": 28
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 327,
+          "lesson_text": "Abandon lust, anger, and greed for liberation.",
+          "cosine": 0.7982,
+          "ce_score": -8.2518,
+          "verse_units": [
+            {
+              "chapter": 16,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 16,
+              "start": 19,
+              "end": 24
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 198,
+          "lesson_text": "Focus your mind and seek inner refuge.",
+          "cosine": 0.7996,
+          "ce_score": -8.3112,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 1,
+              "end": 1
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 290,
+          "lesson_text": "Detach from qualities to transcend pleasure and pain.",
+          "cosine": 0.793,
+          "ce_score": -8.9614,
+          "verse_units": [
+            {
+              "chapter": 13,
+              "start": 20,
+              "end": 20
+            },
+            {
+              "chapter": 13,
+              "start": 15,
+              "end": 22
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Sad > Despair > Grief",
+      "root": "Sad",
+      "mid": "Despair",
+      "leaf": "Grief",
+      "query": "I feel Sad because I feel Despair, because I feel Grief",
+      "top_cosine": 0.8131,
+      "top_ce": -3.7258,
+      "results": [
+        {
+          "lesson_id": 143,
+          "lesson_text": "Maintain equanimity in joy and sorrow.",
+          "cosine": 0.8131,
+          "ce_score": -3.7258,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 20,
+              "end": 20
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 380,
+          "lesson_text": "Cultivate serenity to transcend grief and desire.",
+          "cosine": 0.804,
+          "ce_score": -5.4891,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 54,
+              "end": 54
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 369,
+          "lesson_text": "Seek joy through practice to overcome suffering.",
+          "cosine": 0.8034,
+          "ce_score": -7.368,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 36,
+              "end": 36
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 29,
+          "lesson_text": "Let go of longing to find true fulfillment.",
+          "cosine": 0.8043,
+          "ce_score": -8.2578,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 59,
+              "end": 59
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 290,
+          "lesson_text": "Detach from qualities to transcend pleasure and pain.",
+          "cosine": 0.8011,
+          "ce_score": -8.4635,
+          "verse_units": [
+            {
+              "chapter": 13,
+              "start": 20,
+              "end": 20
+            },
+            {
+              "chapter": 13,
+              "start": 15,
+              "end": 22
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Sad > Guilty > Remorse",
+      "root": "Sad",
+      "mid": "Guilty",
+      "leaf": "Remorse",
+      "query": "I feel Sad because I feel Guilty, because I feel Remorse",
+      "top_cosine": 0.8105,
+      "top_ce": -7.4191,
+      "results": [
+        {
+          "lesson_id": 265,
+          "lesson_text": "Seek forgiveness to restore inner peace.",
+          "cosine": 0.8105,
+          "ce_score": -7.4191,
+          "verse_units": [
+            {
+              "chapter": 11,
+              "start": 44,
+              "end": 44
+            },
+            {
+              "chapter": 11,
+              "start": 44,
+              "end": 51
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 106,
+          "lesson_text": "Recognize and overcome desire and anger to find clarity.",
+          "cosine": 0.8036,
+          "ce_score": -8.0655,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 37
+            },
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 40
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 290,
+          "lesson_text": "Detach from qualities to transcend pleasure and pain.",
+          "cosine": 0.8007,
+          "ce_score": -8.2721,
+          "verse_units": [
+            {
+              "chapter": 13,
+              "start": 20,
+              "end": 20
+            },
+            {
+              "chapter": 13,
+              "start": 15,
+              "end": 22
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 198,
+          "lesson_text": "Focus your mind and seek inner refuge.",
+          "cosine": 0.8011,
+          "ce_score": -8.2802,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 1,
+              "end": 1
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 151,
+          "lesson_text": "Control your mind and senses to achieve liberation.",
+          "cosine": 0.7993,
+          "ce_score": -8.995,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 28,
+              "end": 28
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Sad > Guilty > Ashamed",
+      "root": "Sad",
+      "mid": "Guilty",
+      "leaf": "Ashamed",
+      "query": "I feel Sad because I feel Guilty, because I feel Ashamed",
+      "top_cosine": 0.8022,
+      "top_ce": -8.6185,
+      "results": [
+        {
+          "lesson_id": 290,
+          "lesson_text": "Detach from qualities to transcend pleasure and pain.",
+          "cosine": 0.8022,
+          "ce_score": -8.6185,
+          "verse_units": [
+            {
+              "chapter": 13,
+              "start": 20,
+              "end": 20
+            },
+            {
+              "chapter": 13,
+              "start": 15,
+              "end": 22
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 198,
+          "lesson_text": "Focus your mind and seek inner refuge.",
+          "cosine": 0.7981,
+          "ce_score": -8.8248,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 1,
+              "end": 1
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 327,
+          "lesson_text": "Abandon lust, anger, and greed for liberation.",
+          "cosine": 0.8011,
+          "ce_score": -8.8867,
+          "verse_units": [
+            {
+              "chapter": 16,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 16,
+              "start": 19,
+              "end": 24
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 29,
+          "lesson_text": "Let go of longing to find true fulfillment.",
+          "cosine": 0.7978,
+          "ce_score": -9.2189,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 59,
+              "end": 59
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 151,
+          "lesson_text": "Control your mind and senses to achieve liberation.",
+          "cosine": 0.796,
+          "ce_score": -9.5341,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 28,
+              "end": 28
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Sad > Depressed > Empty",
+      "root": "Sad",
+      "mid": "Depressed",
+      "leaf": "Empty",
+      "query": "I feel Sad because I feel Depressed, because I feel Empty",
+      "top_cosine": 0.8156,
+      "top_ce": -8.3795,
+      "results": [
+        {
+          "lesson_id": 198,
+          "lesson_text": "Focus your mind and seek inner refuge.",
+          "cosine": 0.8031,
+          "ce_score": -8.3795,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 1,
+              "end": 1
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 290,
+          "lesson_text": "Detach from qualities to transcend pleasure and pain.",
+          "cosine": 0.8001,
+          "ce_score": -8.6299,
+          "verse_units": [
+            {
+              "chapter": 13,
+              "start": 20,
+              "end": 20
+            },
+            {
+              "chapter": 13,
+              "start": 15,
+              "end": 22
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 29,
+          "lesson_text": "Let go of longing to find true fulfillment.",
+          "cosine": 0.8156,
+          "ce_score": -8.8225,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 59,
+              "end": 59
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 294,
+          "lesson_text": "Cultivate calmness to overcome restlessness and longing.",
+          "cosine": 0.7986,
+          "ce_score": -9.1032,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 12,
+              "end": 12
+            },
+            {
+              "chapter": 14,
+              "start": 12,
+              "end": 15
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 327,
+          "lesson_text": "Abandon lust, anger, and greed for liberation.",
+          "cosine": 0.7987,
+          "ce_score": -9.3625,
+          "verse_units": [
+            {
+              "chapter": 16,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 16,
+              "start": 19,
+              "end": 24
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Sad > Depressed > Inferior",
+      "root": "Sad",
+      "mid": "Depressed",
+      "leaf": "Inferior",
+      "query": "I feel Sad because I feel Depressed, because I feel Inferior",
+      "top_cosine": 0.8053,
+      "top_ce": -7.763,
+      "results": [
+        {
+          "lesson_id": 319,
+          "lesson_text": "Cultivate humility to overcome negative emotions.",
+          "cosine": 0.7881,
+          "ce_score": -7.763,
+          "verse_units": [
+            {
+              "chapter": 16,
+              "start": 18,
+              "end": 18
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 368,
+          "lesson_text": "Cultivate firmness to overcome negative emotions.",
+          "cosine": 0.7906,
+          "ce_score": -7.8326,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 35,
+              "end": 35
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 290,
+          "lesson_text": "Detach from qualities to transcend pleasure and pain.",
+          "cosine": 0.8053,
+          "ce_score": -9.1543,
+          "verse_units": [
+            {
+              "chapter": 13,
+              "start": 20,
+              "end": 20
+            },
+            {
+              "chapter": 13,
+              "start": 15,
+              "end": 22
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 198,
+          "lesson_text": "Focus your mind and seek inner refuge.",
+          "cosine": 0.794,
+          "ce_score": -9.4044,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 1,
+              "end": 1
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 327,
+          "lesson_text": "Abandon lust, anger, and greed for liberation.",
+          "cosine": 0.7913,
+          "ce_score": -9.8942,
+          "verse_units": [
+            {
+              "chapter": 16,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 16,
+              "start": 19,
+              "end": 24
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Sad > Hurt > Let down",
+      "root": "Sad",
+      "mid": "Hurt",
+      "leaf": "Let down",
+      "query": "I feel Sad because I feel Hurt, because I feel Let down",
+      "top_cosine": 0.8326,
+      "top_ce": -6.1871,
+      "results": [
+        {
+          "lesson_id": 290,
+          "lesson_text": "Detach from qualities to transcend pleasure and pain.",
+          "cosine": 0.8195,
+          "ce_score": -6.1871,
+          "verse_units": [
+            {
+              "chapter": 13,
+              "start": 20,
+              "end": 20
+            },
+            {
+              "chapter": 13,
+              "start": 15,
+              "end": 22
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 157,
+          "lesson_text": "Let go of attachment to find inner peace.",
+          "cosine": 0.8101,
+          "ce_score": -7.4622,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 12,
+              "end": 12
+            },
+            {
+              "chapter": 5,
+              "start": 11,
+              "end": 18
+            },
+            {
+              "chapter": 6,
+              "start": 4,
+              "end": 4
+            },
+            {
+              "chapter": 13,
+              "start": 9,
+              "end": 17
+            },
+            {
+              "chapter": 15,
+              "start": 3,
+              "end": 3
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 29,
+          "lesson_text": "Let go of longing to find true fulfillment.",
+          "cosine": 0.8326,
+          "ce_score": -8.2428,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 59,
+              "end": 59
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 198,
+          "lesson_text": "Focus your mind and seek inner refuge.",
+          "cosine": 0.7956,
+          "ce_score": -8.9385,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 1,
+              "end": 1
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 327,
+          "lesson_text": "Abandon lust, anger, and greed for liberation.",
+          "cosine": 0.7987,
+          "ce_score": -9.4689,
+          "verse_units": [
+            {
+              "chapter": 16,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 16,
+              "start": 19,
+              "end": 24
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Sad > Hurt > Agonized",
+      "root": "Sad",
+      "mid": "Hurt",
+      "leaf": "Agonized",
+      "query": "I feel Sad because I feel Hurt, because I feel Agonized",
+      "top_cosine": 0.8021,
+      "top_ce": -7.2702,
+      "results": [
+        {
+          "lesson_id": 290,
+          "lesson_text": "Detach from qualities to transcend pleasure and pain.",
+          "cosine": 0.8021,
+          "ce_score": -7.2702,
+          "verse_units": [
+            {
+              "chapter": 13,
+              "start": 20,
+              "end": 20
+            },
+            {
+              "chapter": 13,
+              "start": 15,
+              "end": 22
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 106,
+          "lesson_text": "Recognize and overcome desire and anger to find clarity.",
+          "cosine": 0.7947,
+          "ce_score": -9.4456,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 37
+            },
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 40
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 369,
+          "lesson_text": "Seek joy through practice to overcome suffering.",
+          "cosine": 0.7857,
+          "ce_score": -9.4609,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 36,
+              "end": 36
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 146,
+          "lesson_text": "Find happiness within by controlling desires and anger.",
+          "cosine": 0.7856,
+          "ce_score": -9.7901,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 5,
+              "start": 21,
+              "end": 28
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 198,
+          "lesson_text": "Focus your mind and seek inner refuge.",
+          "cosine": 0.7932,
+          "ce_score": -9.8122,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 1,
+              "end": 1
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Mad > Critical > Skeptical",
+      "root": "Mad",
+      "mid": "Critical",
+      "leaf": "Skeptical",
+      "query": "I feel Mad because I feel Critical, because I feel Skeptical",
+      "top_cosine": 0.8208,
+      "top_ce": -6.1342,
+      "results": [
+        {
+          "lesson_id": 183,
+          "lesson_text": "Seek clarity to overcome doubt.",
+          "cosine": 0.8208,
+          "ce_score": -6.1342,
+          "verse_units": [
+            {
+              "chapter": 6,
+              "start": 39,
+              "end": 39
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 106,
+          "lesson_text": "Recognize and overcome desire and anger to find clarity.",
+          "cosine": 0.7928,
+          "ce_score": -9.2582,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 37
+            },
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 40
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 325,
+          "lesson_text": "Seek clarity to avoid the traps of delusion.",
+          "cosine": 0.7975,
+          "ce_score": -9.362,
+          "verse_units": [
+            {
+              "chapter": 16,
+              "start": 16,
+              "end": 16
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 309,
+          "lesson_text": "Seek self-awareness to perceive deeper truths.",
+          "cosine": 0.7968,
+          "ce_score": -9.6672,
+          "verse_units": [
+            {
+              "chapter": 15,
+              "start": 11,
+              "end": 11
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 2,
+          "lesson_text": "Seek guidance to clarify your duty.",
+          "cosine": 0.7965,
+          "ce_score": -10.0453,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 7,
+              "end": 7
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Mad > Critical > Judging",
+      "root": "Mad",
+      "mid": "Critical",
+      "leaf": "Judging",
+      "query": "I feel Mad because I feel Critical, because I feel Judging",
+      "top_cosine": 0.8114,
+      "top_ce": -8.003,
+      "results": [
+        {
+          "lesson_id": 301,
+          "lesson_text": "Recognize the influence of your mental state on your actions.",
+          "cosine": 0.8041,
+          "ce_score": -8.003,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 6,
+              "end": 6
+            },
+            {
+              "chapter": 14,
+              "start": 6,
+              "end": 9
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 339,
+          "lesson_text": "Your character reflects your beliefs.",
+          "cosine": 0.7999,
+          "ce_score": -8.4869,
+          "verse_units": [
+            {
+              "chapter": 17,
+              "start": 3,
+              "end": 3
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 106,
+          "lesson_text": "Recognize and overcome desire and anger to find clarity.",
+          "cosine": 0.8114,
+          "ce_score": -8.6027,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 37
+            },
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 40
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 114,
+          "lesson_text": "Understand the nature of your actions.",
+          "cosine": 0.7971,
+          "ce_score": -9.2222,
+          "verse_units": [
+            {
+              "chapter": 4,
+              "start": 17,
+              "end": 17
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 2,
+          "lesson_text": "Seek guidance to clarify your duty.",
+          "cosine": 0.7999,
+          "ce_score": -9.7954,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 7,
+              "end": 7
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Mad > Distant > Withdrawn",
+      "root": "Mad",
+      "mid": "Distant",
+      "leaf": "Withdrawn",
+      "query": "I feel Mad because I feel Distant, because I feel Withdrawn",
+      "top_cosine": 0.819,
+      "top_ce": -9.3828,
+      "results": [
+        {
+          "lesson_id": 198,
+          "lesson_text": "Focus your mind and seek inner refuge.",
+          "cosine": 0.8153,
+          "ce_score": -9.3828,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 1,
+              "end": 1
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 106,
+          "lesson_text": "Recognize and overcome desire and anger to find clarity.",
+          "cosine": 0.8098,
+          "ce_score": -9.7044,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 37
+            },
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 40
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 290,
+          "lesson_text": "Detach from qualities to transcend pleasure and pain.",
+          "cosine": 0.8109,
+          "ce_score": -9.8966,
+          "verse_units": [
+            {
+              "chapter": 13,
+              "start": 20,
+              "end": 20
+            },
+            {
+              "chapter": 13,
+              "start": 15,
+              "end": 22
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 29,
+          "lesson_text": "Let go of longing to find true fulfillment.",
+          "cosine": 0.819,
+          "ce_score": -9.9247,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 59,
+              "end": 59
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 327,
+          "lesson_text": "Abandon lust, anger, and greed for liberation.",
+          "cosine": 0.8128,
+          "ce_score": -10.1164,
+          "verse_units": [
+            {
+              "chapter": 16,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 16,
+              "start": 19,
+              "end": 24
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Mad > Distant > Numb",
+      "root": "Mad",
+      "mid": "Distant",
+      "leaf": "Numb",
+      "query": "I feel Mad because I feel Distant, because I feel Numb",
+      "top_cosine": 0.8086,
+      "top_ce": -9.4771,
+      "results": [
+        {
+          "lesson_id": 198,
+          "lesson_text": "Focus your mind and seek inner refuge.",
+          "cosine": 0.8053,
+          "ce_score": -9.4771,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 1,
+              "end": 1
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 290,
+          "lesson_text": "Detach from qualities to transcend pleasure and pain.",
+          "cosine": 0.8045,
+          "ce_score": -9.6552,
+          "verse_units": [
+            {
+              "chapter": 13,
+              "start": 20,
+              "end": 20
+            },
+            {
+              "chapter": 13,
+              "start": 15,
+              "end": 22
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 106,
+          "lesson_text": "Recognize and overcome desire and anger to find clarity.",
+          "cosine": 0.8051,
+          "ce_score": -10.0012,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 37
+            },
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 40
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 104,
+          "lesson_text": "Resist the sway of desire and anger.",
+          "cosine": 0.8086,
+          "ce_score": -10.0222,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 34,
+              "end": 34
+            },
+            {
+              "chapter": 3,
+              "start": 36,
+              "end": 37
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 294,
+          "lesson_text": "Cultivate calmness to overcome restlessness and longing.",
+          "cosine": 0.8065,
+          "ce_score": -10.4113,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 12,
+              "end": 12
+            },
+            {
+              "chapter": 14,
+              "start": 12,
+              "end": 15
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Mad > Frustrated > Annoyed",
+      "root": "Mad",
+      "mid": "Frustrated",
+      "leaf": "Annoyed",
+      "query": "I feel Mad because I feel Frustrated, because I feel Annoyed",
+      "top_cosine": 0.809,
+      "top_ce": -7.9716,
+      "results": [
+        {
+          "lesson_id": 95,
+          "lesson_text": "Recognize and overcome desire and anger as obstacles.",
+          "cosine": 0.8064,
+          "ce_score": -7.9716,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 37
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 106,
+          "lesson_text": "Recognize and overcome desire and anger to find clarity.",
+          "cosine": 0.809,
+          "ce_score": -8.3003,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 37
+            },
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 40
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 104,
+          "lesson_text": "Resist the sway of desire and anger.",
+          "cosine": 0.8084,
+          "ce_score": -8.3178,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 34,
+              "end": 34
+            },
+            {
+              "chapter": 3,
+              "start": 36,
+              "end": 37
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 146,
+          "lesson_text": "Find happiness within by controlling desires and anger.",
+          "cosine": 0.7957,
+          "ce_score": -8.8971,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 5,
+              "start": 21,
+              "end": 28
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 327,
+          "lesson_text": "Abandon lust, anger, and greed for liberation.",
+          "cosine": 0.7936,
+          "ce_score": -9.5825,
+          "verse_units": [
+            {
+              "chapter": 16,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 16,
+              "start": 19,
+              "end": 24
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Mad > Frustrated > Bitter",
+      "root": "Mad",
+      "mid": "Frustrated",
+      "leaf": "Bitter",
+      "query": "I feel Mad because I feel Frustrated, because I feel Bitter",
+      "top_cosine": 0.8133,
+      "top_ce": -9.1394,
+      "results": [
+        {
+          "lesson_id": 104,
+          "lesson_text": "Resist the sway of desire and anger.",
+          "cosine": 0.8051,
+          "ce_score": -9.1394,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 34,
+              "end": 34
+            },
+            {
+              "chapter": 3,
+              "start": 36,
+              "end": 37
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 95,
+          "lesson_text": "Recognize and overcome desire and anger as obstacles.",
+          "cosine": 0.8039,
+          "ce_score": -9.2317,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 37
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 106,
+          "lesson_text": "Recognize and overcome desire and anger to find clarity.",
+          "cosine": 0.8133,
+          "ce_score": -9.4133,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 37
+            },
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 40
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 327,
+          "lesson_text": "Abandon lust, anger, and greed for liberation.",
+          "cosine": 0.8058,
+          "ce_score": -10.146,
+          "verse_units": [
+            {
+              "chapter": 16,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 16,
+              "start": 19,
+              "end": 24
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 290,
+          "lesson_text": "Detach from qualities to transcend pleasure and pain.",
+          "cosine": 0.7987,
+          "ce_score": -10.1632,
+          "verse_units": [
+            {
+              "chapter": 13,
+              "start": 20,
+              "end": 20
+            },
+            {
+              "chapter": 13,
+              "start": 15,
+              "end": 22
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Mad > Aggressive > Hostile",
+      "root": "Mad",
+      "mid": "Aggressive",
+      "leaf": "Hostile",
+      "query": "I feel Mad because I feel Aggressive, because I feel Hostile",
+      "top_cosine": 0.8209,
+      "top_ce": -7.3741,
+      "results": [
+        {
+          "lesson_id": 95,
+          "lesson_text": "Recognize and overcome desire and anger as obstacles.",
+          "cosine": 0.8149,
+          "ce_score": -7.3741,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 37
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 104,
+          "lesson_text": "Resist the sway of desire and anger.",
+          "cosine": 0.8209,
+          "ce_score": -7.5177,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 34,
+              "end": 34
+            },
+            {
+              "chapter": 3,
+              "start": 36,
+              "end": 37
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 106,
+          "lesson_text": "Recognize and overcome desire and anger to find clarity.",
+          "cosine": 0.8169,
+          "ce_score": -7.922,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 37
+            },
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 40
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 327,
+          "lesson_text": "Abandon lust, anger, and greed for liberation.",
+          "cosine": 0.802,
+          "ce_score": -8.8238,
+          "verse_units": [
+            {
+              "chapter": 16,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 16,
+              "start": 19,
+              "end": 24
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 146,
+          "lesson_text": "Find happiness within by controlling desires and anger.",
+          "cosine": 0.8131,
+          "ce_score": -8.9683,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 5,
+              "start": 21,
+              "end": 28
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Mad > Aggressive > Furious",
+      "root": "Mad",
+      "mid": "Aggressive",
+      "leaf": "Furious",
+      "query": "I feel Mad because I feel Aggressive, because I feel Furious",
+      "top_cosine": 0.8246,
+      "top_ce": -7.7665,
+      "results": [
+        {
+          "lesson_id": 301,
+          "lesson_text": "Recognize the influence of your mental state on your actions.",
+          "cosine": 0.7945,
+          "ce_score": -7.7665,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 6,
+              "end": 6
+            },
+            {
+              "chapter": 14,
+              "start": 6,
+              "end": 9
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 95,
+          "lesson_text": "Recognize and overcome desire and anger as obstacles.",
+          "cosine": 0.815,
+          "ce_score": -8.183,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 37
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 104,
+          "lesson_text": "Resist the sway of desire and anger.",
+          "cosine": 0.8246,
+          "ce_score": -8.2339,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 34,
+              "end": 34
+            },
+            {
+              "chapter": 3,
+              "start": 36,
+              "end": 37
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 106,
+          "lesson_text": "Recognize and overcome desire and anger to find clarity.",
+          "cosine": 0.8236,
+          "ce_score": -8.3821,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 37
+            },
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 40
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 146,
+          "lesson_text": "Find happiness within by controlling desires and anger.",
+          "cosine": 0.8216,
+          "ce_score": -9.0198,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 5,
+              "start": 21,
+              "end": 28
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Mad > Hateful > Rage",
+      "root": "Mad",
+      "mid": "Hateful",
+      "leaf": "Rage",
+      "query": "I feel Mad because I feel Hateful, because I feel Rage",
+      "top_cosine": 0.8227,
+      "top_ce": -6.5317,
+      "results": [
+        {
+          "lesson_id": 95,
+          "lesson_text": "Recognize and overcome desire and anger as obstacles.",
+          "cosine": 0.8145,
+          "ce_score": -6.5317,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 37
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 104,
+          "lesson_text": "Resist the sway of desire and anger.",
+          "cosine": 0.8222,
+          "ce_score": -6.5888,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 34,
+              "end": 34
+            },
+            {
+              "chapter": 3,
+              "start": 36,
+              "end": 37
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 106,
+          "lesson_text": "Recognize and overcome desire and anger to find clarity.",
+          "cosine": 0.8227,
+          "ce_score": -7.0493,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 37
+            },
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 40
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 327,
+          "lesson_text": "Abandon lust, anger, and greed for liberation.",
+          "cosine": 0.8104,
+          "ce_score": -7.7853,
+          "verse_units": [
+            {
+              "chapter": 16,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 16,
+              "start": 19,
+              "end": 24
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 146,
+          "lesson_text": "Find happiness within by controlling desires and anger.",
+          "cosine": 0.8218,
+          "ce_score": -8.1694,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 5,
+              "start": 21,
+              "end": 28
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Mad > Hateful > Violated",
+      "root": "Mad",
+      "mid": "Hateful",
+      "leaf": "Violated",
+      "query": "I feel Mad because I feel Hateful, because I feel Violated",
+      "top_cosine": 0.8162,
+      "top_ce": -7.7729,
+      "results": [
+        {
+          "lesson_id": 104,
+          "lesson_text": "Resist the sway of desire and anger.",
+          "cosine": 0.8162,
+          "ce_score": -7.7729,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 34,
+              "end": 34
+            },
+            {
+              "chapter": 3,
+              "start": 36,
+              "end": 37
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 106,
+          "lesson_text": "Recognize and overcome desire and anger to find clarity.",
+          "cosine": 0.8107,
+          "ce_score": -8.0323,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 37
+            },
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 40
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 146,
+          "lesson_text": "Find happiness within by controlling desires and anger.",
+          "cosine": 0.8111,
+          "ce_score": -8.9636,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 5,
+              "start": 21,
+              "end": 28
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 327,
+          "lesson_text": "Abandon lust, anger, and greed for liberation.",
+          "cosine": 0.8089,
+          "ce_score": -9.0611,
+          "verse_units": [
+            {
+              "chapter": 16,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 16,
+              "start": 19,
+              "end": 24
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 290,
+          "lesson_text": "Detach from qualities to transcend pleasure and pain.",
+          "cosine": 0.7996,
+          "ce_score": -9.989,
+          "verse_units": [
+            {
+              "chapter": 13,
+              "start": 20,
+              "end": 20
+            },
+            {
+              "chapter": 13,
+              "start": 15,
+              "end": 22
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Mad > Hurt > Jealous",
+      "root": "Mad",
+      "mid": "Hurt",
+      "leaf": "Jealous",
+      "query": "I feel Mad because I feel Hurt, because I feel Jealous",
+      "top_cosine": 0.8069,
+      "top_ce": -7.9533,
+      "results": [
+        {
+          "lesson_id": 290,
+          "lesson_text": "Detach from qualities to transcend pleasure and pain.",
+          "cosine": 0.8069,
+          "ce_score": -7.9533,
+          "verse_units": [
+            {
+              "chapter": 13,
+              "start": 20,
+              "end": 20
+            },
+            {
+              "chapter": 13,
+              "start": 15,
+              "end": 22
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 104,
+          "lesson_text": "Resist the sway of desire and anger.",
+          "cosine": 0.8003,
+          "ce_score": -8.9102,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 34,
+              "end": 34
+            },
+            {
+              "chapter": 3,
+              "start": 36,
+              "end": 37
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 106,
+          "lesson_text": "Recognize and overcome desire and anger to find clarity.",
+          "cosine": 0.7975,
+          "ce_score": -9.3192,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 37
+            },
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 40
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 146,
+          "lesson_text": "Find happiness within by controlling desires and anger.",
+          "cosine": 0.8009,
+          "ce_score": -9.4217,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 5,
+              "start": 21,
+              "end": 28
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 327,
+          "lesson_text": "Abandon lust, anger, and greed for liberation.",
+          "cosine": 0.8048,
+          "ce_score": -9.8439,
+          "verse_units": [
+            {
+              "chapter": 16,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 16,
+              "start": 19,
+              "end": 24
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Mad > Hurt > Bashful",
+      "root": "Mad",
+      "mid": "Hurt",
+      "leaf": "Bashful",
+      "query": "I feel Mad because I feel Hurt, because I feel Bashful",
+      "top_cosine": 0.8151,
+      "top_ce": -9.0246,
+      "results": [
+        {
+          "lesson_id": 104,
+          "lesson_text": "Resist the sway of desire and anger.",
+          "cosine": 0.8078,
+          "ce_score": -9.0246,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 34,
+              "end": 34
+            },
+            {
+              "chapter": 3,
+              "start": 36,
+              "end": 37
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 95,
+          "lesson_text": "Recognize and overcome desire and anger as obstacles.",
+          "cosine": 0.8058,
+          "ce_score": -9.1888,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 37
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 106,
+          "lesson_text": "Recognize and overcome desire and anger to find clarity.",
+          "cosine": 0.8151,
+          "ce_score": -9.3517,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 37
+            },
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 40
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 146,
+          "lesson_text": "Find happiness within by controlling desires and anger.",
+          "cosine": 0.8058,
+          "ce_score": -9.9048,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 5,
+              "start": 21,
+              "end": 28
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 327,
+          "lesson_text": "Abandon lust, anger, and greed for liberation.",
+          "cosine": 0.8075,
+          "ce_score": -10.0505,
+          "verse_units": [
+            {
+              "chapter": 16,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 16,
+              "start": 19,
+              "end": 24
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Scared > Anxious > Worried",
+      "root": "Scared",
+      "mid": "Anxious",
+      "leaf": "Worried",
+      "query": "I feel Scared because I feel Anxious, because I feel Worried",
+      "top_cosine": 0.7923,
+      "top_ce": -3.5641,
+      "results": [
+        {
+          "lesson_id": 261,
+          "lesson_text": "Act with courage in the face of fear.",
+          "cosine": 0.7918,
+          "ce_score": -3.5641,
+          "verse_units": [
+            {
+              "chapter": 11,
+              "start": 34,
+              "end": 34
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 301,
+          "lesson_text": "Recognize the influence of your mental state on your actions.",
+          "cosine": 0.7824,
+          "ce_score": -7.278,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 6,
+              "end": 6
+            },
+            {
+              "chapter": 14,
+              "start": 6,
+              "end": 9
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 198,
+          "lesson_text": "Focus your mind and seek inner refuge.",
+          "cosine": 0.7923,
+          "ce_score": -7.7414,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 1,
+              "end": 1
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 294,
+          "lesson_text": "Cultivate calmness to overcome restlessness and longing.",
+          "cosine": 0.7807,
+          "ce_score": -8.7365,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 12,
+              "end": 12
+            },
+            {
+              "chapter": 14,
+              "start": 12,
+              "end": 15
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 151,
+          "lesson_text": "Control your mind and senses to achieve liberation.",
+          "cosine": 0.7894,
+          "ce_score": -8.7714,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 28,
+              "end": 28
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Scared > Anxious > Afraid",
+      "root": "Scared",
+      "mid": "Anxious",
+      "leaf": "Afraid",
+      "query": "I feel Scared because I feel Anxious, because I feel Afraid",
+      "top_cosine": 0.8053,
+      "top_ce": -2.6772,
+      "results": [
+        {
+          "lesson_id": 261,
+          "lesson_text": "Act with courage in the face of fear.",
+          "cosine": 0.8053,
+          "ce_score": -2.6772,
+          "verse_units": [
+            {
+              "chapter": 11,
+              "start": 34,
+              "end": 34
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 301,
+          "lesson_text": "Recognize the influence of your mental state on your actions.",
+          "cosine": 0.7884,
+          "ce_score": -6.6014,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 6,
+              "end": 6
+            },
+            {
+              "chapter": 14,
+              "start": 6,
+              "end": 9
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 198,
+          "lesson_text": "Focus your mind and seek inner refuge.",
+          "cosine": 0.7942,
+          "ce_score": -6.8551,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 1,
+              "end": 1
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 95,
+          "lesson_text": "Recognize and overcome desire and anger as obstacles.",
+          "cosine": 0.7864,
+          "ce_score": -7.0128,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 37
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 151,
+          "lesson_text": "Control your mind and senses to achieve liberation.",
+          "cosine": 0.794,
+          "ce_score": -7.9448,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 28,
+              "end": 28
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Scared > Insecure > Inadequate",
+      "root": "Scared",
+      "mid": "Insecure",
+      "leaf": "Inadequate",
+      "query": "I feel Scared because I feel Insecure, because I feel Inadequate",
+      "top_cosine": 0.792,
+      "top_ce": -8.0108,
+      "results": [
+        {
+          "lesson_id": 198,
+          "lesson_text": "Focus your mind and seek inner refuge.",
+          "cosine": 0.792,
+          "ce_score": -8.0108,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 1,
+              "end": 1
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 293,
+          "lesson_text": "Overcome ignorance to free yourself from delusion.",
+          "cosine": 0.7819,
+          "ce_score": -8.0841,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 8,
+              "end": 8
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 29,
+          "lesson_text": "Let go of longing to find true fulfillment.",
+          "cosine": 0.7811,
+          "ce_score": -9.1302,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 59,
+              "end": 59
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 327,
+          "lesson_text": "Abandon lust, anger, and greed for liberation.",
+          "cosine": 0.7853,
+          "ce_score": -9.1779,
+          "verse_units": [
+            {
+              "chapter": 16,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 16,
+              "start": 19,
+              "end": 24
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 118,
+          "lesson_text": "Practice humility and self-control for inner strength.",
+          "cosine": 0.7845,
+          "ce_score": -9.2772,
+          "verse_units": [
+            {
+              "chapter": 4,
+              "start": 26,
+              "end": 26
+            },
+            {
+              "chapter": 4,
+              "start": 26,
+              "end": 27
+            },
+            {
+              "chapter": 13,
+              "start": 8,
+              "end": 15
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Scared > Insecure > Inferior",
+      "root": "Scared",
+      "mid": "Insecure",
+      "leaf": "Inferior",
+      "query": "I feel Scared because I feel Insecure, because I feel Inferior",
+      "top_cosine": 0.7911,
+      "top_ce": -9.1988,
+      "results": [
+        {
+          "lesson_id": 198,
+          "lesson_text": "Focus your mind and seek inner refuge.",
+          "cosine": 0.7911,
+          "ce_score": -9.1988,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 1,
+              "end": 1
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 293,
+          "lesson_text": "Overcome ignorance to free yourself from delusion.",
+          "cosine": 0.7904,
+          "ce_score": -9.3312,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 8,
+              "end": 8
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 327,
+          "lesson_text": "Abandon lust, anger, and greed for liberation.",
+          "cosine": 0.7908,
+          "ce_score": -9.8779,
+          "verse_units": [
+            {
+              "chapter": 16,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 16,
+              "start": 19,
+              "end": 24
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 290,
+          "lesson_text": "Detach from qualities to transcend pleasure and pain.",
+          "cosine": 0.789,
+          "ce_score": -9.9026,
+          "verse_units": [
+            {
+              "chapter": 13,
+              "start": 20,
+              "end": 20
+            },
+            {
+              "chapter": 13,
+              "start": 15,
+              "end": 22
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 118,
+          "lesson_text": "Practice humility and self-control for inner strength.",
+          "cosine": 0.7875,
+          "ce_score": -10.2213,
+          "verse_units": [
+            {
+              "chapter": 4,
+              "start": 26,
+              "end": 26
+            },
+            {
+              "chapter": 4,
+              "start": 26,
+              "end": 27
+            },
+            {
+              "chapter": 13,
+              "start": 8,
+              "end": 15
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Scared > Swamped > Helpless",
+      "root": "Scared",
+      "mid": "Swamped",
+      "leaf": "Helpless",
+      "query": "I feel Scared because I feel Swamped, because I feel Helpless",
+      "top_cosine": 0.807,
+      "top_ce": -7.5272,
+      "results": [
+        {
+          "lesson_id": 261,
+          "lesson_text": "Act with courage in the face of fear.",
+          "cosine": 0.784,
+          "ce_score": -7.5272,
+          "verse_units": [
+            {
+              "chapter": 11,
+              "start": 34,
+              "end": 34
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 198,
+          "lesson_text": "Focus your mind and seek inner refuge.",
+          "cosine": 0.807,
+          "ce_score": -9.2487,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 1,
+              "end": 1
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 93,
+          "lesson_text": "Resist the pull of attachment and aversion.",
+          "cosine": 0.7857,
+          "ce_score": -9.948,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 31,
+              "end": 31
+            },
+            {
+              "chapter": 3,
+              "start": 31,
+              "end": 34
+            },
+            {
+              "chapter": 3,
+              "start": 36,
+              "end": 38
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 127,
+          "lesson_text": "Freed from attachment, seek refuge in knowledge.",
+          "cosine": 0.7925,
+          "ce_score": -10.0229,
+          "verse_units": [
+            {
+              "chapter": 4,
+              "start": 3,
+              "end": 3
+            },
+            {
+              "chapter": 4,
+              "start": 3,
+              "end": 11
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 48,
+          "lesson_text": "Free yourself from attachment to pleasure and power.",
+          "cosine": 0.7896,
+          "ce_score": -10.2505,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 43,
+              "end": 43
+            },
+            {
+              "chapter": 2,
+              "start": 43,
+              "end": 46
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Scared > Swamped > Small",
+      "root": "Scared",
+      "mid": "Swamped",
+      "leaf": "Small",
+      "query": "I feel Scared because I feel Swamped, because I feel Small",
+      "top_cosine": 0.8062,
+      "top_ce": -8.6351,
+      "results": [
+        {
+          "lesson_id": 198,
+          "lesson_text": "Focus your mind and seek inner refuge.",
+          "cosine": 0.8062,
+          "ce_score": -8.6351,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 1,
+              "end": 1
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 109,
+          "lesson_text": "Act with clarity and free yourself from attachment.",
+          "cosine": 0.786,
+          "ce_score": -9.4995,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 30,
+              "end": 30
+            },
+            {
+              "chapter": 3,
+              "start": 28,
+              "end": 34
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 127,
+          "lesson_text": "Freed from attachment, seek refuge in knowledge.",
+          "cosine": 0.788,
+          "ce_score": -9.5714,
+          "verse_units": [
+            {
+              "chapter": 4,
+              "start": 3,
+              "end": 3
+            },
+            {
+              "chapter": 4,
+              "start": 3,
+              "end": 11
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 48,
+          "lesson_text": "Free yourself from attachment to pleasure and power.",
+          "cosine": 0.787,
+          "ce_score": -9.6336,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 43,
+              "end": 43
+            },
+            {
+              "chapter": 2,
+              "start": 43,
+              "end": 46
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 120,
+          "lesson_text": "Practice self-discipline to purify your actions.",
+          "cosine": 0.7876,
+          "ce_score": -10.2784,
+          "verse_units": [
+            {
+              "chapter": 4,
+              "start": 30,
+              "end": 30
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Scared > Rejected > Weak",
+      "root": "Scared",
+      "mid": "Rejected",
+      "leaf": "Weak",
+      "query": "I feel Scared because I feel Rejected, because I feel Weak",
+      "top_cosine": 0.7984,
+      "top_ce": -8.3875,
+      "results": [
+        {
+          "lesson_id": 95,
+          "lesson_text": "Recognize and overcome desire and anger as obstacles.",
+          "cosine": 0.7966,
+          "ce_score": -8.3875,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 37,
+              "end": 37
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 363,
+          "lesson_text": "Act without attachment or desire for reward.",
+          "cosine": 0.7934,
+          "ce_score": -9.2155,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 23,
+              "end": 23
+            },
+            {
+              "chapter": 18,
+              "start": 23,
+              "end": 24
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 198,
+          "lesson_text": "Focus your mind and seek inner refuge.",
+          "cosine": 0.7938,
+          "ce_score": -9.353,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 1,
+              "end": 1
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 327,
+          "lesson_text": "Abandon lust, anger, and greed for liberation.",
+          "cosine": 0.7984,
+          "ce_score": -9.5101,
+          "verse_units": [
+            {
+              "chapter": 16,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 16,
+              "start": 19,
+              "end": 24
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 29,
+          "lesson_text": "Let go of longing to find true fulfillment.",
+          "cosine": 0.7945,
+          "ce_score": -9.9232,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 59,
+              "end": 59
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Scared > Rejected > Submissive",
+      "root": "Scared",
+      "mid": "Rejected",
+      "leaf": "Submissive",
+      "query": "I feel Scared because I feel Rejected, because I feel Submissive",
+      "top_cosine": 0.8074,
+      "top_ce": -7.2368,
+      "results": [
+        {
+          "lesson_id": 363,
+          "lesson_text": "Act without attachment or desire for reward.",
+          "cosine": 0.8006,
+          "ce_score": -7.2368,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 23,
+              "end": 23
+            },
+            {
+              "chapter": 18,
+              "start": 23,
+              "end": 24
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 327,
+          "lesson_text": "Abandon lust, anger, and greed for liberation.",
+          "cosine": 0.8056,
+          "ce_score": -7.8447,
+          "verse_units": [
+            {
+              "chapter": 16,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 16,
+              "start": 19,
+              "end": 24
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 93,
+          "lesson_text": "Resist the pull of attachment and aversion.",
+          "cosine": 0.8024,
+          "ce_score": -8.0443,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 31,
+              "end": 31
+            },
+            {
+              "chapter": 3,
+              "start": 31,
+              "end": 34
+            },
+            {
+              "chapter": 3,
+              "start": 36,
+              "end": 38
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 48,
+          "lesson_text": "Free yourself from attachment to pleasure and power.",
+          "cosine": 0.8074,
+          "ce_score": -8.2304,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 43,
+              "end": 43
+            },
+            {
+              "chapter": 2,
+              "start": 43,
+              "end": 46
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 29,
+          "lesson_text": "Let go of longing to find true fulfillment.",
+          "cosine": 0.7996,
+          "ce_score": -8.9381,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 59,
+              "end": 59
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Scared > Confused > Baffled",
+      "root": "Scared",
+      "mid": "Confused",
+      "leaf": "Baffled",
+      "query": "I feel Scared because I feel Confused, because I feel Baffled",
+      "top_cosine": 0.801,
+      "top_ce": -9.3705,
+      "results": [
+        {
+          "lesson_id": 28,
+          "lesson_text": "Control your senses to gain wisdom and clarity.",
+          "cosine": 0.7884,
+          "ce_score": -9.3705,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 58,
+              "end": 58
+            },
+            {
+              "chapter": 2,
+              "start": 58,
+              "end": 63
+            },
+            {
+              "chapter": 3,
+              "start": 34,
+              "end": 34
+            },
+            {
+              "chapter": 3,
+              "start": 36,
+              "end": 42
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 2,
+          "lesson_text": "Seek guidance to clarify your duty.",
+          "cosine": 0.7992,
+          "ce_score": -9.5982,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 7,
+              "end": 7
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 198,
+          "lesson_text": "Focus your mind and seek inner refuge.",
+          "cosine": 0.7913,
+          "ce_score": -9.7669,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 1,
+              "end": 1
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 151,
+          "lesson_text": "Control your mind and senses to achieve liberation.",
+          "cosine": 0.7882,
+          "ce_score": -10.08,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 28,
+              "end": 28
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 288,
+          "lesson_text": "Seek understanding through meditation, knowledge, or action.",
+          "cosine": 0.801,
+          "ce_score": -10.5821,
+          "verse_units": [
+            {
+              "chapter": 13,
+              "start": 23,
+              "end": 23
+            },
+            {
+              "chapter": 13,
+              "start": 23,
+              "end": 26
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Scared > Confused > Discouraged",
+      "root": "Scared",
+      "mid": "Confused",
+      "leaf": "Discouraged",
+      "query": "I feel Scared because I feel Confused, because I feel Discouraged",
+      "top_cosine": 0.8088,
+      "top_ce": -8.8791,
+      "results": [
+        {
+          "lesson_id": 2,
+          "lesson_text": "Seek guidance to clarify your duty.",
+          "cosine": 0.8088,
+          "ce_score": -8.8791,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 7,
+              "end": 7
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 198,
+          "lesson_text": "Focus your mind and seek inner refuge.",
+          "cosine": 0.7955,
+          "ce_score": -9.0685,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 1,
+              "end": 1
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 127,
+          "lesson_text": "Freed from attachment, seek refuge in knowledge.",
+          "cosine": 0.7957,
+          "ce_score": -9.7157,
+          "verse_units": [
+            {
+              "chapter": 4,
+              "start": 3,
+              "end": 3
+            },
+            {
+              "chapter": 4,
+              "start": 3,
+              "end": 11
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 29,
+          "lesson_text": "Let go of longing to find true fulfillment.",
+          "cosine": 0.7996,
+          "ce_score": -9.8499,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 59,
+              "end": 59
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 288,
+          "lesson_text": "Seek understanding through meditation, knowledge, or action.",
+          "cosine": 0.8027,
+          "ce_score": -10.0378,
+          "verse_units": [
+            {
+              "chapter": 13,
+              "start": 23,
+              "end": 23
+            },
+            {
+              "chapter": 13,
+              "start": 23,
+              "end": 26
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Scared > Embarrassed > Foolish",
+      "root": "Scared",
+      "mid": "Embarrassed",
+      "leaf": "Foolish",
+      "query": "I feel Scared because I feel Embarrassed, because I feel Foolish",
+      "top_cosine": 0.8017,
+      "top_ce": -7.3882,
+      "results": [
+        {
+          "lesson_id": 140,
+          "lesson_text": "Seek knowledge to overcome ignorance and heedlessness.",
+          "cosine": 0.7972,
+          "ce_score": -7.3882,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 15,
+              "end": 15
+            },
+            {
+              "chapter": 10,
+              "start": 8,
+              "end": 11
+            },
+            {
+              "chapter": 14,
+              "start": 8,
+              "end": 11
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 293,
+          "lesson_text": "Overcome ignorance to free yourself from delusion.",
+          "cosine": 0.8017,
+          "ce_score": -7.8973,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 8,
+              "end": 8
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 301,
+          "lesson_text": "Recognize the influence of your mental state on your actions.",
+          "cosine": 0.7928,
+          "ce_score": -8.5382,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 6,
+              "end": 6
+            },
+            {
+              "chapter": 14,
+              "start": 6,
+              "end": 9
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 28,
+          "lesson_text": "Control your senses to gain wisdom and clarity.",
+          "cosine": 0.7955,
+          "ce_score": -8.9547,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 58,
+              "end": 58
+            },
+            {
+              "chapter": 2,
+              "start": 58,
+              "end": 63
+            },
+            {
+              "chapter": 3,
+              "start": 34,
+              "end": 34
+            },
+            {
+              "chapter": 3,
+              "start": 36,
+              "end": 42
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 120,
+          "lesson_text": "Practice self-discipline to purify your actions.",
+          "cosine": 0.793,
+          "ce_score": -9.5198,
+          "verse_units": [
+            {
+              "chapter": 4,
+              "start": 30,
+              "end": 30
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Scared > Embarrassed > Shy",
+      "root": "Scared",
+      "mid": "Embarrassed",
+      "leaf": "Shy",
+      "query": "I feel Scared because I feel Embarrassed, because I feel Shy",
+      "top_cosine": 0.7949,
+      "top_ce": -6.1723,
+      "results": [
+        {
+          "lesson_id": 261,
+          "lesson_text": "Act with courage in the face of fear.",
+          "cosine": 0.7949,
+          "ce_score": -6.1723,
+          "verse_units": [
+            {
+              "chapter": 11,
+              "start": 34,
+              "end": 34
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 363,
+          "lesson_text": "Act without attachment or desire for reward.",
+          "cosine": 0.7898,
+          "ce_score": -8.6357,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 23,
+              "end": 23
+            },
+            {
+              "chapter": 18,
+              "start": 23,
+              "end": 24
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 301,
+          "lesson_text": "Recognize the influence of your mental state on your actions.",
+          "cosine": 0.7903,
+          "ce_score": -8.6534,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 6,
+              "end": 6
+            },
+            {
+              "chapter": 14,
+              "start": 6,
+              "end": 9
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 48,
+          "lesson_text": "Free yourself from attachment to pleasure and power.",
+          "cosine": 0.7868,
+          "ce_score": -8.9444,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 43,
+              "end": 43
+            },
+            {
+              "chapter": 2,
+              "start": 43,
+              "end": 46
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 151,
+          "lesson_text": "Control your mind and senses to achieve liberation.",
+          "cosine": 0.7927,
+          "ce_score": -9.423,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 28,
+              "end": 28
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Joyful > Playful > Amused",
+      "root": "Joyful",
+      "mid": "Playful",
+      "leaf": "Amused",
+      "query": "I feel Joyful because I feel Playful, because I feel Amused",
+      "top_cosine": 0.8172,
+      "top_ce": -2.8627,
+      "results": [
+        {
+          "lesson_id": 388,
+          "lesson_text": "Cultivate joy through mindful remembrance.",
+          "cosine": 0.8069,
+          "ce_score": -2.8627,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 77,
+              "end": 77
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 145,
+          "lesson_text": "Seek lasting joy through self-realization, not fleeting pleasures.",
+          "cosine": 0.8114,
+          "ce_score": -4.6368,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 22,
+              "end": 22
+            },
+            {
+              "chapter": 18,
+              "start": 35,
+              "end": 41
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 147,
+          "lesson_text": "Find happiness and illumination within yourself.",
+          "cosine": 0.8172,
+          "ce_score": -5.2055,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 24,
+              "end": 24
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 369,
+          "lesson_text": "Seek joy through practice to overcome suffering.",
+          "cosine": 0.8085,
+          "ce_score": -5.2987,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 36,
+              "end": 36
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 17,
+          "lesson_text": "Act with purpose, not merely for pleasure.",
+          "cosine": 0.8066,
+          "ce_score": -5.7999,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 43,
+              "end": 43
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Joyful > Playful > Spirited",
+      "root": "Joyful",
+      "mid": "Playful",
+      "leaf": "Spirited",
+      "query": "I feel Joyful because I feel Playful, because I feel Spirited",
+      "top_cosine": 0.8234,
+      "top_ce": -3.9201,
+      "results": [
+        {
+          "lesson_id": 388,
+          "lesson_text": "Cultivate joy through mindful remembrance.",
+          "cosine": 0.8173,
+          "ce_score": -3.9201,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 77,
+              "end": 77
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 145,
+          "lesson_text": "Seek lasting joy through self-realization, not fleeting pleasures.",
+          "cosine": 0.8234,
+          "ce_score": -5.3408,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 22,
+              "end": 22
+            },
+            {
+              "chapter": 18,
+              "start": 35,
+              "end": 41
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 369,
+          "lesson_text": "Seek joy through practice to overcome suffering.",
+          "cosine": 0.8176,
+          "ce_score": -5.7562,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 36,
+              "end": 36
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 147,
+          "lesson_text": "Find happiness and illumination within yourself.",
+          "cosine": 0.8233,
+          "ce_score": -6.3505,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 24,
+              "end": 24
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 92,
+          "lesson_text": "Act in harmony with your true nature.",
+          "cosine": 0.817,
+          "ce_score": -8.1834,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 32,
+              "end": 32
+            },
+            {
+              "chapter": 3,
+              "start": 32,
+              "end": 34
+            },
+            {
+              "chapter": 3,
+              "start": 36,
+              "end": 36
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Joyful > Content > Peaceful",
+      "root": "Joyful",
+      "mid": "Content",
+      "leaf": "Peaceful",
+      "query": "I feel Joyful because I feel Content, because I feel Peaceful",
+      "top_cosine": 0.8432,
+      "top_ce": -2.6771,
+      "results": [
+        {
+          "lesson_id": 80,
+          "lesson_text": "Find contentment within yourself.",
+          "cosine": 0.8281,
+          "ce_score": -2.6771,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 17,
+              "end": 17
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 37,
+          "lesson_text": "Cultivate steadiness to find peace and happiness.",
+          "cosine": 0.8413,
+          "ce_score": -2.8347,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 66
+            },
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 69
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 175,
+          "lesson_text": "Cultivate a peaceful mind to attain true bliss.",
+          "cosine": 0.8432,
+          "ce_score": -3.1782,
+          "verse_units": [
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 24
+            },
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 25
+            },
+            {
+              "chapter": 6,
+              "start": 27,
+              "end": 30
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 145,
+          "lesson_text": "Seek lasting joy through self-realization, not fleeting pleasures.",
+          "cosine": 0.827,
+          "ce_score": -3.8657,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 22,
+              "end": 22
+            },
+            {
+              "chapter": 18,
+              "start": 35,
+              "end": 41
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 147,
+          "lesson_text": "Find happiness and illumination within yourself.",
+          "cosine": 0.8264,
+          "ce_score": -5.3077,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 24,
+              "end": 24
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Joyful > Content > Pleasant",
+      "root": "Joyful",
+      "mid": "Content",
+      "leaf": "Pleasant",
+      "query": "I feel Joyful because I feel Content, because I feel Pleasant",
+      "top_cosine": 0.836,
+      "top_ce": -3.2888,
+      "results": [
+        {
+          "lesson_id": 80,
+          "lesson_text": "Find contentment within yourself.",
+          "cosine": 0.8329,
+          "ce_score": -3.2888,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 17,
+              "end": 17
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 145,
+          "lesson_text": "Seek lasting joy through self-realization, not fleeting pleasures.",
+          "cosine": 0.836,
+          "ce_score": -3.8301,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 22,
+              "end": 22
+            },
+            {
+              "chapter": 18,
+              "start": 35,
+              "end": 41
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 147,
+          "lesson_text": "Find happiness and illumination within yourself.",
+          "cosine": 0.8357,
+          "ce_score": -4.8083,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 24,
+              "end": 24
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 175,
+          "lesson_text": "Cultivate a peaceful mind to attain true bliss.",
+          "cosine": 0.8249,
+          "ce_score": -8.5596,
+          "verse_units": [
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 24
+            },
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 25
+            },
+            {
+              "chapter": 6,
+              "start": 27,
+              "end": 30
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 213,
+          "lesson_text": "Value wisdom and steadfastness in your pursuits.",
+          "cosine": 0.8269,
+          "ce_score": -8.5994,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 15
+            },
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 18
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Joyful > Interested > Curious",
+      "root": "Joyful",
+      "mid": "Interested",
+      "leaf": "Curious",
+      "query": "I feel Joyful because I feel Interested, because I feel Curious",
+      "top_cosine": 0.8222,
+      "top_ce": -4.5832,
+      "results": [
+        {
+          "lesson_id": 145,
+          "lesson_text": "Seek lasting joy through self-realization, not fleeting pleasures.",
+          "cosine": 0.8208,
+          "ce_score": -4.5832,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 22,
+              "end": 22
+            },
+            {
+              "chapter": 18,
+              "start": 35,
+              "end": 41
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 147,
+          "lesson_text": "Find happiness and illumination within yourself.",
+          "cosine": 0.8176,
+          "ce_score": -6.3103,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 24,
+              "end": 24
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 281,
+          "lesson_text": "Seek understanding to connect with a greater existence.",
+          "cosine": 0.8204,
+          "ce_score": -8.6899,
+          "verse_units": [
+            {
+              "chapter": 13,
+              "start": 19,
+              "end": 19
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 96,
+          "lesson_text": "Restrain desire to uncover true wisdom.",
+          "cosine": 0.8222,
+          "ce_score": -8.8502,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 39,
+              "end": 39
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 288,
+          "lesson_text": "Seek understanding through meditation, knowledge, or action.",
+          "cosine": 0.8211,
+          "ce_score": -9.7766,
+          "verse_units": [
+            {
+              "chapter": 13,
+              "start": 23,
+              "end": 23
+            },
+            {
+              "chapter": 13,
+              "start": 23,
+              "end": 26
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Joyful > Interested > Inquisitive",
+      "root": "Joyful",
+      "mid": "Interested",
+      "leaf": "Inquisitive",
+      "query": "I feel Joyful because I feel Interested, because I feel Inquisitive",
+      "top_cosine": 0.8235,
+      "top_ce": -4.1363,
+      "results": [
+        {
+          "lesson_id": 145,
+          "lesson_text": "Seek lasting joy through self-realization, not fleeting pleasures.",
+          "cosine": 0.8219,
+          "ce_score": -4.1363,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 22,
+              "end": 22
+            },
+            {
+              "chapter": 18,
+              "start": 35,
+              "end": 41
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 147,
+          "lesson_text": "Find happiness and illumination within yourself.",
+          "cosine": 0.8235,
+          "ce_score": -6.2995,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 24,
+              "end": 24
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 281,
+          "lesson_text": "Seek understanding to connect with a greater existence.",
+          "cosine": 0.8139,
+          "ce_score": -9.1882,
+          "verse_units": [
+            {
+              "chapter": 13,
+              "start": 19,
+              "end": 19
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 80,
+          "lesson_text": "Find contentment within yourself.",
+          "cosine": 0.8194,
+          "ce_score": -9.8481,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 17,
+              "end": 17
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 103,
+          "lesson_text": "Find contentment within yourself to transcend external actions.",
+          "cosine": 0.8134,
+          "ce_score": -10.5941,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 16,
+              "end": 16
+            },
+            {
+              "chapter": 3,
+              "start": 15,
+              "end": 18
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Joyful > Proud > Achieved",
+      "root": "Joyful",
+      "mid": "Proud",
+      "leaf": "Achieved",
+      "query": "I feel Joyful because I feel Proud, because I feel Achieved",
+      "top_cosine": 0.8248,
+      "top_ce": -4.4106,
+      "results": [
+        {
+          "lesson_id": 77,
+          "lesson_text": "Act with intention to achieve success.",
+          "cosine": 0.8189,
+          "ce_score": -4.4106,
+          "verse_units": [
+            {
+              "chapter": 4,
+              "start": 12,
+              "end": 12
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 147,
+          "lesson_text": "Find happiness and illumination within yourself.",
+          "cosine": 0.8202,
+          "ce_score": -5.5904,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 24,
+              "end": 24
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 213,
+          "lesson_text": "Value wisdom and steadfastness in your pursuits.",
+          "cosine": 0.8248,
+          "ce_score": -7.1832,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 15
+            },
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 18
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 214,
+          "lesson_text": "Cultivate steadfastness to realize your true self.",
+          "cosine": 0.8164,
+          "ce_score": -7.6137,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 17,
+              "end": 17
+            },
+            {
+              "chapter": 7,
+              "start": 17,
+              "end": 20
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 51,
+          "lesson_text": "Strive diligently for personal growth and purification.",
+          "cosine": 0.8146,
+          "ce_score": -8.7847,
+          "verse_units": [
+            {
+              "chapter": 6,
+              "start": 45,
+              "end": 45
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Joyful > Proud > Confident",
+      "root": "Joyful",
+      "mid": "Proud",
+      "leaf": "Confident",
+      "query": "I feel Joyful because I feel Proud, because I feel Confident",
+      "top_cosine": 0.8291,
+      "top_ce": -3.6353,
+      "results": [
+        {
+          "lesson_id": 56,
+          "lesson_text": "Act with clarity and confidence.",
+          "cosine": 0.8291,
+          "ce_score": -3.6353,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 73,
+              "end": 73
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 147,
+          "lesson_text": "Find happiness and illumination within yourself.",
+          "cosine": 0.8175,
+          "ce_score": -4.9513,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 24,
+              "end": 24
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 213,
+          "lesson_text": "Value wisdom and steadfastness in your pursuits.",
+          "cosine": 0.8251,
+          "ce_score": -6.4674,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 15
+            },
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 18
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 173,
+          "lesson_text": "Practice with determination and a positive mindset.",
+          "cosine": 0.8181,
+          "ce_score": -6.7089,
+          "verse_units": [
+            {
+              "chapter": 6,
+              "start": 23,
+              "end": 23
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 49,
+          "lesson_text": "Act with steadiness, free from attachment to results.",
+          "cosine": 0.8161,
+          "ce_score": -9.3148,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 47,
+              "end": 47
+            },
+            {
+              "chapter": 2,
+              "start": 47,
+              "end": 48
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Joyful > Excited > Eager",
+      "root": "Joyful",
+      "mid": "Excited",
+      "leaf": "Eager",
+      "query": "I feel Joyful because I feel Excited, because I feel Eager",
+      "top_cosine": 0.8178,
+      "top_ce": -5.5592,
+      "results": [
+        {
+          "lesson_id": 145,
+          "lesson_text": "Seek lasting joy through self-realization, not fleeting pleasures.",
+          "cosine": 0.807,
+          "ce_score": -5.5592,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 22,
+              "end": 22
+            },
+            {
+              "chapter": 18,
+              "start": 35,
+              "end": 41
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 147,
+          "lesson_text": "Find happiness and illumination within yourself.",
+          "cosine": 0.8178,
+          "ce_score": -6.8098,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 24,
+              "end": 24
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 370,
+          "lesson_text": "Embrace challenges for deeper happiness and self-realization.",
+          "cosine": 0.8041,
+          "ce_score": -8.5404,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 37,
+              "end": 37
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 73,
+          "lesson_text": "Act with intention to fulfill your desires.",
+          "cosine": 0.8018,
+          "ce_score": -9.2599,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 10,
+              "end": 10
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 213,
+          "lesson_text": "Value wisdom and steadfastness in your pursuits.",
+          "cosine": 0.8072,
+          "ce_score": -9.6435,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 15
+            },
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 18
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Joyful > Excited > Energetic",
+      "root": "Joyful",
+      "mid": "Excited",
+      "leaf": "Energetic",
+      "query": "I feel Joyful because I feel Excited, because I feel Energetic",
+      "top_cosine": 0.821,
+      "top_ce": -3.6381,
+      "results": [
+        {
+          "lesson_id": 388,
+          "lesson_text": "Cultivate joy through mindful remembrance.",
+          "cosine": 0.8032,
+          "ce_score": -3.6381,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 77,
+              "end": 77
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 145,
+          "lesson_text": "Seek lasting joy through self-realization, not fleeting pleasures.",
+          "cosine": 0.8148,
+          "ce_score": -5.649,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 22,
+              "end": 22
+            },
+            {
+              "chapter": 18,
+              "start": 35,
+              "end": 41
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 147,
+          "lesson_text": "Find happiness and illumination within yourself.",
+          "cosine": 0.821,
+          "ce_score": -5.973,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 24,
+              "end": 24
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 146,
+          "lesson_text": "Find happiness within by controlling desires and anger.",
+          "cosine": 0.8018,
+          "ce_score": -6.5913,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 21,
+              "end": 21
+            },
+            {
+              "chapter": 5,
+              "start": 21,
+              "end": 28
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 213,
+          "lesson_text": "Value wisdom and steadfastness in your pursuits.",
+          "cosine": 0.8056,
+          "ce_score": -9.0717,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 15
+            },
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 18
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Joyful > Cheerful > Delightful",
+      "root": "Joyful",
+      "mid": "Cheerful",
+      "leaf": "Delightful",
+      "query": "I feel Joyful because I feel Cheerful, because I feel Delightful",
+      "top_cosine": 0.8406,
+      "top_ce": -2.4654,
+      "results": [
+        {
+          "lesson_id": 388,
+          "lesson_text": "Cultivate joy through mindful remembrance.",
+          "cosine": 0.8185,
+          "ce_score": -2.4654,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 77,
+              "end": 77
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 145,
+          "lesson_text": "Seek lasting joy through self-realization, not fleeting pleasures.",
+          "cosine": 0.8178,
+          "ce_score": -3.6671,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 22,
+              "end": 22
+            },
+            {
+              "chapter": 18,
+              "start": 35,
+              "end": 41
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 147,
+          "lesson_text": "Find happiness and illumination within yourself.",
+          "cosine": 0.8406,
+          "ce_score": -4.4382,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 24,
+              "end": 24
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 37,
+          "lesson_text": "Cultivate steadiness to find peace and happiness.",
+          "cosine": 0.8208,
+          "ce_score": -5.6371,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 66
+            },
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 69
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 80,
+          "lesson_text": "Find contentment within yourself.",
+          "cosine": 0.8198,
+          "ce_score": -8.3129,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 17,
+              "end": 17
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Joyful > Cheerful > Optimistic",
+      "root": "Joyful",
+      "mid": "Cheerful",
+      "leaf": "Optimistic",
+      "query": "I feel Joyful because I feel Cheerful, because I feel Optimistic",
+      "top_cosine": 0.8311,
+      "top_ce": -3.8116,
+      "results": [
+        {
+          "lesson_id": 147,
+          "lesson_text": "Find happiness and illumination within yourself.",
+          "cosine": 0.8311,
+          "ce_score": -3.8116,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 24,
+              "end": 24
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 145,
+          "lesson_text": "Seek lasting joy through self-realization, not fleeting pleasures.",
+          "cosine": 0.8137,
+          "ce_score": -3.8522,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 22,
+              "end": 22
+            },
+            {
+              "chapter": 18,
+              "start": 35,
+              "end": 41
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 370,
+          "lesson_text": "Embrace challenges for deeper happiness and self-realization.",
+          "cosine": 0.8128,
+          "ce_score": -5.034,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 37,
+              "end": 37
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 37,
+          "lesson_text": "Cultivate steadiness to find peace and happiness.",
+          "cosine": 0.8212,
+          "ce_score": -5.0405,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 66
+            },
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 69
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 213,
+          "lesson_text": "Value wisdom and steadfastness in your pursuits.",
+          "cosine": 0.8181,
+          "ce_score": -6.5208,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 15
+            },
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 18
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Powerful > Respected > Valuable",
+      "root": "Powerful",
+      "mid": "Respected",
+      "leaf": "Valuable",
+      "query": "I feel Powerful because I feel Respected, because I feel Valuable",
+      "top_cosine": 0.8507,
+      "top_ce": -1.1288,
+      "results": [
+        {
+          "lesson_id": 213,
+          "lesson_text": "Value wisdom and steadfastness in your pursuits.",
+          "cosine": 0.8437,
+          "ce_score": -1.1288,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 15
+            },
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 18
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 201,
+          "lesson_text": "Value steadfastness and devotion for deeper connection.",
+          "cosine": 0.8367,
+          "ce_score": -5.7816,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 17,
+              "end": 17
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 249,
+          "lesson_text": "Worship with steadfast devotion to cultivate inner strength.",
+          "cosine": 0.8357,
+          "ce_score": -7.4997,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 28,
+              "end": 28
+            },
+            {
+              "chapter": 9,
+              "start": 11,
+              "end": 19
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 300,
+          "lesson_text": "Recognize and transcend the qualities that bind you.",
+          "cosine": 0.8507,
+          "ce_score": -8.3162,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 5,
+              "end": 5
+            },
+            {
+              "chapter": 14,
+              "start": 5,
+              "end": 8
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 303,
+          "lesson_text": "Recognize and cultivate the qualities of clarity and balance.",
+          "cosine": 0.8297,
+          "ce_score": -9.0766,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 10,
+              "end": 10
+            },
+            {
+              "chapter": 14,
+              "start": 10,
+              "end": 13
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Powerful > Respected > Valued",
+      "root": "Powerful",
+      "mid": "Respected",
+      "leaf": "Valued",
+      "query": "I feel Powerful because I feel Respected, because I feel Valued",
+      "top_cosine": 0.8529,
+      "top_ce": -0.6332,
+      "results": [
+        {
+          "lesson_id": 213,
+          "lesson_text": "Value wisdom and steadfastness in your pursuits.",
+          "cosine": 0.8414,
+          "ce_score": -0.6332,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 15
+            },
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 18
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 201,
+          "lesson_text": "Value steadfastness and devotion for deeper connection.",
+          "cosine": 0.8358,
+          "ce_score": -3.4726,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 17,
+              "end": 17
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 249,
+          "lesson_text": "Worship with steadfast devotion to cultivate inner strength.",
+          "cosine": 0.8352,
+          "ce_score": -7.7761,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 28,
+              "end": 28
+            },
+            {
+              "chapter": 9,
+              "start": 11,
+              "end": 19
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 300,
+          "lesson_text": "Recognize and transcend the qualities that bind you.",
+          "cosine": 0.8529,
+          "ce_score": -8.5213,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 5,
+              "end": 5
+            },
+            {
+              "chapter": 14,
+              "start": 5,
+              "end": 8
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 303,
+          "lesson_text": "Recognize and cultivate the qualities of clarity and balance.",
+          "cosine": 0.8313,
+          "ce_score": -9.0919,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 10,
+              "end": 10
+            },
+            {
+              "chapter": 14,
+              "start": 10,
+              "end": 13
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Powerful > Courageous > Daring",
+      "root": "Powerful",
+      "mid": "Courageous",
+      "leaf": "Daring",
+      "query": "I feel Powerful because I feel Courageous, because I feel Daring",
+      "top_cosine": 0.8427,
+      "top_ce": -1.7202,
+      "results": [
+        {
+          "lesson_id": 42,
+          "lesson_text": "Stand firm in your convictions and face challenges with courage.",
+          "cosine": 0.8401,
+          "ce_score": -1.7202,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 3,
+              "end": 3
+            },
+            {
+              "chapter": 2,
+              "start": 3,
+              "end": 6
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 261,
+          "lesson_text": "Act with courage in the face of fear.",
+          "cosine": 0.839,
+          "ce_score": -2.117,
+          "verse_units": [
+            {
+              "chapter": 11,
+              "start": 34,
+              "end": 34
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 5,
+          "lesson_text": "Endure challenges with courage and equanimity.",
+          "cosine": 0.8427,
+          "ce_score": -2.711,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 9,
+              "end": 9
+            },
+            {
+              "chapter": 2,
+              "start": 9,
+              "end": 20
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 213,
+          "lesson_text": "Value wisdom and steadfastness in your pursuits.",
+          "cosine": 0.8365,
+          "ce_score": -4.2248,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 15
+            },
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 18
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 339,
+          "lesson_text": "Your character reflects your beliefs.",
+          "cosine": 0.8386,
+          "ce_score": -7.7159,
+          "verse_units": [
+            {
+              "chapter": 17,
+              "start": 3,
+              "end": 3
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Powerful > Courageous > Bold",
+      "root": "Powerful",
+      "mid": "Courageous",
+      "leaf": "Bold",
+      "query": "I feel Powerful because I feel Courageous, because I feel Bold",
+      "top_cosine": 0.8421,
+      "top_ce": -2.9913,
+      "results": [
+        {
+          "lesson_id": 94,
+          "lesson_text": "Fulfill your own responsibilities with courage.",
+          "cosine": 0.8354,
+          "ce_score": -2.9913,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 35,
+              "end": 35
+            },
+            {
+              "chapter": 13,
+              "start": 25,
+              "end": 25
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 42,
+          "lesson_text": "Stand firm in your convictions and face challenges with courage.",
+          "cosine": 0.8404,
+          "ce_score": -3.0717,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 3,
+              "end": 3
+            },
+            {
+              "chapter": 2,
+              "start": 3,
+              "end": 6
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 261,
+          "lesson_text": "Act with courage in the face of fear.",
+          "cosine": 0.8389,
+          "ce_score": -3.1885,
+          "verse_units": [
+            {
+              "chapter": 11,
+              "start": 34,
+              "end": 34
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 5,
+          "lesson_text": "Endure challenges with courage and equanimity.",
+          "cosine": 0.8378,
+          "ce_score": -3.8516,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 9,
+              "end": 9
+            },
+            {
+              "chapter": 2,
+              "start": 9,
+              "end": 20
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 339,
+          "lesson_text": "Your character reflects your beliefs.",
+          "cosine": 0.8421,
+          "ce_score": -7.8783,
+          "verse_units": [
+            {
+              "chapter": 17,
+              "start": 3,
+              "end": 3
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Powerful > Proud > Achieved",
+      "root": "Powerful",
+      "mid": "Proud",
+      "leaf": "Achieved",
+      "query": "I feel Powerful because I feel Proud, because I feel Achieved",
+      "top_cosine": 0.833,
+      "top_ce": -5.3684,
+      "results": [
+        {
+          "lesson_id": 160,
+          "lesson_text": "Elevate yourself through self-mastery and awareness.",
+          "cosine": 0.8276,
+          "ce_score": -5.3684,
+          "verse_units": [
+            {
+              "chapter": 6,
+              "start": 5,
+              "end": 5
+            },
+            {
+              "chapter": 6,
+              "start": 2,
+              "end": 12
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 213,
+          "lesson_text": "Value wisdom and steadfastness in your pursuits.",
+          "cosine": 0.833,
+          "ce_score": -6.5501,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 15
+            },
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 18
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 214,
+          "lesson_text": "Cultivate steadfastness to realize your true self.",
+          "cosine": 0.8242,
+          "ce_score": -7.6001,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 17,
+              "end": 17
+            },
+            {
+              "chapter": 7,
+              "start": 17,
+              "end": 20
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 249,
+          "lesson_text": "Worship with steadfast devotion to cultivate inner strength.",
+          "cosine": 0.8277,
+          "ce_score": -8.7441,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 28,
+              "end": 28
+            },
+            {
+              "chapter": 9,
+              "start": 11,
+              "end": 19
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 300,
+          "lesson_text": "Recognize and transcend the qualities that bind you.",
+          "cosine": 0.8263,
+          "ce_score": -9.4501,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 5,
+              "end": 5
+            },
+            {
+              "chapter": 14,
+              "start": 5,
+              "end": 8
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Powerful > Proud > Important",
+      "root": "Powerful",
+      "mid": "Proud",
+      "leaf": "Important",
+      "query": "I feel Powerful because I feel Proud, because I feel Important",
+      "top_cosine": 0.8306,
+      "top_ce": -6.1682,
+      "results": [
+        {
+          "lesson_id": 213,
+          "lesson_text": "Value wisdom and steadfastness in your pursuits.",
+          "cosine": 0.8306,
+          "ce_score": -6.1682,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 15
+            },
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 18
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 249,
+          "lesson_text": "Worship with steadfast devotion to cultivate inner strength.",
+          "cosine": 0.8262,
+          "ce_score": -8.7269,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 28,
+              "end": 28
+            },
+            {
+              "chapter": 9,
+              "start": 11,
+              "end": 19
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 339,
+          "lesson_text": "Your character reflects your beliefs.",
+          "cosine": 0.8198,
+          "ce_score": -8.7295,
+          "verse_units": [
+            {
+              "chapter": 17,
+              "start": 3,
+              "end": 3
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 201,
+          "lesson_text": "Value steadfastness and devotion for deeper connection.",
+          "cosine": 0.8269,
+          "ce_score": -8.8217,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 17,
+              "end": 17
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 300,
+          "lesson_text": "Recognize and transcend the qualities that bind you.",
+          "cosine": 0.8171,
+          "ce_score": -8.9989,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 5,
+              "end": 5
+            },
+            {
+              "chapter": 14,
+              "start": 5,
+              "end": 8
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Powerful > Creative > Ingenious",
+      "root": "Powerful",
+      "mid": "Creative",
+      "leaf": "Ingenious",
+      "query": "I feel Powerful because I feel Creative, because I feel Ingenious",
+      "top_cosine": 0.8237,
+      "top_ce": -7.1699,
+      "results": [
+        {
+          "lesson_id": 160,
+          "lesson_text": "Elevate yourself through self-mastery and awareness.",
+          "cosine": 0.8108,
+          "ce_score": -7.1699,
+          "verse_units": [
+            {
+              "chapter": 6,
+              "start": 5,
+              "end": 5
+            },
+            {
+              "chapter": 6,
+              "start": 2,
+              "end": 12
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 213,
+          "lesson_text": "Value wisdom and steadfastness in your pursuits.",
+          "cosine": 0.8237,
+          "ce_score": -8.3676,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 15
+            },
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 18
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 228,
+          "lesson_text": "Focus your mind on your purpose.",
+          "cosine": 0.813,
+          "ce_score": -8.7488,
+          "verse_units": [
+            {
+              "chapter": 8,
+              "start": 7,
+              "end": 7
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 300,
+          "lesson_text": "Recognize and transcend the qualities that bind you.",
+          "cosine": 0.8126,
+          "ce_score": -9.2973,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 5,
+              "end": 5
+            },
+            {
+              "chapter": 14,
+              "start": 5,
+              "end": 8
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 249,
+          "lesson_text": "Worship with steadfast devotion to cultivate inner strength.",
+          "cosine": 0.8114,
+          "ce_score": -10.1113,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 28,
+              "end": 28
+            },
+            {
+              "chapter": 9,
+              "start": 11,
+              "end": 19
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Powerful > Creative > Versatile",
+      "root": "Powerful",
+      "mid": "Creative",
+      "leaf": "Versatile",
+      "query": "I feel Powerful because I feel Creative, because I feel Versatile",
+      "top_cosine": 0.825,
+      "top_ce": -8.1269,
+      "results": [
+        {
+          "lesson_id": 213,
+          "lesson_text": "Value wisdom and steadfastness in your pursuits.",
+          "cosine": 0.825,
+          "ce_score": -8.1269,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 15
+            },
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 18
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 28,
+          "lesson_text": "Control your senses to gain wisdom and clarity.",
+          "cosine": 0.8122,
+          "ce_score": -8.5219,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 58,
+              "end": 58
+            },
+            {
+              "chapter": 2,
+              "start": 58,
+              "end": 63
+            },
+            {
+              "chapter": 3,
+              "start": 34,
+              "end": 34
+            },
+            {
+              "chapter": 3,
+              "start": 36,
+              "end": 42
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 300,
+          "lesson_text": "Recognize and transcend the qualities that bind you.",
+          "cosine": 0.8147,
+          "ce_score": -8.8671,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 5,
+              "end": 5
+            },
+            {
+              "chapter": 14,
+              "start": 5,
+              "end": 8
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 201,
+          "lesson_text": "Value steadfastness and devotion for deeper connection.",
+          "cosine": 0.8168,
+          "ce_score": -9.8204,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 17,
+              "end": 17
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 298,
+          "lesson_text": "Serve with unwavering devotion to transcend dualities.",
+          "cosine": 0.8135,
+          "ce_score": -9.8473,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 26,
+              "end": 26
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Powerful > Aware > Present",
+      "root": "Powerful",
+      "mid": "Aware",
+      "leaf": "Present",
+      "query": "I feel Powerful because I feel Aware, because I feel Present",
+      "top_cosine": 0.8362,
+      "top_ce": -6.8151,
+      "results": [
+        {
+          "lesson_id": 28,
+          "lesson_text": "Control your senses to gain wisdom and clarity.",
+          "cosine": 0.8362,
+          "ce_score": -6.8151,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 58,
+              "end": 58
+            },
+            {
+              "chapter": 2,
+              "start": 58,
+              "end": 63
+            },
+            {
+              "chapter": 3,
+              "start": 34,
+              "end": 34
+            },
+            {
+              "chapter": 3,
+              "start": 36,
+              "end": 42
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 151,
+          "lesson_text": "Control your mind and senses to achieve liberation.",
+          "cosine": 0.8244,
+          "ce_score": -7.8985,
+          "verse_units": [
+            {
+              "chapter": 5,
+              "start": 28,
+              "end": 28
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 301,
+          "lesson_text": "Recognize the influence of your mental state on your actions.",
+          "cosine": 0.826,
+          "ce_score": -8.6655,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 6,
+              "end": 6
+            },
+            {
+              "chapter": 14,
+              "start": 6,
+              "end": 9
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 300,
+          "lesson_text": "Recognize and transcend the qualities that bind you.",
+          "cosine": 0.8296,
+          "ce_score": -9.6268,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 5,
+              "end": 5
+            },
+            {
+              "chapter": 14,
+              "start": 5,
+              "end": 8
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 287,
+          "lesson_text": "Recognize the Self within to transcend attachment.",
+          "cosine": 0.8296,
+          "ce_score": -9.8781,
+          "verse_units": [
+            {
+              "chapter": 13,
+              "start": 22,
+              "end": 22
+            },
+            {
+              "chapter": 13,
+              "start": 22,
+              "end": 25
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Powerful > Aware > Focused",
+      "root": "Powerful",
+      "mid": "Aware",
+      "leaf": "Focused",
+      "query": "I feel Powerful because I feel Aware, because I feel Focused",
+      "top_cosine": 0.8349,
+      "top_ce": -1.4869,
+      "results": [
+        {
+          "lesson_id": 228,
+          "lesson_text": "Focus your mind on your purpose.",
+          "cosine": 0.8345,
+          "ce_score": -1.4869,
+          "verse_units": [
+            {
+              "chapter": 8,
+              "start": 7,
+              "end": 7
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 28,
+          "lesson_text": "Control your senses to gain wisdom and clarity.",
+          "cosine": 0.8349,
+          "ce_score": -6.2413,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 58,
+              "end": 58
+            },
+            {
+              "chapter": 2,
+              "start": 58,
+              "end": 63
+            },
+            {
+              "chapter": 3,
+              "start": 34,
+              "end": 34
+            },
+            {
+              "chapter": 3,
+              "start": 36,
+              "end": 42
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 301,
+          "lesson_text": "Recognize the influence of your mental state on your actions.",
+          "cosine": 0.8261,
+          "ce_score": -7.7997,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 6,
+              "end": 6
+            },
+            {
+              "chapter": 14,
+              "start": 6,
+              "end": 9
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 213,
+          "lesson_text": "Value wisdom and steadfastness in your pursuits.",
+          "cosine": 0.8241,
+          "ce_score": -8.2513,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 15
+            },
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 18
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 249,
+          "lesson_text": "Worship with steadfast devotion to cultivate inner strength.",
+          "cosine": 0.8251,
+          "ce_score": -9.3925,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 28,
+              "end": 28
+            },
+            {
+              "chapter": 9,
+              "start": 11,
+              "end": 19
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Powerful > Confident > Capable",
+      "root": "Powerful",
+      "mid": "Confident",
+      "leaf": "Capable",
+      "query": "I feel Powerful because I feel Confident, because I feel Capable",
+      "top_cosine": 0.841,
+      "top_ce": -2.7686,
+      "results": [
+        {
+          "lesson_id": 56,
+          "lesson_text": "Act with clarity and confidence.",
+          "cosine": 0.841,
+          "ce_score": -2.7686,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 73,
+              "end": 73
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 160,
+          "lesson_text": "Elevate yourself through self-mastery and awareness.",
+          "cosine": 0.8325,
+          "ce_score": -3.8188,
+          "verse_units": [
+            {
+              "chapter": 6,
+              "start": 5,
+              "end": 5
+            },
+            {
+              "chapter": 6,
+              "start": 2,
+              "end": 12
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 213,
+          "lesson_text": "Value wisdom and steadfastness in your pursuits.",
+          "cosine": 0.8315,
+          "ce_score": -4.8532,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 15
+            },
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 18
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 300,
+          "lesson_text": "Recognize and transcend the qualities that bind you.",
+          "cosine": 0.8334,
+          "ce_score": -8.0336,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 5,
+              "end": 5
+            },
+            {
+              "chapter": 14,
+              "start": 5,
+              "end": 8
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 249,
+          "lesson_text": "Worship with steadfast devotion to cultivate inner strength.",
+          "cosine": 0.8267,
+          "ce_score": -8.0775,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 28,
+              "end": 28
+            },
+            {
+              "chapter": 9,
+              "start": 11,
+              "end": 19
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Powerful > Confident > Secure",
+      "root": "Powerful",
+      "mid": "Confident",
+      "leaf": "Secure",
+      "query": "I feel Powerful because I feel Confident, because I feel Secure",
+      "top_cosine": 0.8387,
+      "top_ce": -3.2249,
+      "results": [
+        {
+          "lesson_id": 56,
+          "lesson_text": "Act with clarity and confidence.",
+          "cosine": 0.8387,
+          "ce_score": -3.2249,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 73,
+              "end": 73
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 393,
+          "lesson_text": "Act with clarity and confidence in your decisions.",
+          "cosine": 0.8238,
+          "ce_score": -4.5061,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 73,
+              "end": 73
+            },
+            {
+              "chapter": 18,
+              "start": 73,
+              "end": 76
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 213,
+          "lesson_text": "Value wisdom and steadfastness in your pursuits.",
+          "cosine": 0.8258,
+          "ce_score": -6.1878,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 15
+            },
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 18
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 300,
+          "lesson_text": "Recognize and transcend the qualities that bind you.",
+          "cosine": 0.8216,
+          "ce_score": -7.7616,
+          "verse_units": [
+            {
+              "chapter": 14,
+              "start": 5,
+              "end": 5
+            },
+            {
+              "chapter": 14,
+              "start": 5,
+              "end": 8
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 249,
+          "lesson_text": "Worship with steadfast devotion to cultivate inner strength.",
+          "cosine": 0.8291,
+          "ce_score": -8.9112,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 28,
+              "end": 28
+            },
+            {
+              "chapter": 9,
+              "start": 11,
+              "end": 19
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Peaceful > Thankful > Grateful",
+      "root": "Peaceful",
+      "mid": "Thankful",
+      "leaf": "Grateful",
+      "query": "I feel Peaceful because I feel Thankful, because I feel Grateful",
+      "top_cosine": 0.842,
+      "top_ce": -3.0567,
+      "results": [
+        {
+          "lesson_id": 37,
+          "lesson_text": "Cultivate steadiness to find peace and happiness.",
+          "cosine": 0.8351,
+          "ce_score": -3.0567,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 66
+            },
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 69
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 175,
+          "lesson_text": "Cultivate a peaceful mind to attain true bliss.",
+          "cosine": 0.842,
+          "ce_score": -3.3516,
+          "verse_units": [
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 24
+            },
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 25
+            },
+            {
+              "chapter": 6,
+              "start": 27,
+              "end": 30
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 67,
+          "lesson_text": "Seek understanding to attain inner peace.",
+          "cosine": 0.8257,
+          "ce_score": -4.8853,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 2,
+              "end": 2
+            },
+            {
+              "chapter": 4,
+              "start": 10,
+              "end": 13
+            },
+            {
+              "chapter": 5,
+              "start": 29,
+              "end": 29
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 43,
+          "lesson_text": "Endure life's fluctuations with courage and steadiness.",
+          "cosine": 0.8233,
+          "ce_score": -8.3296,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 7,
+              "end": 7
+            },
+            {
+              "chapter": 2,
+              "start": 7,
+              "end": 16
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 346,
+          "lesson_text": "Practice self-control for a pure and serene mind.",
+          "cosine": 0.8231,
+          "ce_score": -9.0841,
+          "verse_units": [
+            {
+              "chapter": 17,
+              "start": 9,
+              "end": 9
+            },
+            {
+              "chapter": 17,
+              "start": 9,
+              "end": 13
+            },
+            {
+              "chapter": 17,
+              "start": 16,
+              "end": 19
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Peaceful > Thankful > Blessed",
+      "root": "Peaceful",
+      "mid": "Thankful",
+      "leaf": "Blessed",
+      "query": "I feel Peaceful because I feel Thankful, because I feel Blessed",
+      "top_cosine": 0.8494,
+      "top_ce": -2.6405,
+      "results": [
+        {
+          "lesson_id": 175,
+          "lesson_text": "Cultivate a peaceful mind to attain true bliss.",
+          "cosine": 0.8494,
+          "ce_score": -2.6405,
+          "verse_units": [
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 24
+            },
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 25
+            },
+            {
+              "chapter": 6,
+              "start": 27,
+              "end": 30
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 37,
+          "lesson_text": "Cultivate steadiness to find peace and happiness.",
+          "cosine": 0.8421,
+          "ce_score": -3.3309,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 66
+            },
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 69
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 67,
+          "lesson_text": "Seek understanding to attain inner peace.",
+          "cosine": 0.8305,
+          "ce_score": -5.3113,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 2,
+              "end": 2
+            },
+            {
+              "chapter": 4,
+              "start": 10,
+              "end": 13
+            },
+            {
+              "chapter": 5,
+              "start": 29,
+              "end": 29
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 331,
+          "lesson_text": "Embrace compassion and truth for a liberated life.",
+          "cosine": 0.83,
+          "ce_score": -7.0567,
+          "verse_units": [
+            {
+              "chapter": 16,
+              "start": 2,
+              "end": 2
+            },
+            {
+              "chapter": 16,
+              "start": 2,
+              "end": 9
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 346,
+          "lesson_text": "Practice self-control for a pure and serene mind.",
+          "cosine": 0.8283,
+          "ce_score": -9.2828,
+          "verse_units": [
+            {
+              "chapter": 17,
+              "start": 9,
+              "end": 9
+            },
+            {
+              "chapter": 17,
+              "start": 9,
+              "end": 13
+            },
+            {
+              "chapter": 17,
+              "start": 16,
+              "end": 19
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Peaceful > Loving > Tender",
+      "root": "Peaceful",
+      "mid": "Loving",
+      "leaf": "Tender",
+      "query": "I feel Peaceful because I feel Loving, because I feel Tender",
+      "top_cosine": 0.8419,
+      "top_ce": -3.4667,
+      "results": [
+        {
+          "lesson_id": 175,
+          "lesson_text": "Cultivate a peaceful mind to attain true bliss.",
+          "cosine": 0.8419,
+          "ce_score": -3.4667,
+          "verse_units": [
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 24
+            },
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 25
+            },
+            {
+              "chapter": 6,
+              "start": 27,
+              "end": 30
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 37,
+          "lesson_text": "Cultivate steadiness to find peace and happiness.",
+          "cosine": 0.8322,
+          "ce_score": -4.5645,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 66
+            },
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 69
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 67,
+          "lesson_text": "Seek understanding to attain inner peace.",
+          "cosine": 0.8309,
+          "ce_score": -5.7082,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 2,
+              "end": 2
+            },
+            {
+              "chapter": 4,
+              "start": 10,
+              "end": 13
+            },
+            {
+              "chapter": 5,
+              "start": 29,
+              "end": 29
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 47,
+          "lesson_text": "Rise above desires to find inner peace.",
+          "cosine": 0.8318,
+          "ce_score": -6.224,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 42,
+              "end": 42
+            },
+            {
+              "chapter": 2,
+              "start": 42,
+              "end": 45
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 32,
+          "lesson_text": "Recognize the roots of attachment to cultivate inner peace.",
+          "cosine": 0.8315,
+          "ce_score": -7.7288,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 62,
+              "end": 62
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Peaceful > Loving > Empathic",
+      "root": "Peaceful",
+      "mid": "Loving",
+      "leaf": "Empathic",
+      "query": "I feel Peaceful because I feel Loving, because I feel Empathic",
+      "top_cosine": 0.8388,
+      "top_ce": -3.6988,
+      "results": [
+        {
+          "lesson_id": 175,
+          "lesson_text": "Cultivate a peaceful mind to attain true bliss.",
+          "cosine": 0.8388,
+          "ce_score": -3.6988,
+          "verse_units": [
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 24
+            },
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 25
+            },
+            {
+              "chapter": 6,
+              "start": 27,
+              "end": 30
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 37,
+          "lesson_text": "Cultivate steadiness to find peace and happiness.",
+          "cosine": 0.8309,
+          "ce_score": -5.0644,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 66
+            },
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 69
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 67,
+          "lesson_text": "Seek understanding to attain inner peace.",
+          "cosine": 0.8322,
+          "ce_score": -6.0096,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 2,
+              "end": 2
+            },
+            {
+              "chapter": 4,
+              "start": 10,
+              "end": 13
+            },
+            {
+              "chapter": 5,
+              "start": 29,
+              "end": 29
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 47,
+          "lesson_text": "Rise above desires to find inner peace.",
+          "cosine": 0.8263,
+          "ce_score": -6.4434,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 42,
+              "end": 42
+            },
+            {
+              "chapter": 2,
+              "start": 42,
+              "end": 45
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 32,
+          "lesson_text": "Recognize the roots of attachment to cultivate inner peace.",
+          "cosine": 0.833,
+          "ce_score": -7.6428,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 62,
+              "end": 62
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Peaceful > Trusting > Receptive",
+      "root": "Peaceful",
+      "mid": "Trusting",
+      "leaf": "Receptive",
+      "query": "I feel Peaceful because I feel Trusting, because I feel Receptive",
+      "top_cosine": 0.8375,
+      "top_ce": -3.7523,
+      "results": [
+        {
+          "lesson_id": 175,
+          "lesson_text": "Cultivate a peaceful mind to attain true bliss.",
+          "cosine": 0.8375,
+          "ce_score": -3.7523,
+          "verse_units": [
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 24
+            },
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 25
+            },
+            {
+              "chapter": 6,
+              "start": 27,
+              "end": 30
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 33,
+          "lesson_text": "Cultivate calm to maintain clarity and discernment.",
+          "cosine": 0.824,
+          "ce_score": -5.9755,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 63,
+              "end": 63
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 67,
+          "lesson_text": "Seek understanding to attain inner peace.",
+          "cosine": 0.8324,
+          "ce_score": -6.2764,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 2,
+              "end": 2
+            },
+            {
+              "chapter": 4,
+              "start": 10,
+              "end": 13
+            },
+            {
+              "chapter": 5,
+              "start": 29,
+              "end": 29
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 56,
+          "lesson_text": "Act with clarity and confidence.",
+          "cosine": 0.8269,
+          "ce_score": -6.7303,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 73,
+              "end": 73
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 32,
+          "lesson_text": "Recognize the roots of attachment to cultivate inner peace.",
+          "cosine": 0.8244,
+          "ce_score": -8.494,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 62,
+              "end": 62
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Peaceful > Trusting > Patient",
+      "root": "Peaceful",
+      "mid": "Trusting",
+      "leaf": "Patient",
+      "query": "I feel Peaceful because I feel Trusting, because I feel Patient",
+      "top_cosine": 0.837,
+      "top_ce": -3.8622,
+      "results": [
+        {
+          "lesson_id": 175,
+          "lesson_text": "Cultivate a peaceful mind to attain true bliss.",
+          "cosine": 0.837,
+          "ce_score": -3.8622,
+          "verse_units": [
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 24
+            },
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 25
+            },
+            {
+              "chapter": 6,
+              "start": 27,
+              "end": 30
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 37,
+          "lesson_text": "Cultivate steadiness to find peace and happiness.",
+          "cosine": 0.8288,
+          "ce_score": -5.5465,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 66
+            },
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 69
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 33,
+          "lesson_text": "Cultivate calm to maintain clarity and discernment.",
+          "cosine": 0.8281,
+          "ce_score": -5.7023,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 63,
+              "end": 63
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 56,
+          "lesson_text": "Act with clarity and confidence.",
+          "cosine": 0.8296,
+          "ce_score": -5.973,
+          "verse_units": [
+            {
+              "chapter": 18,
+              "start": 73,
+              "end": 73
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 32,
+          "lesson_text": "Recognize the roots of attachment to cultivate inner peace.",
+          "cosine": 0.8251,
+          "ce_score": -7.9818,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 62,
+              "end": 62
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Peaceful > Nurturing > Supportive",
+      "root": "Peaceful",
+      "mid": "Nurturing",
+      "leaf": "Supportive",
+      "query": "I feel Peaceful because I feel Nurturing, because I feel Supportive",
+      "top_cosine": 0.8452,
+      "top_ce": -2.8979,
+      "results": [
+        {
+          "lesson_id": 175,
+          "lesson_text": "Cultivate a peaceful mind to attain true bliss.",
+          "cosine": 0.8452,
+          "ce_score": -2.8979,
+          "verse_units": [
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 24
+            },
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 25
+            },
+            {
+              "chapter": 6,
+              "start": 27,
+              "end": 30
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 37,
+          "lesson_text": "Cultivate steadiness to find peace and happiness.",
+          "cosine": 0.8408,
+          "ce_score": -4.0913,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 66
+            },
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 69
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 67,
+          "lesson_text": "Seek understanding to attain inner peace.",
+          "cosine": 0.8316,
+          "ce_score": -4.8639,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 2,
+              "end": 2
+            },
+            {
+              "chapter": 4,
+              "start": 10,
+              "end": 13
+            },
+            {
+              "chapter": 5,
+              "start": 29,
+              "end": 29
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 331,
+          "lesson_text": "Embrace compassion and truth for a liberated life.",
+          "cosine": 0.8301,
+          "ce_score": -5.6886,
+          "verse_units": [
+            {
+              "chapter": 16,
+              "start": 2,
+              "end": 2
+            },
+            {
+              "chapter": 16,
+              "start": 2,
+              "end": 9
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 32,
+          "lesson_text": "Recognize the roots of attachment to cultivate inner peace.",
+          "cosine": 0.8421,
+          "ce_score": -6.9165,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 62,
+              "end": 62
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Peaceful > Nurturing > Caring",
+      "root": "Peaceful",
+      "mid": "Nurturing",
+      "leaf": "Caring",
+      "query": "I feel Peaceful because I feel Nurturing, because I feel Caring",
+      "top_cosine": 0.8486,
+      "top_ce": -3.6135,
+      "results": [
+        {
+          "lesson_id": 175,
+          "lesson_text": "Cultivate a peaceful mind to attain true bliss.",
+          "cosine": 0.8486,
+          "ce_score": -3.6135,
+          "verse_units": [
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 24
+            },
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 25
+            },
+            {
+              "chapter": 6,
+              "start": 27,
+              "end": 30
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 37,
+          "lesson_text": "Cultivate steadiness to find peace and happiness.",
+          "cosine": 0.8362,
+          "ce_score": -5.1343,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 66
+            },
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 69
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 67,
+          "lesson_text": "Seek understanding to attain inner peace.",
+          "cosine": 0.8335,
+          "ce_score": -5.9306,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 2,
+              "end": 2
+            },
+            {
+              "chapter": 4,
+              "start": 10,
+              "end": 13
+            },
+            {
+              "chapter": 5,
+              "start": 29,
+              "end": 29
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 32,
+          "lesson_text": "Recognize the roots of attachment to cultivate inner peace.",
+          "cosine": 0.8404,
+          "ce_score": -7.9417,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 62,
+              "end": 62
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 346,
+          "lesson_text": "Practice self-control for a pure and serene mind.",
+          "cosine": 0.8305,
+          "ce_score": -8.835,
+          "verse_units": [
+            {
+              "chapter": 17,
+              "start": 9,
+              "end": 9
+            },
+            {
+              "chapter": 17,
+              "start": 9,
+              "end": 13
+            },
+            {
+              "chapter": 17,
+              "start": 16,
+              "end": 19
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Peaceful > Serene > Calm",
+      "root": "Peaceful",
+      "mid": "Serene",
+      "leaf": "Calm",
+      "query": "I feel Peaceful because I feel Serene, because I feel Calm",
+      "top_cosine": 0.854,
+      "top_ce": 0.3993,
+      "results": [
+        {
+          "lesson_id": 346,
+          "lesson_text": "Practice self-control for a pure and serene mind.",
+          "cosine": 0.8453,
+          "ce_score": 0.3993,
+          "verse_units": [
+            {
+              "chapter": 17,
+              "start": 9,
+              "end": 9
+            },
+            {
+              "chapter": 17,
+              "start": 9,
+              "end": 13
+            },
+            {
+              "chapter": 17,
+              "start": 16,
+              "end": 19
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 175,
+          "lesson_text": "Cultivate a peaceful mind to attain true bliss.",
+          "cosine": 0.854,
+          "ce_score": -1.1823,
+          "verse_units": [
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 24
+            },
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 25
+            },
+            {
+              "chapter": 6,
+              "start": 27,
+              "end": 30
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 34,
+          "lesson_text": "Practice mindfulness to achieve inner peace.",
+          "cosine": 0.8373,
+          "ce_score": -4.3482,
+          "verse_units": [
+            {
+              "chapter": 6,
+              "start": 12,
+              "end": 12
+            },
+            {
+              "chapter": 6,
+              "start": 12,
+              "end": 15
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 67,
+          "lesson_text": "Seek understanding to attain inner peace.",
+          "cosine": 0.8396,
+          "ce_score": -4.6969,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 2,
+              "end": 2
+            },
+            {
+              "chapter": 4,
+              "start": 10,
+              "end": 13
+            },
+            {
+              "chapter": 5,
+              "start": 29,
+              "end": 29
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 47,
+          "lesson_text": "Rise above desires to find inner peace.",
+          "cosine": 0.8374,
+          "ce_score": -5.2508,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 42,
+              "end": 42
+            },
+            {
+              "chapter": 2,
+              "start": 42,
+              "end": 45
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Peaceful > Serene > Content",
+      "root": "Peaceful",
+      "mid": "Serene",
+      "leaf": "Content",
+      "query": "I feel Peaceful because I feel Serene, because I feel Content",
+      "top_cosine": 0.8528,
+      "top_ce": -2.6893,
+      "results": [
+        {
+          "lesson_id": 175,
+          "lesson_text": "Cultivate a peaceful mind to attain true bliss.",
+          "cosine": 0.8528,
+          "ce_score": -2.6893,
+          "verse_units": [
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 24
+            },
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 25
+            },
+            {
+              "chapter": 6,
+              "start": 27,
+              "end": 30
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 80,
+          "lesson_text": "Find contentment within yourself.",
+          "cosine": 0.8455,
+          "ce_score": -3.8574,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 17,
+              "end": 17
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 37,
+          "lesson_text": "Cultivate steadiness to find peace and happiness.",
+          "cosine": 0.8453,
+          "ce_score": -5.1827,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 66
+            },
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 69
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 115,
+          "lesson_text": "Recognize the value of inner stillness amidst activity.",
+          "cosine": 0.8377,
+          "ce_score": -7.0698,
+          "verse_units": [
+            {
+              "chapter": 4,
+              "start": 18,
+              "end": 18
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 213,
+          "lesson_text": "Value wisdom and steadfastness in your pursuits.",
+          "cosine": 0.8425,
+          "ce_score": -8.9238,
+          "verse_units": [
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 15
+            },
+            {
+              "chapter": 7,
+              "start": 15,
+              "end": 18
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Peaceful > Hopeful > Optimistic",
+      "root": "Peaceful",
+      "mid": "Hopeful",
+      "leaf": "Optimistic",
+      "query": "I feel Peaceful because I feel Hopeful, because I feel Optimistic",
+      "top_cosine": 0.85,
+      "top_ce": -3.3639,
+      "results": [
+        {
+          "lesson_id": 175,
+          "lesson_text": "Cultivate a peaceful mind to attain true bliss.",
+          "cosine": 0.85,
+          "ce_score": -3.3639,
+          "verse_units": [
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 24
+            },
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 25
+            },
+            {
+              "chapter": 6,
+              "start": 27,
+              "end": 30
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 37,
+          "lesson_text": "Cultivate steadiness to find peace and happiness.",
+          "cosine": 0.8429,
+          "ce_score": -4.1086,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 66
+            },
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 69
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 67,
+          "lesson_text": "Seek understanding to attain inner peace.",
+          "cosine": 0.8338,
+          "ce_score": -5.1967,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 2,
+              "end": 2
+            },
+            {
+              "chapter": 4,
+              "start": 10,
+              "end": 13
+            },
+            {
+              "chapter": 5,
+              "start": 29,
+              "end": 29
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 47,
+          "lesson_text": "Rise above desires to find inner peace.",
+          "cosine": 0.8309,
+          "ce_score": -5.7957,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 42,
+              "end": 42
+            },
+            {
+              "chapter": 2,
+              "start": 42,
+              "end": 45
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 43,
+          "lesson_text": "Endure life's fluctuations with courage and steadiness.",
+          "cosine": 0.8279,
+          "ce_score": -8.5958,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 7,
+              "end": 7
+            },
+            {
+              "chapter": 2,
+              "start": 7,
+              "end": 16
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    },
+    {
+      "emotion_path": "Peaceful > Hopeful > Inspired",
+      "root": "Peaceful",
+      "mid": "Hopeful",
+      "leaf": "Inspired",
+      "query": "I feel Peaceful because I feel Hopeful, because I feel Inspired",
+      "top_cosine": 0.8476,
+      "top_ce": -2.7071,
+      "results": [
+        {
+          "lesson_id": 175,
+          "lesson_text": "Cultivate a peaceful mind to attain true bliss.",
+          "cosine": 0.8476,
+          "ce_score": -2.7071,
+          "verse_units": [
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 24
+            },
+            {
+              "chapter": 6,
+              "start": 24,
+              "end": 25
+            },
+            {
+              "chapter": 6,
+              "start": 27,
+              "end": 30
+            }
+          ],
+          "rank_ce": 1
+        },
+        {
+          "lesson_id": 37,
+          "lesson_text": "Cultivate steadiness to find peace and happiness.",
+          "cosine": 0.8322,
+          "ce_score": -4.7927,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 66
+            },
+            {
+              "chapter": 2,
+              "start": 66,
+              "end": 69
+            }
+          ],
+          "rank_ce": 2
+        },
+        {
+          "lesson_id": 67,
+          "lesson_text": "Seek understanding to attain inner peace.",
+          "cosine": 0.8337,
+          "ce_score": -5.4225,
+          "verse_units": [
+            {
+              "chapter": 3,
+              "start": 2,
+              "end": 2
+            },
+            {
+              "chapter": 4,
+              "start": 10,
+              "end": 13
+            },
+            {
+              "chapter": 5,
+              "start": 29,
+              "end": 29
+            }
+          ],
+          "rank_ce": 3
+        },
+        {
+          "lesson_id": 269,
+          "lesson_text": "Focus on the tangible to find peace.",
+          "cosine": 0.831,
+          "ce_score": -5.4943,
+          "verse_units": [
+            {
+              "chapter": 12,
+              "start": 5,
+              "end": 5
+            }
+          ],
+          "rank_ce": 4
+        },
+        {
+          "lesson_id": 47,
+          "lesson_text": "Rise above desires to find inner peace.",
+          "cosine": 0.8312,
+          "ce_score": -6.6776,
+          "verse_units": [
+            {
+              "chapter": 2,
+              "start": 42,
+              "end": 42
+            },
+            {
+              "chapter": 2,
+              "start": 42,
+              "end": 45
+            }
+          ],
+          "rank_ce": 5
+        }
+      ]
+    }
+  ]
+}
