@@ -51,5 +51,8 @@ pnpm-debug.log*
 # Misc
 Thumbs.db
 
+# Python venv for the MLX LLM experiments (large; recreate from mlx_requirements.txt)
+.venv-mlx/
+
 
 

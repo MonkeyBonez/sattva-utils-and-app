@@ -1,0 +1,9 @@
+# Deps for the local on-device explainer model bake-off (bakeoff.py).
+# Apple Silicon only (MLX). Setup:
+#   python3 -m venv .venv-mlx
+#   ./.venv-mlx/bin/pip install -r utils/Scripts/llm_experiments/mlx_requirements.txt
+#
+# Note: mlx-lm 0.31.x declares transformers>=5, but 5.13 broke tokenizer registration
+# at import; transformers 4.57.x imports and runs cleanly. Pin below reflects what works.
+mlx-lm==0.31.3
+transformers>=4.48,<5
