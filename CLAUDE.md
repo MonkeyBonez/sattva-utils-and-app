@@ -80,10 +80,12 @@ rarely — copy those manually into `Shared/Inference/Retriever/Model`,
   which is correct and reconcile deliberately — this is exactly the drift the manual copy
   process caused.
 - **Emotion-wheel query templates** (`EmotionQueryBuilder` in `EmotionWheelModel.swift`):
-  currently Option B (`overcome X and Y`) for negative roots (Sad/Mad/Scared) and the
-  `I feel…` format for positive roots. `utils/Scripts/outputs/template_comparison_analysis.md`
-  shows Option C beats the current format for the positive roots (Joyful/Powerful/Peaceful) —
-  the data-backed next step if revisiting retrieval quality.
+  category-aware hybrid — Option B (`overcome X and Y`) for negative roots (Sad/Mad/Scared)
+  and Option C (`cultivate X and Y, deepen Z`) for positive roots (Joyful/Powerful/Peaceful).
+  This B-neg/C-pos split scored the best overall avg CE (−0.77) in the 72-emotion × 4-template
+  sweep (`utils/Scripts/outputs/template_comparison_analysis.md`); the exact strings are pinned
+  by `EmotionQueryBuilderTests`. If revisiting, note Option A was strong for several Scared
+  leaves — a per-leaf (not just per-root) template map is the next lever.
 - **App Group migration**: `AppGroupMigration` v2 (`migrateStandardToAppGroupIfNeeded`) fixes a
   v1 bug where the migration read from the App Group instead of `UserDefaults.standard` and so
   never ran. v2 union-merges bookmarks and copies other keys only if absent. Keep it idempotent
