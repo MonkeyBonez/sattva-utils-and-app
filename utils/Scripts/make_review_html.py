@@ -117,6 +117,8 @@ HTML = """<title>Sattvic — Lesson Corpus Review</title>
   .lesson:focus{border-color:var(--lav);background:var(--panel-2)}
   .lesson.edited{border-color:color-mix(in srgb,var(--lav) 50%,transparent)}
   .rationale{color:var(--ink-soft);font-size:13px;margin-top:7px;font-style:italic}
+  .wasline{color:var(--ink-soft);font-size:12px;margin-top:5px;opacity:.75}
+  .wasline span{text-decoration:line-through;text-decoration-color:color-mix(in srgb,var(--cut) 50%,transparent)}
   .chip.sug{font-weight:600}
   .chip.sug.s-cut{color:var(--cut);border-color:color-mix(in srgb,var(--cut) 45%,var(--line))}
   .chip.sug.s-keep{color:var(--keep);border-color:color-mix(in srgb,var(--keep) 45%,var(--line))}
@@ -272,6 +274,7 @@ function cardEl(L){
     </div>
     <div class="lesson" contenteditable="true" spellcheck="false">${esc(d.text||L.text)}</div>
     <div class="rationale">${esc(L.rationale)}</div>
+    ${L.old_text?`<div class="wasline">was: <span>${esc(L.old_text)}</span></div>`:""}
     ${L.suggestion?`<div class="suggestion s-${L.suggestion.action}">${esc(sugText(L))}</div>`:""}
     <div class="verses">${L.verses.map(v=>`<div class="verse ${v.ref===L.best_verse?'isbest':''}"><span class="ref">${v.ref}</span><span>${esc(v.text)}</span></div>`).join("")}</div>
     <div class="cardfoot">

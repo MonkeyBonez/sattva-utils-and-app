@@ -4,7 +4,15 @@ A verse-first regeneration of the lesson corpus, replacing `Final V1.1/finalClus
 (396 lessons, heavily redundant — 263 lessons fell into near-dup clusters at cosine ≥0.93,
 the largest a single ~150-lesson blob).
 
-**v3: 373 distinct lessons, only 30 near-dup-flagged at the same 0.93 threshold.**
+**v3.1: 335 modern, bite-sized "lockscreen wisdom" lessons.** Two passes:
+1. Verse-first authoring → 373 distinct lessons (30 near-dup-flagged vs the old 263).
+2. **Re-voicing pass** — rewrote every lesson into modern, standalone, actionable language
+   (the gold standard: 2:47 → *"Your right is to your work, not its rewards."*), stripping all
+   ritual/scriptural scaffolding (worship, sacrifice, the Self, teacher, liberation…), and
+   **dropping 38 lessons** that were pure metaphysics/cosmology with no universal daily kernel.
+   Coverage drops to 70% by design — the dropped verses weren't actionable.
+
+Each review card shows the modern text plus a `was:` line with the pre-voicing original.
 
 ## How it was made
 

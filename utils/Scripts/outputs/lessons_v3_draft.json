@@ -1,48 +1,38 @@
 {
  "audit": {
-  "total_lessons": 373,
-  "total_skipped": 154,
+  "total_lessons": 335,
+  "dropped_in_revoice": 38,
   "app_verse_count": 701,
-  "verses_in_a_lesson": 547,
-  "lesson_coverage_pct": 78.0,
+  "verses_in_a_lesson": 493,
+  "lesson_coverage_pct": 70.3,
   "near_dup_threshold": 0.93,
-  "similarity_method": "E5 semantic (passage:), threshold 0.93",
-  "lessons_flagged_near_dup": 30,
-  "problems": [],
-  "shared_verse_count": 6,
-  "shared_verses": [
-   "12:13",
-   "13:10",
-   "13:8",
-   "13:9",
-   "16:1",
-   "16:2"
-  ],
+  "similarity_method": "E5 semantic (passage:), threshold 0.93, MODERN re-voiced texts",
+  "lessons_flagged_near_dup": 34,
   "per_chapter_counts": {
    "1": 6,
-   "2": 43,
+   "2": 35,
    "3": 19,
    "4": 26,
-   "5": 24,
-   "6": 34,
-   "7": 19,
+   "5": 23,
+   "6": 33,
+   "7": 17,
    "8": 15,
    "9": 19,
-   "10": 6,
+   "10": 5,
    "11": 6,
    "12": 17,
-   "13": 31,
-   "14": 17,
-   "15": 9,
+   "13": 16,
+   "14": 15,
+   "15": 3,
    "16": 17,
    "17": 16,
-   "18": 49
+   "18": 47
   }
  },
  "lessons": [
   {
    "chapter": 1,
-   "text": "Notice when dread seizes your body before a hard duty.",
+   "text": "Notice fear grip your body before a hard task.",
    "verses": [
     "1:28-30"
    ],
@@ -54,11 +44,13 @@
     "1:30"
    ],
    "cluster_id": 0,
-   "near_dups": []
+   "near_dups": [],
+   "orig_id": 0,
+   "old_text": "Notice when dread seizes your body before a hard duty."
   },
   {
    "chapter": 1,
-   "text": "Some victories bring only guilt, never happiness.",
+   "text": "Some wins bring only guilt.",
    "verses": [
     "1:31",
     "1:36-37"
@@ -71,11 +63,13 @@
     "1:37"
    ],
    "cluster_id": 1,
-   "near_dups": []
+   "near_dups": [],
+   "orig_id": 1,
+   "old_text": "Some victories bring only guilt, never happiness."
   },
   {
    "chapter": 1,
-   "text": "Refuse a prize bought with the ruin of those you love.",
+   "text": "No prize is worth ruining people you love.",
    "verses": [
     "1:32-35"
    ],
@@ -88,11 +82,13 @@
     "1:35"
    ],
    "cluster_id": 2,
-   "near_dups": []
+   "near_dups": [],
+   "orig_id": 2,
+   "old_text": "Refuse a prize bought with the ruin of those you love."
   },
   {
    "chapter": 1,
-   "text": "When greed blinds others to wrong, still choose to turn away.",
+   "text": "Others' greed is no excuse for your own.",
    "verses": [
     "1:38-39",
     "1:45"
@@ -105,11 +101,13 @@
     "1:45"
    ],
    "cluster_id": 3,
-   "near_dups": []
+   "near_dups": [],
+   "orig_id": 3,
+   "old_text": "When greed blinds others to wrong, still choose to turn away."
   },
   {
    "chapter": 1,
-   "text": "Weigh how one destructive act can unravel generations.",
+   "text": "One reckless act can wound generations.",
    "verses": [
     "1:40-44"
    ],
@@ -123,11 +121,13 @@
     "1:44"
    ],
    "cluster_id": 4,
-   "near_dups": []
+   "near_dups": [],
+   "orig_id": 4,
+   "old_text": "Weigh how one destructive act can unravel generations."
   },
   {
    "chapter": 1,
-   "text": "Beware letting despair make surrender feel preferable to acting.",
+   "text": "Don't let despair talk you into giving up.",
    "verses": [
     "1:46"
    ],
@@ -137,11 +137,13 @@
     "1:46"
    ],
    "cluster_id": 5,
-   "near_dups": []
+   "near_dups": [],
+   "orig_id": 5,
+   "old_text": "Beware letting despair make surrender feel preferable to acting."
   },
   {
    "chapter": 2,
-   "text": "Cast off weakness of heart and rise to act.",
+   "text": "Drop the self-pity and stand up.",
    "verses": [
     "2:2",
     "2:3"
@@ -153,11 +155,13 @@
     "2:3"
    ],
    "cluster_id": 6,
-   "near_dups": []
+   "near_dups": [],
+   "orig_id": 6,
+   "old_text": "Cast off weakness of heart and rise to act."
   },
   {
    "chapter": 2,
-   "text": "When your duty confuses you, seek a wise teacher.",
+   "text": "When you're lost, ask someone wiser.",
    "verses": [
     "2:7"
    ],
@@ -167,11 +171,13 @@
     "2:7"
    ],
    "cluster_id": 7,
-   "near_dups": []
+   "near_dups": [],
+   "orig_id": 7,
+   "old_text": "When your duty confuses you, seek a wise teacher."
   },
   {
    "chapter": 2,
-   "text": "The wise grieve for neither the living nor the dead.",
+   "text": "Don't let grief run your life.",
    "verses": [
     "2:11"
    ],
@@ -181,11 +187,13 @@
     "2:11"
    ],
    "cluster_id": 8,
-   "near_dups": []
+   "near_dups": [],
+   "orig_id": 8,
+   "old_text": "The wise grieve for neither the living nor the dead."
   },
   {
    "chapter": 2,
-   "text": "The self endures unchanged through youth, age, and death.",
+   "text": "You remain yourself through every stage of life.",
    "verses": [
     "2:12",
     "2:13"
@@ -197,11 +205,13 @@
     "2:13"
    ],
    "cluster_id": 9,
-   "near_dups": []
+   "near_dups": [],
+   "orig_id": 9,
+   "old_text": "The self endures unchanged through youth, age, and death."
   },
   {
    "chapter": 2,
-   "text": "Bear pleasure and pain evenly; both come and go.",
+   "text": "Pleasure and pain both pass; ride them out.",
    "verses": [
     "2:14",
     "2:15"
@@ -213,103 +223,13 @@
     "2:15"
    ],
    "cluster_id": 10,
-   "near_dups": []
+   "near_dups": [],
+   "orig_id": 10,
+   "old_text": "Bear pleasure and pain evenly; both come and go."
   },
   {
    "chapter": 2,
-   "text": "The unreal never is; the real never ceases to be.",
-   "verses": [
-    "2:16"
-   ],
-   "best_verse": "2:16",
-   "rationale": "A pure metaphysical distinction between the transient and the permanent, unlike the endurance lessons.",
-   "verse_cvs": [
-    "2:16"
-   ],
-   "cluster_id": 11,
-   "near_dups": []
-  },
-  {
-   "chapter": 2,
-   "text": "Bodies perish, but what pervades them cannot be destroyed.",
-   "verses": [
-    "2:17",
-    "2:18"
-   ],
-   "best_verse": "2:17",
-   "rationale": "The indestructible pervader versus the finite body; concludes 'therefore fight.'",
-   "verse_cvs": [
-    "2:17",
-    "2:18"
-   ],
-   "cluster_id": 12,
-   "near_dups": []
-  },
-  {
-   "chapter": 2,
-   "text": "The self is never the slayer nor the slain.",
-   "verses": [
-    "2:19",
-    "2:20",
-    "2:21"
-   ],
-   "best_verse": "2:19",
-   "rationale": "The unborn, unkillable self neither acts as killer nor is killed.",
-   "verse_cvs": [
-    "2:19",
-    "2:20",
-    "2:21"
-   ],
-   "cluster_id": 13,
-   "near_dups": []
-  },
-  {
-   "chapter": 2,
-   "text": "Death exchanges bodies like worn-out clothes for new.",
-   "verses": [
-    "2:22"
-   ],
-   "best_verse": "2:22",
-   "rationale": "The distinctive changing-garments image for reincarnation.",
-   "verse_cvs": [
-    "2:22"
-   ],
-   "cluster_id": 14,
-   "near_dups": []
-  },
-  {
-   "chapter": 2,
-   "text": "No weapon, fire, water, or wind can harm the soul.",
-   "verses": [
-    "2:23",
-    "2:24"
-   ],
-   "best_verse": "2:23",
-   "rationale": "The concrete four-elements image asserting the self's invulnerability.",
-   "verse_cvs": [
-    "2:23",
-    "2:24"
-   ],
-   "cluster_id": 15,
-   "near_dups": []
-  },
-  {
-   "chapter": 2,
-   "text": "The self is unmanifest and beyond the mind's reach.",
-   "verses": [
-    "2:25"
-   ],
-   "best_verse": "2:25",
-   "rationale": "The self as unthinkable and unchangeable, a reason not to grieve.",
-   "verse_cvs": [
-    "2:25"
-   ],
-   "cluster_id": 16,
-   "near_dups": []
-  },
-  {
-   "chapter": 2,
-   "text": "Even were death final, grief cannot undo the inevitable.",
+   "text": "Grief can't undo what was always coming.",
    "verses": [
     "2:26",
     "2:27",
@@ -322,40 +242,14 @@
     "2:27",
     "2:28"
    ],
-   "cluster_id": 17,
-   "near_dups": []
+   "cluster_id": 11,
+   "near_dups": [],
+   "orig_id": 17,
+   "old_text": "Even were death final, grief cannot undo the inevitable."
   },
   {
    "chapter": 2,
-   "text": "The self is a marvel that few ever truly grasp.",
-   "verses": [
-    "2:29"
-   ],
-   "best_verse": "2:29",
-   "rationale": "The wonder-and-mystery verse: seen, spoken of, heard, yet unknown.",
-   "verse_cvs": [
-    "2:29"
-   ],
-   "cluster_id": 18,
-   "near_dups": []
-  },
-  {
-   "chapter": 2,
-   "text": "The same deathless self dwells within every being.",
-   "verses": [
-    "2:30"
-   ],
-   "best_verse": "2:30",
-   "rationale": "The universality angle: the indestructible indweller in all, so grieve for none.",
-   "verse_cvs": [
-    "2:30"
-   ],
-   "cluster_id": 19,
-   "near_dups": []
-  },
-  {
-   "chapter": 2,
-   "text": "Do your rightful duty rather than shrink from it.",
+   "text": "Don't shrink from what's yours to do.",
    "verses": [
     "2:31",
     "2:32",
@@ -368,12 +262,14 @@
     "2:32",
     "2:33"
    ],
-   "cluster_id": 20,
-   "near_dups": []
+   "cluster_id": 12,
+   "near_dups": [],
+   "orig_id": 20,
+   "old_text": "Do your rightful duty rather than shrink from it."
   },
   {
    "chapter": 2,
-   "text": "Fleeing your duty brings dishonor worse than death.",
+   "text": "Running from your work costs your good name.",
    "verses": [
     "2:34",
     "2:35",
@@ -388,12 +284,14 @@
     "2:36",
     "2:37"
    ],
-   "cluster_id": 21,
-   "near_dups": []
+   "cluster_id": 13,
+   "near_dups": [],
+   "orig_id": 21,
+   "old_text": "Fleeing your duty brings dishonor worse than death."
   },
   {
    "chapter": 2,
-   "text": "Meet victory and defeat, gain and loss, alike.",
+   "text": "Treat win and loss the same, then act.",
    "verses": [
     "2:38"
    ],
@@ -402,12 +300,14 @@
    "verse_cvs": [
     "2:38"
    ],
-   "cluster_id": 22,
-   "near_dups": []
+   "cluster_id": 14,
+   "near_dups": [],
+   "orig_id": 22,
+   "old_text": "Meet victory and defeat, gain and loss, alike."
   },
   {
    "chapter": 2,
-   "text": "On this path no effort is ever wasted.",
+   "text": "No honest effort is ever wasted.",
    "verses": [
     "2:39",
     "2:40"
@@ -418,12 +318,19 @@
     "2:39",
     "2:40"
    ],
-   "cluster_id": 23,
-   "near_dups": []
+   "cluster_id": 15,
+   "near_dups": [
+    {
+     "id": 138,
+     "score": 1.0
+    }
+   ],
+   "orig_id": 23,
+   "old_text": "On this path no effort is ever wasted."
   },
   {
    "chapter": 2,
-   "text": "Hold one clear resolve; scattered aims lead nowhere.",
+   "text": "One clear aim beats a dozen scattered ones.",
    "verses": [
     "2:41"
    ],
@@ -432,12 +339,14 @@
    "verse_cvs": [
     "2:41"
    ],
-   "cluster_id": 24,
-   "near_dups": []
+   "cluster_id": 16,
+   "near_dups": [],
+   "orig_id": 24,
+   "old_text": "Hold one clear resolve; scattered aims lead nowhere."
   },
   {
    "chapter": 2,
-   "text": "Chasing pleasure and reward leaves the mind unsettled.",
+   "text": "Chasing every reward keeps your mind restless.",
    "verses": [
     "2:42",
     "2:43",
@@ -450,12 +359,14 @@
     "2:43",
     "2:44"
    ],
-   "cluster_id": 25,
-   "near_dups": []
+   "cluster_id": 17,
+   "near_dups": [],
+   "orig_id": 25,
+   "old_text": "Chasing pleasure and reward leaves the mind unsettled."
   },
   {
    "chapter": 2,
-   "text": "Rise above the pairs of opposites and possessiveness.",
+   "text": "Don't be ruled by highs, lows, or wanting more.",
    "verses": [
     "2:45"
    ],
@@ -464,17 +375,19 @@
    "verse_cvs": [
     "2:45"
    ],
-   "cluster_id": 26,
+   "cluster_id": 18,
    "near_dups": [
     {
-     "id": 284,
-     "score": 0.937
+     "id": 158,
+     "score": 0.939
     }
-   ]
+   ],
+   "orig_id": 26,
+   "old_text": "Rise above the pairs of opposites and possessiveness."
   },
   {
    "chapter": 2,
-   "text": "To the awakened, scripture is a well amid a flood.",
+   "text": "Direct understanding outgrows secondhand answers.",
    "verses": [
     "2:46"
    ],
@@ -483,12 +396,14 @@
    "verse_cvs": [
     "2:46"
    ],
-   "cluster_id": 27,
-   "near_dups": []
+   "cluster_id": 19,
+   "near_dups": [],
+   "orig_id": 27,
+   "old_text": "To the awakened, scripture is a well amid a flood."
   },
   {
    "chapter": 2,
-   "text": "You have a right to your work, never its results.",
+   "text": "Your right is to your work, not its rewards.",
    "verses": [
     "2:47"
    ],
@@ -497,12 +412,14 @@
    "verse_cvs": [
     "2:47"
    ],
-   "cluster_id": 28,
-   "near_dups": []
+   "cluster_id": 20,
+   "near_dups": [],
+   "orig_id": 28,
+   "old_text": "You have a right to your work, never its results."
   },
   {
    "chapter": 2,
-   "text": "Even-mindedness in success and failure is true yoga.",
+   "text": "Stay steady through both success and failure.",
    "verses": [
     "2:48"
    ],
@@ -511,12 +428,14 @@
    "verse_cvs": [
     "2:48"
    ],
-   "cluster_id": 29,
-   "near_dups": []
+   "cluster_id": 21,
+   "near_dups": [],
+   "orig_id": 29,
+   "old_text": "Even-mindedness in success and failure is true yoga."
   },
   {
    "chapter": 2,
-   "text": "Ground action in wisdom; that is skill in action.",
+   "text": "Skill is working wisely, not just working hard.",
    "verses": [
     "2:49",
     "2:50"
@@ -527,12 +446,14 @@
     "2:49",
     "2:50"
    ],
-   "cluster_id": 30,
-   "near_dups": []
+   "cluster_id": 22,
+   "near_dups": [],
+   "orig_id": 30,
+   "old_text": "Ground action in wisdom; that is skill in action."
   },
   {
    "chapter": 2,
-   "text": "Release the fruits of action and be freed from bondage.",
+   "text": "Let go of the payoff and you're free.",
    "verses": [
     "2:51"
    ],
@@ -541,12 +462,14 @@
    "verse_cvs": [
     "2:51"
    ],
-   "cluster_id": 31,
-   "near_dups": []
+   "cluster_id": 23,
+   "near_dups": [],
+   "orig_id": 31,
+   "old_text": "Release the fruits of action and be freed from bondage."
   },
   {
    "chapter": 2,
-   "text": "Cross beyond delusion and lose your taste for empty words.",
+   "text": "See clearly and empty talk loses its pull.",
    "verses": [
     "2:52"
    ],
@@ -555,12 +478,14 @@
    "verse_cvs": [
     "2:52"
    ],
-   "cluster_id": 32,
-   "near_dups": []
+   "cluster_id": 24,
+   "near_dups": [],
+   "orig_id": 32,
+   "old_text": "Cross beyond delusion and lose your taste for empty words."
   },
   {
    "chapter": 2,
-   "text": "When your mind rests unmoved in the self, you awaken.",
+   "text": "Clarity comes when your mind stops wavering.",
    "verses": [
     "2:53"
    ],
@@ -569,12 +494,14 @@
    "verse_cvs": [
     "2:53"
    ],
-   "cluster_id": 33,
-   "near_dups": []
+   "cluster_id": 25,
+   "near_dups": [],
+   "orig_id": 33,
+   "old_text": "When your mind rests unmoved in the self, you awaken."
   },
   {
    "chapter": 2,
-   "text": "True contentment is found within, not in fulfilled desires.",
+   "text": "Real contentment comes from within, not from getting.",
    "verses": [
     "2:55"
    ],
@@ -583,12 +510,14 @@
    "verse_cvs": [
     "2:55"
    ],
-   "cluster_id": 34,
-   "near_dups": []
+   "cluster_id": 26,
+   "near_dups": [],
+   "orig_id": 34,
+   "old_text": "True contentment is found within, not in fulfilled desires."
   },
   {
    "chapter": 2,
-   "text": "Stay unshaken by sorrow and free of craving and fear.",
+   "text": "Stay steady through sorrow, craving, and fear.",
    "verses": [
     "2:56"
    ],
@@ -597,12 +526,14 @@
    "verse_cvs": [
     "2:56"
    ],
-   "cluster_id": 35,
-   "near_dups": []
+   "cluster_id": 27,
+   "near_dups": [],
+   "orig_id": 35,
+   "old_text": "Stay unshaken by sorrow and free of craving and fear."
   },
   {
    "chapter": 2,
-   "text": "Neither celebrate the good nor recoil from the bad.",
+   "text": "Don't cling to good news or flinch at bad.",
    "verses": [
     "2:57"
    ],
@@ -611,12 +542,14 @@
    "verse_cvs": [
     "2:57"
    ],
-   "cluster_id": 36,
-   "near_dups": []
+   "cluster_id": 28,
+   "near_dups": [],
+   "orig_id": 36,
+   "old_text": "Neither celebrate the good nor recoil from the bad."
   },
   {
    "chapter": 2,
-   "text": "Withdraw your senses as a tortoise draws in its limbs.",
+   "text": "Pull your attention back when the world overwhelms.",
    "verses": [
     "2:58"
    ],
@@ -625,12 +558,14 @@
    "verse_cvs": [
     "2:58"
    ],
-   "cluster_id": 37,
-   "near_dups": []
+   "cluster_id": 29,
+   "near_dups": [],
+   "orig_id": 37,
+   "old_text": "Withdraw your senses as a tortoise draws in its limbs."
   },
   {
    "chapter": 2,
-   "text": "Abstaining curbs the act; only insight ends the craving.",
+   "text": "Willpower stops the act; insight ends the craving.",
    "verses": [
     "2:59"
    ],
@@ -639,12 +574,14 @@
    "verse_cvs": [
     "2:59"
    ],
-   "cluster_id": 38,
-   "near_dups": []
+   "cluster_id": 30,
+   "near_dups": [],
+   "orig_id": 38,
+   "old_text": "Abstaining curbs the act; only insight ends the craving."
   },
   {
    "chapter": 2,
-   "text": "Even the wise can be swept away by restless senses.",
+   "text": "Even the disciplined get pulled off by impulse.",
    "verses": [
     "2:60"
    ],
@@ -653,12 +590,14 @@
    "verse_cvs": [
     "2:60"
    ],
-   "cluster_id": 39,
-   "near_dups": []
+   "cluster_id": 31,
+   "near_dups": [],
+   "orig_id": 39,
+   "old_text": "Even the wise can be swept away by restless senses."
   },
   {
    "chapter": 2,
-   "text": "Master your senses and fix your mind on the highest.",
+   "text": "Master your impulses and keep your aim high.",
    "verses": [
     "2:61"
    ],
@@ -667,12 +606,14 @@
    "verse_cvs": [
     "2:61"
    ],
-   "cluster_id": 40,
-   "near_dups": []
+   "cluster_id": 32,
+   "near_dups": [],
+   "orig_id": 40,
+   "old_text": "Master your senses and fix your mind on the highest."
   },
   {
    "chapter": 2,
-   "text": "Dwelling on objects breeds desire, then anger, then ruin.",
+   "text": "Dwelling on wanting breeds desire, then anger, then ruin.",
    "verses": [
     "2:62",
     "2:63"
@@ -683,12 +624,14 @@
     "2:62",
     "2:63"
    ],
-   "cluster_id": 41,
-   "near_dups": []
+   "cluster_id": 33,
+   "near_dups": [],
+   "orig_id": 41,
+   "old_text": "Dwelling on objects breeds desire, then anger, then ruin."
   },
   {
    "chapter": 2,
-   "text": "Move among temptations without craving or aversion to find peace.",
+   "text": "Meet temptation calmly, neither grabbing nor fleeing.",
    "verses": [
     "2:64",
     "2:65"
@@ -699,12 +642,14 @@
     "2:64",
     "2:65"
    ],
-   "cluster_id": 42,
-   "near_dups": []
+   "cluster_id": 34,
+   "near_dups": [],
+   "orig_id": 42,
+   "old_text": "Move among temptations without craving or aversion to find peace."
   },
   {
    "chapter": 2,
-   "text": "Without a steady mind there is no peace or joy.",
+   "text": "No peace or joy without a steady mind.",
    "verses": [
     "2:66"
    ],
@@ -713,12 +658,14 @@
    "verse_cvs": [
     "2:66"
    ],
-   "cluster_id": 43,
-   "near_dups": []
+   "cluster_id": 35,
+   "near_dups": [],
+   "orig_id": 43,
+   "old_text": "Without a steady mind there is no peace or joy."
   },
   {
    "chapter": 2,
-   "text": "Rein in the wandering senses that pull the mind off course.",
+   "text": "One stray impulse drags your focus off course.",
    "verses": [
     "2:67",
     "2:68"
@@ -729,12 +676,14 @@
     "2:67",
     "2:68"
    ],
-   "cluster_id": 44,
-   "near_dups": []
+   "cluster_id": 36,
+   "near_dups": [],
+   "orig_id": 44,
+   "old_text": "Rein in the wandering senses that pull the mind off course."
   },
   {
    "chapter": 2,
-   "text": "What the world chases, the wise quietly turn from.",
+   "text": "What everyone chases, the wise often question.",
    "verses": [
     "2:69"
    ],
@@ -743,12 +692,14 @@
    "verse_cvs": [
     "2:69"
    ],
-   "cluster_id": 45,
-   "near_dups": []
+   "cluster_id": 37,
+   "near_dups": [],
+   "orig_id": 45,
+   "old_text": "What the world chases, the wise quietly turn from."
   },
   {
    "chapter": 2,
-   "text": "Let desires enter and pass like rivers into the sea.",
+   "text": "Let desires come and go like rivers to the sea.",
    "verses": [
     "2:70"
    ],
@@ -757,12 +708,14 @@
    "verse_cvs": [
     "2:70"
    ],
-   "cluster_id": 46,
-   "near_dups": []
+   "cluster_id": 38,
+   "near_dups": [],
+   "orig_id": 46,
+   "old_text": "Let desires enter and pass like rivers into the sea."
   },
   {
    "chapter": 2,
-   "text": "Drop craving, ownership, and ego to arrive at peace.",
+   "text": "Let go of craving, ownership, and ego.",
    "verses": [
     "2:71"
    ],
@@ -771,12 +724,19 @@
    "verse_cvs": [
     "2:71"
    ],
-   "cluster_id": 47,
-   "near_dups": []
+   "cluster_id": 39,
+   "near_dups": [
+    {
+     "id": 320,
+     "score": 0.936
+    }
+   ],
+   "orig_id": 47,
+   "old_text": "Drop craving, ownership, and ego to arrive at peace."
   },
   {
    "chapter": 2,
-   "text": "Reach this state and even death cannot delude you.",
+   "text": "True peace holds steady even at the end.",
    "verses": [
     "2:72"
    ],
@@ -785,12 +745,14 @@
    "verse_cvs": [
     "2:72"
    ],
-   "cluster_id": 48,
-   "near_dups": []
+   "cluster_id": 40,
+   "near_dups": [],
+   "orig_id": 48,
+   "old_text": "Reach this state and even death cannot delude you."
   },
   {
    "chapter": 3,
-   "text": "You cannot escape action, even for a moment.",
+   "text": "You can't not act, so act well.",
    "verses": [
     "3:4",
     "3:5"
@@ -801,12 +763,14 @@
     "3:4",
     "3:5"
    ],
-   "cluster_id": 49,
-   "near_dups": []
+   "cluster_id": 41,
+   "near_dups": [],
+   "orig_id": 49,
+   "old_text": "You cannot escape action, even for a moment."
   },
   {
    "chapter": 3,
-   "text": "Don't fake restraint while your mind chases pleasures.",
+   "text": "Don't fake discipline while your mind wanders.",
    "verses": [
     "3:6",
     "3:7"
@@ -817,12 +781,14 @@
     "3:6",
     "3:7"
    ],
-   "cluster_id": 50,
-   "near_dups": []
+   "cluster_id": 42,
+   "near_dups": [],
+   "orig_id": 50,
+   "old_text": "Don't fake restraint while your mind chases pleasures."
   },
   {
    "chapter": 3,
-   "text": "Do your appointed work; action beats inaction.",
+   "text": "Doing something beats doing nothing.",
    "verses": [
     "3:8"
    ],
@@ -831,12 +797,14 @@
    "verse_cvs": [
     "3:8"
    ],
-   "cluster_id": 51,
-   "near_dups": []
+   "cluster_id": 43,
+   "near_dups": [],
+   "orig_id": 51,
+   "old_text": "Do your appointed work; action beats inaction."
   },
   {
    "chapter": 3,
-   "text": "Perform every action as an offering, not for gain.",
+   "text": "Work as a contribution, not just for gain.",
    "verses": [
     "3:9"
    ],
@@ -845,12 +813,19 @@
    "verse_cvs": [
     "3:9"
    ],
-   "cluster_id": 52,
-   "near_dups": []
+   "cluster_id": 44,
+   "near_dups": [
+    {
+     "id": 93,
+     "score": 0.94
+    }
+   ],
+   "orig_id": 52,
+   "old_text": "Perform every action as an offering, not for gain."
   },
   {
    "chapter": 3,
-   "text": "Repay what sustains you; take nothing for free.",
+   "text": "Give back to whatever sustains you.",
    "verses": [
     "3:10",
     "3:11",
@@ -865,12 +840,14 @@
     "3:12",
     "3:13"
    ],
-   "cluster_id": 53,
-   "near_dups": []
+   "cluster_id": 45,
+   "near_dups": [],
+   "orig_id": 53,
+   "old_text": "Repay what sustains you; take nothing for free."
   },
   {
    "chapter": 3,
-   "text": "Keep the wheel of giving turning, or live in vain.",
+   "text": "Keep giving back, or your life runs empty.",
    "verses": [
     "3:14",
     "3:15",
@@ -883,12 +860,14 @@
     "3:15",
     "3:16"
    ],
-   "cluster_id": 54,
-   "near_dups": []
+   "cluster_id": 46,
+   "near_dups": [],
+   "orig_id": 54,
+   "old_text": "Keep the wheel of giving turning, or live in vain."
   },
   {
    "chapter": 3,
-   "text": "The self-fulfilled need nothing from action or others.",
+   "text": "When you're whole within, you need nothing to prove.",
    "verses": [
     "3:17",
     "3:18"
@@ -899,12 +878,14 @@
     "3:17",
     "3:18"
    ],
-   "cluster_id": 55,
-   "near_dups": []
+   "cluster_id": 47,
+   "near_dups": [],
+   "orig_id": 55,
+   "old_text": "The self-fulfilled need nothing from action or others."
   },
   {
    "chapter": 3,
-   "text": "Work without attachment, and you reach the Supreme.",
+   "text": "Do what must be done without clinging.",
    "verses": [
     "3:19"
    ],
@@ -913,12 +894,14 @@
    "verse_cvs": [
     "3:19"
    ],
-   "cluster_id": 56,
-   "near_dups": []
+   "cluster_id": 48,
+   "near_dups": [],
+   "orig_id": 56,
+   "old_text": "Work without attachment, and you reach the Supreme."
   },
   {
    "chapter": 3,
-   "text": "Set the standard; the world follows its leaders.",
+   "text": "People copy what their leaders actually do.",
    "verses": [
     "3:20",
     "3:21"
@@ -929,12 +912,14 @@
     "3:20",
     "3:21"
    ],
-   "cluster_id": 57,
-   "near_dups": []
+   "cluster_id": 49,
+   "near_dups": [],
+   "orig_id": 57,
+   "old_text": "Set the standard; the world follows its leaders."
   },
   {
    "chapter": 3,
-   "text": "Keep working though you need nothing, for the world's sake.",
+   "text": "Don't quit just because you've nothing left to gain.",
    "verses": [
     "3:22",
     "3:23",
@@ -947,12 +932,14 @@
     "3:23",
     "3:24"
    ],
-   "cluster_id": 58,
-   "near_dups": []
+   "cluster_id": 50,
+   "near_dups": [],
+   "orig_id": 58,
+   "old_text": "Keep working though you need nothing, for the world's sake."
   },
   {
    "chapter": 3,
-   "text": "Work detached for others' good, without unsettling them.",
+   "text": "Do good calmly, without unsettling others.",
    "verses": [
     "3:25",
     "3:26"
@@ -963,12 +950,14 @@
     "3:25",
     "3:26"
    ],
-   "cluster_id": 59,
-   "near_dups": []
+   "cluster_id": 51,
+   "near_dups": [],
+   "orig_id": 59,
+   "old_text": "Work detached for others' good, without unsettling them."
   },
   {
    "chapter": 3,
-   "text": "Nature does the work; drop 'I am the doer.'",
+   "text": "Ease up — you're not the only force at work.",
    "verses": [
     "3:27",
     "3:28",
@@ -981,12 +970,14 @@
     "3:28",
     "3:29"
    ],
-   "cluster_id": 60,
-   "near_dups": []
+   "cluster_id": 52,
+   "near_dups": [],
+   "orig_id": 60,
+   "old_text": "Nature does the work; drop 'I am the doer.'"
   },
   {
    "chapter": 3,
-   "text": "Offer all your actions to the Divine and fight.",
+   "text": "Act freely, without ego or feverish worry.",
    "verses": [
     "3:30"
    ],
@@ -995,17 +986,14 @@
    "verse_cvs": [
     "3:30"
    ],
-   "cluster_id": 61,
-   "near_dups": [
-    {
-     "id": 360,
-     "score": 0.941
-    }
-   ]
+   "cluster_id": 53,
+   "near_dups": [],
+   "orig_id": 61,
+   "old_text": "Offer all your actions to the Divine and fight."
   },
   {
    "chapter": 3,
-   "text": "Practice this teaching with faith, never scorn.",
+   "text": "Follow good guidance with trust, not cynicism.",
    "verses": [
     "3:31",
     "3:32"
@@ -1016,12 +1004,14 @@
     "3:31",
     "3:32"
    ],
-   "cluster_id": 62,
-   "near_dups": []
+   "cluster_id": 54,
+   "near_dups": [],
+   "orig_id": 62,
+   "old_text": "Practice this teaching with faith, never scorn."
   },
   {
    "chapter": 3,
-   "text": "Never let attraction and aversion rule you.",
+   "text": "Don't let likes and dislikes run your choices.",
    "verses": [
     "3:33",
     "3:34"
@@ -1032,12 +1022,14 @@
     "3:33",
     "3:34"
    ],
-   "cluster_id": 63,
-   "near_dups": []
+   "cluster_id": 55,
+   "near_dups": [],
+   "orig_id": 63,
+   "old_text": "Never let attraction and aversion rule you."
   },
   {
    "chapter": 3,
-   "text": "Do your own duty poorly rather than another's well.",
+   "text": "Better your own path flawed than another's perfect.",
    "verses": [
     "3:35"
    ],
@@ -1046,17 +1038,19 @@
    "verse_cvs": [
     "3:35"
    ],
-   "cluster_id": 64,
+   "cluster_id": 56,
    "near_dups": [
     {
-     "id": 351,
-     "score": 0.977
+     "id": 315,
+     "score": 0.96
     }
-   ]
+   ],
+   "orig_id": 64,
+   "old_text": "Do your own duty poorly rather than another's well."
   },
   {
    "chapter": 3,
-   "text": "Know desire and anger as your real enemy.",
+   "text": "Desire and anger are your real enemies.",
    "verses": [
     "3:36",
     "3:37"
@@ -1067,12 +1061,14 @@
     "3:36",
     "3:37"
    ],
-   "cluster_id": 65,
-   "near_dups": []
+   "cluster_id": 57,
+   "near_dups": [],
+   "orig_id": 65,
+   "old_text": "Know desire and anger as your real enemy."
   },
   {
    "chapter": 3,
-   "text": "Desire veils your wisdom like smoke hides fire.",
+   "text": "Craving clouds judgment like smoke hides fire.",
    "verses": [
     "3:38",
     "3:39",
@@ -1085,12 +1081,14 @@
     "3:39",
     "3:40"
    ],
-   "cluster_id": 66,
-   "near_dups": []
+   "cluster_id": 58,
+   "near_dups": [],
+   "orig_id": 66,
+   "old_text": "Desire veils your wisdom like smoke hides fire."
   },
   {
    "chapter": 3,
-   "text": "Master your senses, then slay desire by the Self.",
+   "text": "First control the impulse, then uproot the craving.",
    "verses": [
     "3:41",
     "3:42",
@@ -1103,12 +1101,14 @@
     "3:42",
     "3:43"
    ],
-   "cluster_id": 67,
-   "near_dups": []
+   "cluster_id": 59,
+   "near_dups": [],
+   "orig_id": 67,
+   "old_text": "Master your senses, then slay desire by the Self."
   },
   {
    "chapter": 4,
-   "text": "Receive sacred wisdom handed down through teachers.",
+   "text": "Stand on the wisdom of those before you.",
    "verses": [
     "4:1",
     "4:2",
@@ -1121,12 +1121,14 @@
     "4:2",
     "4:3"
    ],
-   "cluster_id": 68,
-   "near_dups": []
+   "cluster_id": 60,
+   "near_dups": [],
+   "orig_id": 68,
+   "old_text": "Receive sacred wisdom handed down through teachers."
   },
   {
    "chapter": 4,
-   "text": "Restore what is right whenever it declines.",
+   "text": "Step up to set things right when they slip.",
    "verses": [
     "4:7",
     "4:8"
@@ -1137,12 +1139,14 @@
     "4:7",
     "4:8"
    ],
-   "cluster_id": 69,
-   "near_dups": []
+   "cluster_id": 61,
+   "near_dups": [],
+   "orig_id": 69,
+   "old_text": "Restore what is right whenever it declines."
   },
   {
    "chapter": 4,
-   "text": "Know the divine truly and end rebirth.",
+   "text": "See clearly, and you stop repeating the same mistakes.",
    "verses": [
     "4:9"
    ],
@@ -1151,12 +1155,14 @@
    "verse_cvs": [
     "4:9"
    ],
-   "cluster_id": 70,
-   "near_dups": []
+   "cluster_id": 62,
+   "near_dups": [],
+   "orig_id": 70,
+   "old_text": "Know the divine truly and end rebirth."
   },
   {
    "chapter": 4,
-   "text": "Burn attachment, fear, and anger in knowledge.",
+   "text": "Let understanding dissolve your fear and anger.",
    "verses": [
     "4:10"
    ],
@@ -1165,12 +1171,14 @@
    "verse_cvs": [
     "4:10"
    ],
-   "cluster_id": 71,
-   "near_dups": []
+   "cluster_id": 63,
+   "near_dups": [],
+   "orig_id": 71,
+   "old_text": "Burn attachment, fear, and anger in knowledge."
   },
   {
    "chapter": 4,
-   "text": "Others meet you the way you approach them.",
+   "text": "People meet you the way you approach them.",
    "verses": [
     "4:11"
    ],
@@ -1179,12 +1187,14 @@
    "verse_cvs": [
     "4:11"
    ],
-   "cluster_id": 72,
-   "near_dups": []
+   "cluster_id": 64,
+   "near_dups": [],
+   "orig_id": 72,
+   "old_text": "Others meet you the way you approach them."
   },
   {
    "chapter": 4,
-   "text": "Take decisive action when you seek worldly success.",
+   "text": "If you want results, act—don't just wish.",
    "verses": [
     "4:12"
    ],
@@ -1193,12 +1203,14 @@
    "verse_cvs": [
     "4:12"
    ],
-   "cluster_id": 73,
-   "near_dups": []
+   "cluster_id": 65,
+   "near_dups": [],
+   "orig_id": 73,
+   "old_text": "Take decisive action when you seek worldly success."
   },
   {
    "chapter": 4,
-   "text": "Work knowing action never taints the Self.",
+   "text": "Do the work without letting it define you.",
    "verses": [
     "4:13",
     "4:14"
@@ -1209,12 +1221,19 @@
     "4:13",
     "4:14"
    ],
-   "cluster_id": 74,
-   "near_dups": []
+   "cluster_id": 66,
+   "near_dups": [
+    {
+     "id": 179,
+     "score": 0.953
+    }
+   ],
+   "orig_id": 74,
+   "old_text": "Work knowing action never taints the Self."
   },
   {
    "chapter": 4,
-   "text": "Study action and inaction to win freedom.",
+   "text": "Know when to act and when to hold back.",
    "verses": [
     "4:15",
     "4:16",
@@ -1227,12 +1246,14 @@
     "4:16",
     "4:17"
    ],
-   "cluster_id": 75,
-   "near_dups": []
+   "cluster_id": 67,
+   "near_dups": [],
+   "orig_id": 75,
+   "old_text": "Study action and inaction to win freedom."
   },
   {
    "chapter": 4,
-   "text": "See inaction in action and action in inaction.",
+   "text": "Even doing nothing is a choice you're making.",
    "verses": [
     "4:18"
    ],
@@ -1241,12 +1262,14 @@
    "verse_cvs": [
     "4:18"
    ],
-   "cluster_id": 76,
-   "near_dups": []
+   "cluster_id": 68,
+   "near_dups": [],
+   "orig_id": 76,
+   "old_text": "See inaction in action and action in inaction."
   },
   {
    "chapter": 4,
-   "text": "Let knowledge burn desire from your work.",
+   "text": "Act from clarity, not from craving.",
    "verses": [
     "4:19"
    ],
@@ -1255,12 +1278,14 @@
    "verse_cvs": [
     "4:19"
    ],
-   "cluster_id": 77,
-   "near_dups": []
+   "cluster_id": 69,
+   "near_dups": [],
+   "orig_id": 77,
+   "old_text": "Let knowledge burn desire from your work."
   },
   {
    "chapter": 4,
-   "text": "Drop hope and craving while you act.",
+   "text": "Act without clinging to how it turns out.",
    "verses": [
     "4:20",
     "4:21"
@@ -1271,12 +1296,14 @@
     "4:20",
     "4:21"
    ],
-   "cluster_id": 78,
-   "near_dups": []
+   "cluster_id": 70,
+   "near_dups": [],
+   "orig_id": 78,
+   "old_text": "Drop hope and craving while you act."
   },
   {
    "chapter": 4,
-   "text": "Stay even-minded in success and failure.",
+   "text": "Be content with what comes; chase nothing.",
    "verses": [
     "4:22"
    ],
@@ -1285,12 +1312,14 @@
    "verse_cvs": [
     "4:22"
    ],
-   "cluster_id": 79,
-   "near_dups": []
+   "cluster_id": 71,
+   "near_dups": [],
+   "orig_id": 79,
+   "old_text": "Stay even-minded in success and failure."
   },
   {
    "chapter": 4,
-   "text": "Work for sacrifice and your karma dissolves.",
+   "text": "Selfless work leaves no weight behind.",
    "verses": [
     "4:23"
    ],
@@ -1299,12 +1328,14 @@
    "verse_cvs": [
     "4:23"
    ],
-   "cluster_id": 80,
-   "near_dups": []
+   "cluster_id": 72,
+   "near_dups": [],
+   "orig_id": 80,
+   "old_text": "Work for sacrifice and your karma dissolves."
   },
   {
    "chapter": 4,
-   "text": "See the divine present in every act.",
+   "text": "Bring your full presence to whatever you do.",
    "verses": [
     "4:24"
    ],
@@ -1313,21 +1344,14 @@
    "verse_cvs": [
     "4:24"
    ],
-   "cluster_id": 81,
-   "near_dups": [
-    {
-     "id": 194,
-     "score": 0.946
-    },
-    {
-     "id": 163,
-     "score": 0.937
-    }
-   ]
+   "cluster_id": 73,
+   "near_dups": [],
+   "orig_id": 81,
+   "old_text": "See the divine present in every act."
   },
   {
    "chapter": 4,
-   "text": "Offer your senses and breath as sacrifice.",
+   "text": "Master your impulses instead of obeying them.",
    "verses": [
     "4:25",
     "4:26",
@@ -1346,12 +1370,14 @@
     "4:29",
     "4:30"
    ],
-   "cluster_id": 82,
-   "near_dups": []
+   "cluster_id": 74,
+   "near_dups": [],
+   "orig_id": 82,
+   "old_text": "Offer your senses and breath as sacrifice."
   },
   {
    "chapter": 4,
-   "text": "Give of yourself, for without sacrifice nothing is gained.",
+   "text": "Give something of yourself, or gain nothing.",
    "verses": [
     "4:31"
    ],
@@ -1360,12 +1386,14 @@
    "verse_cvs": [
     "4:31"
    ],
-   "cluster_id": 83,
-   "near_dups": []
+   "cluster_id": 75,
+   "near_dups": [],
+   "orig_id": 83,
+   "old_text": "Give of yourself, for without sacrifice nothing is gained."
   },
   {
    "chapter": 4,
-   "text": "Know every sacrifice is born of action.",
+   "text": "Nothing worthwhile comes without effort.",
    "verses": [
     "4:32"
    ],
@@ -1374,12 +1402,14 @@
    "verse_cvs": [
     "4:32"
    ],
-   "cluster_id": 84,
-   "near_dups": []
+   "cluster_id": 76,
+   "near_dups": [],
+   "orig_id": 84,
+   "old_text": "Know every sacrifice is born of action."
   },
   {
    "chapter": 4,
-   "text": "Prize wisdom above ritual; all action ends in knowledge.",
+   "text": "Understanding matters more than going through the motions.",
    "verses": [
     "4:33"
    ],
@@ -1388,12 +1418,14 @@
    "verse_cvs": [
     "4:33"
    ],
-   "cluster_id": 85,
-   "near_dups": []
+   "cluster_id": 77,
+   "near_dups": [],
+   "orig_id": 85,
+   "old_text": "Prize wisdom above ritual; all action ends in knowledge."
   },
   {
    "chapter": 4,
-   "text": "Approach the wise with humility and service.",
+   "text": "Ask, listen, and stay humble enough to learn.",
    "verses": [
     "4:34"
    ],
@@ -1402,12 +1434,14 @@
    "verse_cvs": [
     "4:34"
    ],
-   "cluster_id": 86,
-   "near_dups": []
+   "cluster_id": 78,
+   "near_dups": [],
+   "orig_id": 86,
+   "old_text": "Approach the wise with humility and service."
   },
   {
    "chapter": 4,
-   "text": "See every being within your own Self.",
+   "text": "See yourself in others, and the walls come down.",
    "verses": [
     "4:35"
    ],
@@ -1416,17 +1450,14 @@
    "verse_cvs": [
     "4:35"
    ],
-   "cluster_id": 87,
-   "near_dups": [
-    {
-     "id": 142,
-     "score": 0.948
-    }
-   ]
+   "cluster_id": 79,
+   "near_dups": [],
+   "orig_id": 87,
+   "old_text": "See every being within your own Self."
   },
   {
    "chapter": 4,
-   "text": "Cross even the worst sins by the raft of knowledge.",
+   "text": "Understanding can carry you past any mistake.",
    "verses": [
     "4:36"
    ],
@@ -1435,12 +1466,14 @@
    "verse_cvs": [
     "4:36"
    ],
-   "cluster_id": 88,
-   "near_dups": []
+   "cluster_id": 80,
+   "near_dups": [],
+   "orig_id": 88,
+   "old_text": "Cross even the worst sins by the raft of knowledge."
   },
   {
    "chapter": 4,
-   "text": "Let knowledge reduce your karma to ash.",
+   "text": "Insight loosens the grip of the past.",
    "verses": [
     "4:37"
    ],
@@ -1449,12 +1482,14 @@
    "verse_cvs": [
     "4:37"
    ],
-   "cluster_id": 89,
-   "near_dups": []
+   "cluster_id": 81,
+   "near_dups": [],
+   "orig_id": 89,
+   "old_text": "Let knowledge reduce your karma to ash."
   },
   {
    "chapter": 4,
-   "text": "Nothing purifies you like true knowledge.",
+   "text": "Nothing clears you like real understanding.",
    "verses": [
     "4:38"
    ],
@@ -1463,12 +1498,14 @@
    "verse_cvs": [
     "4:38"
    ],
-   "cluster_id": 90,
-   "near_dups": []
+   "cluster_id": 82,
+   "near_dups": [],
+   "orig_id": 90,
+   "old_text": "Nothing purifies you like true knowledge."
   },
   {
    "chapter": 4,
-   "text": "Pair faith with restraint to gain lasting peace.",
+   "text": "Commit fully, stay disciplined, and peace follows.",
    "verses": [
     "4:39"
    ],
@@ -1477,12 +1514,19 @@
    "verse_cvs": [
     "4:39"
    ],
-   "cluster_id": 91,
-   "near_dups": []
+   "cluster_id": 83,
+   "near_dups": [
+    {
+     "id": 327,
+     "score": 0.942
+    }
+   ],
+   "orig_id": 91,
+   "old_text": "Pair faith with restraint to gain lasting peace."
   },
   {
    "chapter": 4,
-   "text": "Release doubt, which destroys your happiness.",
+   "text": "Endless doubt drains every joy.",
    "verses": [
     "4:40"
    ],
@@ -1491,12 +1535,14 @@
    "verse_cvs": [
     "4:40"
    ],
-   "cluster_id": 92,
-   "near_dups": []
+   "cluster_id": 84,
+   "near_dups": [],
+   "orig_id": 92,
+   "old_text": "Release doubt, which destroys your happiness."
   },
   {
    "chapter": 4,
-   "text": "Cut doubt with the sword of knowledge and rise.",
+   "text": "Cut through your doubts and get moving.",
    "verses": [
     "4:41",
     "4:42"
@@ -1507,12 +1553,14 @@
     "4:41",
     "4:42"
    ],
-   "cluster_id": 93,
-   "near_dups": []
+   "cluster_id": 85,
+   "near_dups": [],
+   "orig_id": 93,
+   "old_text": "Cut doubt with the sword of knowledge and rise."
   },
   {
    "chapter": 5,
-   "text": "Choose engaged action over withdrawal; both reach the goal.",
+   "text": "Better to engage than to withdraw.",
    "verses": [
     "5:2"
    ],
@@ -1521,12 +1569,14 @@
    "verse_cvs": [
     "5:2"
    ],
-   "cluster_id": 94,
-   "near_dups": []
+   "cluster_id": 86,
+   "near_dups": [],
+   "orig_id": 94,
+   "old_text": "Choose engaged action over withdrawal; both reach the goal."
   },
   {
    "chapter": 5,
-   "text": "Neither crave nor hate, and bondage falls away.",
+   "text": "Free yourself from both craving and resentment.",
    "verses": [
     "5:3"
    ],
@@ -1535,12 +1585,14 @@
    "verse_cvs": [
     "5:3"
    ],
-   "cluster_id": 95,
-   "near_dups": []
+   "cluster_id": 87,
+   "near_dups": [],
+   "orig_id": 95,
+   "old_text": "Neither crave nor hate, and bondage falls away."
   },
   {
    "chapter": 5,
-   "text": "See knowledge and action as one path, not two.",
+   "text": "Thinking and doing are one path, not two.",
    "verses": [
     "5:4",
     "5:5"
@@ -1551,17 +1603,14 @@
     "5:4",
     "5:5"
    ],
-   "cluster_id": 96,
-   "near_dups": [
-    {
-     "id": 152,
-     "score": 0.94
-    }
-   ]
+   "cluster_id": 88,
+   "near_dups": [],
+   "orig_id": 96,
+   "old_text": "See knowledge and action as one path, not two."
   },
   {
    "chapter": 5,
-   "text": "Ground yourself in action first; renunciation ripens from it.",
+   "text": "Start by doing; wisdom grows from practice.",
    "verses": [
     "5:6"
    ],
@@ -1570,12 +1619,14 @@
    "verse_cvs": [
     "5:6"
    ],
-   "cluster_id": 97,
-   "near_dups": []
+   "cluster_id": 89,
+   "near_dups": [],
+   "orig_id": 97,
+   "old_text": "Ground yourself in action first; renunciation ripens from it."
   },
   {
    "chapter": 5,
-   "text": "Purify your mind and subdue the senses; then act untainted.",
+   "text": "Master yourself first, then act freely.",
    "verses": [
     "5:7"
    ],
@@ -1584,12 +1635,14 @@
    "verse_cvs": [
     "5:7"
    ],
-   "cluster_id": 98,
-   "near_dups": []
+   "cluster_id": 90,
+   "near_dups": [],
+   "orig_id": 98,
+   "old_text": "Purify your mind and subdue the senses; then act untainted."
   },
   {
    "chapter": 5,
-   "text": "Know the senses move among objects; you do nothing.",
+   "text": "Notice your reactions instead of becoming them.",
    "verses": [
     "5:8",
     "5:9"
@@ -1600,12 +1653,14 @@
     "5:8",
     "5:9"
    ],
-   "cluster_id": 99,
-   "near_dups": []
+   "cluster_id": 91,
+   "near_dups": [],
+   "orig_id": 99,
+   "old_text": "Know the senses move among objects; you do nothing."
   },
   {
    "chapter": 5,
-   "text": "Offer your work to the divine and stay unstained like a lotus leaf.",
+   "text": "Do your part, then let results roll off you.",
    "verses": [
     "5:10"
    ],
@@ -1614,12 +1669,14 @@
    "verse_cvs": [
     "5:10"
    ],
-   "cluster_id": 100,
-   "near_dups": []
+   "cluster_id": 92,
+   "near_dups": [],
+   "orig_id": 100,
+   "old_text": "Offer your work to the divine and stay unstained like a lotus leaf."
   },
   {
    "chapter": 5,
-   "text": "Work with body and mind to purify yourself, not to gain.",
+   "text": "Work to grow, not just to gain.",
    "verses": [
     "5:11"
    ],
@@ -1628,12 +1685,19 @@
    "verse_cvs": [
     "5:11"
    ],
-   "cluster_id": 101,
-   "near_dups": []
+   "cluster_id": 93,
+   "near_dups": [
+    {
+     "id": 44,
+     "score": 0.94
+    }
+   ],
+   "orig_id": 101,
+   "old_text": "Work with body and mind to purify yourself, not to gain."
   },
   {
    "chapter": 5,
-   "text": "Release the fruits and rest in lasting peace.",
+   "text": "Let go of the payoff and find peace.",
    "verses": [
     "5:12"
    ],
@@ -1642,12 +1706,14 @@
    "verse_cvs": [
     "5:12"
    ],
-   "cluster_id": 102,
-   "near_dups": []
+   "cluster_id": 94,
+   "near_dups": [],
+   "orig_id": 102,
+   "old_text": "Release the fruits and rest in lasting peace."
   },
   {
    "chapter": 5,
-   "text": "Renounce action in the mind and dwell content within.",
+   "text": "Stay inwardly still even while you act.",
    "verses": [
     "5:13"
    ],
@@ -1656,12 +1722,14 @@
    "verse_cvs": [
     "5:13"
    ],
-   "cluster_id": 103,
-   "near_dups": []
+   "cluster_id": 95,
+   "near_dups": [],
+   "orig_id": 103,
+   "old_text": "Renounce action in the mind and dwell content within."
   },
   {
    "chapter": 5,
-   "text": "Attribute doing to nature; the Self is no agent.",
+   "text": "Don't take all the credit or all the blame.",
    "verses": [
     "5:14",
     "5:15"
@@ -1672,12 +1740,14 @@
     "5:14",
     "5:15"
    ],
-   "cluster_id": 104,
-   "near_dups": []
+   "cluster_id": 96,
+   "near_dups": [],
+   "orig_id": 104,
+   "old_text": "Attribute doing to nature; the Self is no agent."
   },
   {
    "chapter": 5,
-   "text": "Let self-knowledge burn away ignorance like the sun.",
+   "text": "Understanding clears confusion like sunrise.",
    "verses": [
     "5:16"
    ],
@@ -1686,17 +1756,14 @@
    "verse_cvs": [
     "5:16"
    ],
-   "cluster_id": 105,
-   "near_dups": [
-    {
-     "id": 208,
-     "score": 0.94
-    }
-   ]
+   "cluster_id": 97,
+   "near_dups": [],
+   "orig_id": 105,
+   "old_text": "Let self-knowledge burn away ignorance like the sun."
   },
   {
    "chapter": 5,
-   "text": "Absorb your whole being in the Supreme and never return.",
+   "text": "Give yourself fully to what matters most.",
    "verses": [
     "5:17"
    ],
@@ -1705,12 +1772,14 @@
    "verse_cvs": [
     "5:17"
    ],
-   "cluster_id": 106,
-   "near_dups": []
+   "cluster_id": 98,
+   "near_dups": [],
+   "orig_id": 106,
+   "old_text": "Absorb your whole being in the Supreme and never return."
   },
   {
    "chapter": 5,
-   "text": "Look with an equal eye on every being.",
+   "text": "Treat everyone as equally worthy.",
    "verses": [
     "5:18"
    ],
@@ -1719,26 +1788,14 @@
    "verse_cvs": [
     "5:18"
    ],
-   "cluster_id": 107,
-   "near_dups": []
+   "cluster_id": 99,
+   "near_dups": [],
+   "orig_id": 107,
+   "old_text": "Look with an equal eye on every being."
   },
   {
    "chapter": 5,
-   "text": "Rest your mind in the flawless real and transcend rebirth.",
-   "verses": [
-    "5:19"
-   ],
-   "best_verse": "5:19",
-   "rationale": "Those whose minds rest in the spotless reality of Brahman overcome birth even here.",
-   "verse_cvs": [
-    "5:19"
-   ],
-   "cluster_id": 108,
-   "near_dups": []
-  },
-  {
-   "chapter": 5,
-   "text": "Stay steady, unmoved by the pleasant or the unpleasant.",
+   "text": "Don't swing with every high and low.",
    "verses": [
     "5:20"
    ],
@@ -1747,12 +1804,14 @@
    "verse_cvs": [
     "5:20"
    ],
-   "cluster_id": 109,
-   "near_dups": []
+   "cluster_id": 100,
+   "near_dups": [],
+   "orig_id": 109,
+   "old_text": "Stay steady, unmoved by the pleasant or the unpleasant."
   },
   {
    "chapter": 5,
-   "text": "Find your joy in the Self, not in outer contact.",
+   "text": "Find joy within, not in things outside you.",
    "verses": [
     "5:21"
    ],
@@ -1761,12 +1820,14 @@
    "verse_cvs": [
     "5:21"
    ],
-   "cluster_id": 110,
-   "near_dups": []
+   "cluster_id": 101,
+   "near_dups": [],
+   "orig_id": 110,
+   "old_text": "Find your joy in the Self, not in outer contact."
   },
   {
    "chapter": 5,
-   "text": "Shun fleeting pleasures; they begin and end in pain.",
+   "text": "Chasing quick pleasures ends in pain.",
    "verses": [
     "5:22"
    ],
@@ -1775,12 +1836,14 @@
    "verse_cvs": [
     "5:22"
    ],
-   "cluster_id": 111,
-   "near_dups": []
+   "cluster_id": 102,
+   "near_dups": [],
+   "orig_id": 111,
+   "old_text": "Shun fleeting pleasures; they begin and end in pain."
   },
   {
    "chapter": 5,
-   "text": "Conquer the surge of desire and anger to find joy within.",
+   "text": "Ride out desire and anger before they rule you.",
    "verses": [
     "5:23",
     "5:24"
@@ -1791,12 +1854,14 @@
     "5:23",
     "5:24"
    ],
-   "cluster_id": 112,
-   "near_dups": []
+   "cluster_id": 103,
+   "near_dups": [],
+   "orig_id": 112,
+   "old_text": "Conquer the surge of desire and anger to find joy within."
   },
   {
    "chapter": 5,
-   "text": "Devote yourself to the welfare of all beings.",
+   "text": "Work for the good of others.",
    "verses": [
     "5:25"
    ],
@@ -1805,12 +1870,14 @@
    "verse_cvs": [
     "5:25"
    ],
-   "cluster_id": 113,
-   "near_dups": []
+   "cluster_id": 104,
+   "near_dups": [],
+   "orig_id": 113,
+   "old_text": "Devote yourself to the welfare of all beings."
   },
   {
    "chapter": 5,
-   "text": "Still your thoughts, and freedom opens on every side.",
+   "text": "A quiet mind sets you free.",
    "verses": [
     "5:26"
    ],
@@ -1819,12 +1886,19 @@
    "verse_cvs": [
     "5:26"
    ],
-   "cluster_id": 114,
-   "near_dups": []
+   "cluster_id": 105,
+   "near_dups": [
+    {
+     "id": 237,
+     "score": 0.937
+    }
+   ],
+   "orig_id": 114,
+   "old_text": "Still your thoughts, and freedom opens on every side."
   },
   {
    "chapter": 5,
-   "text": "Steady your gaze and breath to turn attention inward.",
+   "text": "Steady your breath to steady your focus.",
    "verses": [
     "5:27"
    ],
@@ -1833,12 +1907,23 @@
    "verse_cvs": [
     "5:27"
    ],
-   "cluster_id": 115,
-   "near_dups": []
+   "cluster_id": 106,
+   "near_dups": [
+    {
+     "id": 308,
+     "score": 0.937
+    },
+    {
+     "id": 281,
+     "score": 0.934
+    }
+   ],
+   "orig_id": 115,
+   "old_text": "Steady your gaze and breath to turn attention inward."
   },
   {
    "chapter": 5,
-   "text": "Control senses, mind, and intellect, and be forever free.",
+   "text": "Govern your mind, and fear loses its grip.",
    "verses": [
     "5:28"
    ],
@@ -1847,12 +1932,14 @@
    "verse_cvs": [
     "5:28"
    ],
-   "cluster_id": 116,
-   "near_dups": []
+   "cluster_id": 107,
+   "near_dups": [],
+   "orig_id": 116,
+   "old_text": "Control senses, mind, and intellect, and be forever free."
   },
   {
    "chapter": 5,
-   "text": "Know the divine as friend of all, and find peace.",
+   "text": "See the world as friendly, and rest easier.",
    "verses": [
     "5:29"
    ],
@@ -1861,12 +1948,14 @@
    "verse_cvs": [
     "5:29"
    ],
-   "cluster_id": 117,
-   "near_dups": []
+   "cluster_id": 108,
+   "near_dups": [],
+   "orig_id": 117,
+   "old_text": "Know the divine as friend of all, and find peace."
   },
   {
    "chapter": 6,
-   "text": "Do your duty without clinging to results.",
+   "text": "Do what's yours to do, results aside.",
    "verses": [
     "6:1"
    ],
@@ -1875,12 +1964,14 @@
    "verse_cvs": [
     "6:1"
    ],
-   "cluster_id": 118,
-   "near_dups": []
+   "cluster_id": 109,
+   "near_dups": [],
+   "orig_id": 118,
+   "old_text": "Do your duty without clinging to results."
   },
   {
    "chapter": 6,
-   "text": "Renounce selfish intentions, not action itself.",
+   "text": "Drop the selfish motive, not the work.",
    "verses": [
     "6:2",
     "6:3",
@@ -1893,17 +1984,19 @@
     "6:3",
     "6:4"
    ],
-   "cluster_id": 119,
+   "cluster_id": 110,
    "near_dups": [
     {
-     "id": 324,
-     "score": 0.982
+     "id": 288,
+     "score": 0.939
     }
-   ]
+   ],
+   "orig_id": 119,
+   "old_text": "Renounce selfish intentions, not action itself."
   },
   {
    "chapter": 6,
-   "text": "Lift yourself by your own effort.",
+   "text": "Lift yourself up; don't let yourself sink.",
    "verses": [
     "6:5"
    ],
@@ -1912,12 +2005,14 @@
    "verse_cvs": [
     "6:5"
    ],
-   "cluster_id": 120,
-   "near_dups": []
+   "cluster_id": 111,
+   "near_dups": [],
+   "orig_id": 120,
+   "old_text": "Lift yourself by your own effort."
   },
   {
    "chapter": 6,
-   "text": "Be your own friend, not your own enemy.",
+   "text": "Be your own ally, not your own worst critic.",
    "verses": [
     "6:6"
    ],
@@ -1926,12 +2021,14 @@
    "verse_cvs": [
     "6:6"
    ],
-   "cluster_id": 121,
-   "near_dups": []
+   "cluster_id": 112,
+   "near_dups": [],
+   "orig_id": 121,
+   "old_text": "Be your own friend, not your own enemy."
   },
   {
    "chapter": 6,
-   "text": "Stay balanced through cold and heat, praise and blame.",
+   "text": "Stay level through praise and blame alike.",
    "verses": [
     "6:7"
    ],
@@ -1940,12 +2037,19 @@
    "verse_cvs": [
     "6:7"
    ],
-   "cluster_id": 122,
-   "near_dups": []
+   "cluster_id": 113,
+   "near_dups": [
+    {
+     "id": 219,
+     "score": 0.933
+    }
+   ],
+   "orig_id": 122,
+   "old_text": "Stay balanced through cold and heat, praise and blame."
   },
   {
    "chapter": 6,
-   "text": "Value wisdom over gold and stone alike.",
+   "text": "Gold or dirt—don't let either move you.",
    "verses": [
     "6:8"
    ],
@@ -1954,12 +2058,14 @@
    "verse_cvs": [
     "6:8"
    ],
-   "cluster_id": 123,
-   "near_dups": []
+   "cluster_id": 114,
+   "near_dups": [],
+   "orig_id": 123,
+   "old_text": "Value wisdom over gold and stone alike."
   },
   {
    "chapter": 6,
-   "text": "Look on friend and foe with the same eye.",
+   "text": "Meet friend and rival with the same calm.",
    "verses": [
     "6:9"
    ],
@@ -1968,12 +2074,14 @@
    "verse_cvs": [
     "6:9"
    ],
-   "cluster_id": 124,
-   "near_dups": []
+   "cluster_id": 115,
+   "near_dups": [],
+   "orig_id": 124,
+   "old_text": "Look on friend and foe with the same eye."
   },
   {
    "chapter": 6,
-   "text": "Practice in solitude, free from hope and greed.",
+   "text": "Spend quiet time alone, free of wanting.",
    "verses": [
     "6:10"
    ],
@@ -1982,12 +2090,14 @@
    "verse_cvs": [
     "6:10"
    ],
-   "cluster_id": 125,
-   "near_dups": []
+   "cluster_id": 116,
+   "near_dups": [],
+   "orig_id": 125,
+   "old_text": "Practice in solitude, free from hope and greed."
   },
   {
    "chapter": 6,
-   "text": "Set a firm, clean seat, neither high nor low.",
+   "text": "Set up a simple, steady space to focus.",
    "verses": [
     "6:11"
    ],
@@ -1996,12 +2106,14 @@
    "verse_cvs": [
     "6:11"
    ],
-   "cluster_id": 126,
-   "near_dups": []
+   "cluster_id": 117,
+   "near_dups": [],
+   "orig_id": 126,
+   "old_text": "Set a firm, clean seat, neither high nor low."
   },
   {
    "chapter": 6,
-   "text": "Make the mind one-pointed to purify yourself.",
+   "text": "Focus on one thing to clear your mind.",
    "verses": [
     "6:12"
    ],
@@ -2010,12 +2122,14 @@
    "verse_cvs": [
     "6:12"
    ],
-   "cluster_id": 127,
-   "near_dups": []
+   "cluster_id": 118,
+   "near_dups": [],
+   "orig_id": 127,
+   "old_text": "Make the mind one-pointed to purify yourself."
   },
   {
    "chapter": 6,
-   "text": "Hold your body, head, and neck straight and still.",
+   "text": "Sit tall and still to settle the mind.",
    "verses": [
     "6:13"
    ],
@@ -2024,12 +2138,14 @@
    "verse_cvs": [
     "6:13"
    ],
-   "cluster_id": 128,
-   "near_dups": []
+   "cluster_id": 119,
+   "near_dups": [],
+   "orig_id": 128,
+   "old_text": "Hold your body, head, and neck straight and still."
   },
   {
    "chapter": 6,
-   "text": "Sit serene and fearless, mind fixed on the goal.",
+   "text": "Sit calm and fearless, focused on your aim.",
    "verses": [
     "6:14"
    ],
@@ -2038,12 +2154,14 @@
    "verse_cvs": [
     "6:14"
    ],
-   "cluster_id": 129,
-   "near_dups": []
+   "cluster_id": 120,
+   "near_dups": [],
+   "orig_id": 129,
+   "old_text": "Sit serene and fearless, mind fixed on the goal."
   },
   {
    "chapter": 6,
-   "text": "A steadied mind leads you to lasting peace.",
+   "text": "A steady mind brings lasting calm.",
    "verses": [
     "6:15"
    ],
@@ -2052,12 +2170,19 @@
    "verse_cvs": [
     "6:15"
    ],
-   "cluster_id": 130,
-   "near_dups": []
+   "cluster_id": 121,
+   "near_dups": [
+    {
+     "id": 281,
+     "score": 0.943
+    }
+   ],
+   "orig_id": 130,
+   "old_text": "A steadied mind leads you to lasting peace."
   },
   {
    "chapter": 6,
-   "text": "Eat and sleep in moderation, never in extremes.",
+   "text": "Eat, sleep, and work in moderation.",
    "verses": [
     "6:16",
     "6:17"
@@ -2068,12 +2193,14 @@
     "6:16",
     "6:17"
    ],
-   "cluster_id": 131,
-   "near_dups": []
+   "cluster_id": 122,
+   "near_dups": [],
+   "orig_id": 131,
+   "old_text": "Eat and sleep in moderation, never in extremes."
   },
   {
    "chapter": 6,
-   "text": "Rest the mind in the Self, free of craving.",
+   "text": "Let the mind rest, free of wanting.",
    "verses": [
     "6:18"
    ],
@@ -2082,12 +2209,14 @@
    "verse_cvs": [
     "6:18"
    ],
-   "cluster_id": 132,
-   "near_dups": []
+   "cluster_id": 123,
+   "near_dups": [],
+   "orig_id": 132,
+   "old_text": "Rest the mind in the Self, free of craving."
   },
   {
    "chapter": 6,
-   "text": "Keep your mind unflickering like a sheltered lamp.",
+   "text": "Keep your focus steady as a sheltered flame.",
    "verses": [
     "6:19"
    ],
@@ -2096,12 +2225,14 @@
    "verse_cvs": [
     "6:19"
    ],
-   "cluster_id": 133,
-   "near_dups": []
+   "cluster_id": 124,
+   "near_dups": [],
+   "orig_id": 133,
+   "old_text": "Keep your mind unflickering like a sheltered lamp."
   },
   {
    "chapter": 6,
-   "text": "Grow content by seeing the Self within yourself.",
+   "text": "Contentment comes from knowing yourself.",
    "verses": [
     "6:20"
    ],
@@ -2110,12 +2241,14 @@
    "verse_cvs": [
     "6:20"
    ],
-   "cluster_id": 134,
-   "near_dups": []
+   "cluster_id": 125,
+   "near_dups": [],
+   "orig_id": 134,
+   "old_text": "Grow content by seeing the Self within yourself."
   },
   {
    "chapter": 6,
-   "text": "Anchor yourself in bliss beyond the senses.",
+   "text": "Find a joy the senses can't give or take.",
    "verses": [
     "6:21"
    ],
@@ -2124,12 +2257,14 @@
    "verse_cvs": [
     "6:21"
    ],
-   "cluster_id": 135,
-   "near_dups": []
+   "cluster_id": 126,
+   "near_dups": [],
+   "orig_id": 135,
+   "old_text": "Anchor yourself in bliss beyond the senses."
   },
   {
    "chapter": 6,
-   "text": "Once you find it, no sorrow can shake you.",
+   "text": "Find inner steadiness, and grief can't topple you.",
    "verses": [
     "6:22"
    ],
@@ -2138,12 +2273,14 @@
    "verse_cvs": [
     "6:22"
    ],
-   "cluster_id": 136,
-   "near_dups": []
+   "cluster_id": 127,
+   "near_dups": [],
+   "orig_id": 136,
+   "old_text": "Once you find it, no sorrow can shake you."
   },
   {
    "chapter": 6,
-   "text": "Practice with resolve and an undespairing mind.",
+   "text": "Practice with resolve and without despair.",
    "verses": [
     "6:23"
    ],
@@ -2152,12 +2289,14 @@
    "verse_cvs": [
     "6:23"
    ],
-   "cluster_id": 137,
-   "near_dups": []
+   "cluster_id": 128,
+   "near_dups": [],
+   "orig_id": 137,
+   "old_text": "Practice with resolve and an undespairing mind."
   },
   {
    "chapter": 6,
-   "text": "Let go of every desire born of imagination.",
+   "text": "Drop the wants your imagination invents.",
    "verses": [
     "6:24"
    ],
@@ -2166,8 +2305,10 @@
    "verse_cvs": [
     "6:24"
    ],
-   "cluster_id": 138,
-   "near_dups": []
+   "cluster_id": 129,
+   "near_dups": [],
+   "orig_id": 138,
+   "old_text": "Let go of every desire born of imagination."
   },
   {
    "chapter": 6,
@@ -2180,12 +2321,14 @@
    "verse_cvs": [
     "6:25"
    ],
-   "cluster_id": 139,
-   "near_dups": []
+   "cluster_id": 130,
+   "near_dups": [],
+   "orig_id": 139,
+   "old_text": "Quiet the mind gradually, one step at a time."
   },
   {
    "chapter": 6,
-   "text": "Whenever the mind wanders, gently bring it back.",
+   "text": "When your mind wanders, gently bring it back.",
    "verses": [
     "6:26"
    ],
@@ -2194,12 +2337,14 @@
    "verse_cvs": [
     "6:26"
    ],
-   "cluster_id": 140,
-   "near_dups": []
+   "cluster_id": 131,
+   "near_dups": [],
+   "orig_id": 140,
+   "old_text": "Whenever the mind wanders, gently bring it back."
   },
   {
    "chapter": 6,
-   "text": "A calmed mind opens the door to supreme bliss.",
+   "text": "A calm mind opens the way to deep joy.",
    "verses": [
     "6:27",
     "6:28"
@@ -2210,12 +2355,14 @@
     "6:27",
     "6:28"
    ],
-   "cluster_id": 141,
-   "near_dups": []
+   "cluster_id": 132,
+   "near_dups": [],
+   "orig_id": 141,
+   "old_text": "A calmed mind opens the door to supreme bliss."
   },
   {
    "chapter": 6,
-   "text": "See yourself in all beings and all beings in you.",
+   "text": "See yourself in everyone, and never feel alone.",
    "verses": [
     "6:29",
     "6:30"
@@ -2226,36 +2373,10 @@
     "6:29",
     "6:30"
    ],
-   "cluster_id": 142,
-   "near_dups": [
-    {
-     "id": 87,
-     "score": 0.948
-    },
-    {
-     "id": 248,
-     "score": 0.932
-    }
-   ]
-  },
-  {
-   "chapter": 6,
-   "text": "Worship the one presence dwelling in all beings.",
-   "verses": [
-    "6:31"
-   ],
-   "best_verse": "6:31",
-   "rationale": "Established in unity, the yogi abides in the divine present in all.",
-   "verse_cvs": [
-    "6:31"
-   ],
-   "cluster_id": 143,
-   "near_dups": [
-    {
-     "id": 248,
-     "score": 0.932
-    }
-   ]
+   "cluster_id": 133,
+   "near_dups": [],
+   "orig_id": 142,
+   "old_text": "See yourself in all beings and all beings in you."
   },
   {
    "chapter": 6,
@@ -2268,12 +2389,14 @@
    "verse_cvs": [
     "6:32"
    ],
-   "cluster_id": 144,
-   "near_dups": []
+   "cluster_id": 134,
+   "near_dups": [],
+   "orig_id": 144,
+   "old_text": "Feel others' joy and pain as your own."
   },
   {
    "chapter": 6,
-   "text": "Admit the mind is restless and hard to hold.",
+   "text": "Admit it: the mind is restless and hard to hold.",
    "verses": [
     "6:33",
     "6:34"
@@ -2284,12 +2407,14 @@
     "6:33",
     "6:34"
    ],
-   "cluster_id": 145,
-   "near_dups": []
+   "cluster_id": 135,
+   "near_dups": [],
+   "orig_id": 145,
+   "old_text": "Admit the mind is restless and hard to hold."
   },
   {
    "chapter": 6,
-   "text": "Tame the restless mind through practice and detachment.",
+   "text": "Tame a restless mind with practice and letting go.",
    "verses": [
     "6:35"
    ],
@@ -2298,12 +2423,14 @@
    "verse_cvs": [
     "6:35"
    ],
-   "cluster_id": 146,
-   "near_dups": []
+   "cluster_id": 136,
+   "near_dups": [],
+   "orig_id": 146,
+   "old_text": "Tame the restless mind through practice and detachment."
   },
   {
    "chapter": 6,
-   "text": "Self-mastery makes the seemingly impossible attainable.",
+   "text": "Self-control makes the impossible reachable.",
    "verses": [
     "6:36"
    ],
@@ -2312,12 +2439,14 @@
    "verse_cvs": [
     "6:36"
    ],
-   "cluster_id": 147,
-   "near_dups": []
+   "cluster_id": 137,
+   "near_dups": [],
+   "orig_id": 147,
+   "old_text": "Self-mastery makes the seemingly impossible attainable."
   },
   {
    "chapter": 6,
-   "text": "No sincere effort toward good is ever wasted.",
+   "text": "No honest effort is ever wasted.",
    "verses": [
     "6:37",
     "6:38",
@@ -2332,12 +2461,19 @@
     "6:39",
     "6:40"
    ],
-   "cluster_id": 148,
-   "near_dups": []
+   "cluster_id": 138,
+   "near_dups": [
+    {
+     "id": 15,
+     "score": 1.0
+    }
+   ],
+   "orig_id": 148,
+   "old_text": "No sincere effort toward good is ever wasted."
   },
   {
    "chapter": 6,
-   "text": "Every good beginning carries forward into your future.",
+   "text": "What you build now carries into what's next.",
    "verses": [
     "6:41",
     "6:42",
@@ -2352,12 +2488,14 @@
     "6:43",
     "6:44"
    ],
-   "cluster_id": 149,
-   "near_dups": []
+   "cluster_id": 139,
+   "near_dups": [],
+   "orig_id": 149,
+   "old_text": "Every good beginning carries forward into your future."
   },
   {
    "chapter": 6,
-   "text": "Persist across setbacks; progress compounds over time.",
+   "text": "Keep going; progress compounds over time.",
    "verses": [
     "6:45"
    ],
@@ -2366,12 +2504,14 @@
    "verse_cvs": [
     "6:45"
    ],
-   "cluster_id": 150,
-   "near_dups": []
+   "cluster_id": 140,
+   "near_dups": [],
+   "orig_id": 150,
+   "old_text": "Persist across setbacks; progress compounds over time."
   },
   {
    "chapter": 6,
-   "text": "Choose disciplined practice over mere knowledge or ritual.",
+   "text": "Steady practice beats just knowing about it.",
    "verses": [
     "6:46",
     "6:47"
@@ -2382,12 +2522,14 @@
     "6:46",
     "6:47"
    ],
-   "cluster_id": 151,
-   "near_dups": []
+   "cluster_id": 141,
+   "near_dups": [],
+   "orig_id": 151,
+   "old_text": "Choose disciplined practice over mere knowledge or ritual."
   },
   {
    "chapter": 7,
-   "text": "Pair knowledge with lived realization, not theory.",
+   "text": "Don't just learn it. Live it.",
    "verses": [
     "7:1",
     "7:2"
@@ -2398,17 +2540,14 @@
     "7:1",
     "7:2"
    ],
-   "cluster_id": 152,
-   "near_dups": [
-    {
-     "id": 96,
-     "score": 0.94
-    }
-   ]
+   "cluster_id": 142,
+   "near_dups": [],
+   "orig_id": 152,
+   "old_text": "Pair knowledge with lived realization, not theory."
   },
   {
    "chapter": 7,
-   "text": "Accept that true realization is rare and hard-won.",
+   "text": "Real understanding is rare. Earn it patiently.",
    "verses": [
     "7:3"
    ],
@@ -2417,12 +2556,14 @@
    "verse_cvs": [
     "7:3"
    ],
-   "cluster_id": 153,
-   "near_dups": []
+   "cluster_id": 143,
+   "near_dups": [],
+   "orig_id": 153,
+   "old_text": "Accept that true realization is rare and hard-won."
   },
   {
    "chapter": 7,
-   "text": "Distinguish your body and mind from your living essence.",
+   "text": "You are more than your body and thoughts.",
    "verses": [
     "7:4",
     "7:5"
@@ -2433,12 +2574,14 @@
     "7:4",
     "7:5"
    ],
-   "cluster_id": 154,
-   "near_dups": []
+   "cluster_id": 144,
+   "near_dups": [],
+   "orig_id": 154,
+   "old_text": "Distinguish your body and mind from your living essence."
   },
   {
    "chapter": 7,
-   "text": "Trace every beginning and ending to one source.",
+   "text": "Everything is connected. Nothing stands alone.",
    "verses": [
     "7:6",
     "7:7"
@@ -2449,12 +2592,14 @@
     "7:6",
     "7:7"
    ],
-   "cluster_id": 155,
-   "near_dups": []
+   "cluster_id": 145,
+   "near_dups": [],
+   "orig_id": 155,
+   "old_text": "Trace every beginning and ending to one source."
   },
   {
    "chapter": 7,
-   "text": "Notice the divine in taste, light, and sound.",
+   "text": "Notice the wonder in ordinary things.",
    "verses": [
     "7:8",
     "7:9"
@@ -2465,12 +2610,14 @@
     "7:8",
     "7:9"
    ],
-   "cluster_id": 156,
-   "near_dups": []
+   "cluster_id": 146,
+   "near_dups": [],
+   "orig_id": 156,
+   "old_text": "Notice the divine in taste, light, and sound."
   },
   {
    "chapter": 7,
-   "text": "See the same essence behind every excellence.",
+   "text": "Behind every talent is the same quiet spark.",
    "verses": [
     "7:10",
     "7:11"
@@ -2481,26 +2628,14 @@
     "7:10",
     "7:11"
    ],
-   "cluster_id": 157,
-   "near_dups": []
+   "cluster_id": 147,
+   "near_dups": [],
+   "orig_id": 157,
+   "old_text": "See the same essence behind every excellence."
   },
   {
    "chapter": 7,
-   "text": "Recognize all states of being flow from one.",
-   "verses": [
-    "7:12"
-   ],
-   "best_verse": "7:12",
-   "rationale": "Pure, active, and inert states all proceed from the divine, yet it is not bound by them.",
-   "verse_cvs": [
-    "7:12"
-   ],
-   "cluster_id": 158,
-   "near_dups": []
-  },
-  {
-   "chapter": 7,
-   "text": "See past the three moods that veil reality.",
+   "text": "Don't let a passing mood distort what's real.",
    "verses": [
     "7:13",
     "7:14"
@@ -2511,12 +2646,14 @@
     "7:13",
     "7:14"
    ],
-   "cluster_id": 159,
-   "near_dups": []
+   "cluster_id": 148,
+   "near_dups": [],
+   "orig_id": 159,
+   "old_text": "See past the three moods that veil reality."
   },
   {
    "chapter": 7,
-   "text": "Watch how delusion turns people from the good.",
+   "text": "When judgment clouds, good people lose their way.",
    "verses": [
     "7:15"
    ],
@@ -2525,12 +2662,14 @@
    "verse_cvs": [
     "7:15"
    ],
-   "cluster_id": 160,
-   "near_dups": []
+   "cluster_id": 149,
+   "near_dups": [],
+   "orig_id": 160,
+   "old_text": "Watch how delusion turns people from the good."
   },
   {
    "chapter": 7,
-   "text": "Let your worship rise above distress and gain.",
+   "text": "Seek meaning, not just relief or reward.",
    "verses": [
     "7:16"
    ],
@@ -2539,12 +2678,14 @@
    "verse_cvs": [
     "7:16"
    ],
-   "cluster_id": 161,
-   "near_dups": []
+   "cluster_id": 150,
+   "near_dups": [],
+   "orig_id": 161,
+   "old_text": "Let your worship rise above distress and gain."
   },
   {
    "chapter": 7,
-   "text": "Devote yourself with steady, single-minded love.",
+   "text": "Stay steady on what matters most.",
    "verses": [
     "7:17",
     "7:18"
@@ -2555,12 +2696,14 @@
     "7:17",
     "7:18"
    ],
-   "cluster_id": 162,
-   "near_dups": []
+   "cluster_id": 151,
+   "near_dups": [],
+   "orig_id": 162,
+   "old_text": "Devote yourself with steady, single-minded love."
   },
   {
    "chapter": 7,
-   "text": "Realize the divine dwells within everything you see.",
+   "text": "Look for something worthwhile in everyone you meet.",
    "verses": [
     "7:19"
    ],
@@ -2569,17 +2712,14 @@
    "verse_cvs": [
     "7:19"
    ],
-   "cluster_id": 163,
-   "near_dups": [
-    {
-     "id": 81,
-     "score": 0.937
-    }
-   ]
+   "cluster_id": 152,
+   "near_dups": [],
+   "orig_id": 163,
+   "old_text": "Realize the divine dwells within everything you see."
   },
   {
    "chapter": 7,
-   "text": "Watch how desire steers you toward lesser aims.",
+   "text": "Craving quietly steers you toward lesser things.",
    "verses": [
     "7:20"
    ],
@@ -2588,12 +2728,14 @@
    "verse_cvs": [
     "7:20"
    ],
-   "cluster_id": 164,
-   "near_dups": []
+   "cluster_id": 153,
+   "near_dups": [],
+   "orig_id": 164,
+   "old_text": "Watch how desire steers you toward lesser aims."
   },
   {
    "chapter": 7,
-   "text": "Whatever you worship with faith is strengthened.",
+   "text": "What you give attention to grows.",
    "verses": [
     "7:21",
     "7:22"
@@ -2604,17 +2746,14 @@
     "7:21",
     "7:22"
    ],
-   "cluster_id": 165,
-   "near_dups": [
-    {
-     "id": 308,
-     "score": 0.933
-    }
-   ]
+   "cluster_id": 154,
+   "near_dups": [],
+   "orig_id": 165,
+   "old_text": "Whatever you worship with faith is strengthened."
   },
   {
    "chapter": 7,
-   "text": "Choose lasting aims over quick, finite rewards.",
+   "text": "Chase what lasts, not what's quick.",
    "verses": [
     "7:23"
    ],
@@ -2623,12 +2762,14 @@
    "verse_cvs": [
     "7:23"
    ],
-   "cluster_id": 166,
-   "near_dups": []
+   "cluster_id": 155,
+   "near_dups": [],
+   "orig_id": 166,
+   "old_text": "Choose lasting aims over quick, finite rewards."
   },
   {
    "chapter": 7,
-   "text": "Do not mistake the formless for mere form.",
+   "text": "Don't mistake the surface for the whole.",
    "verses": [
     "7:24",
     "7:25"
@@ -2639,12 +2780,19 @@
     "7:24",
     "7:25"
    ],
-   "cluster_id": 167,
-   "near_dups": []
+   "cluster_id": 156,
+   "near_dups": [
+    {
+     "id": 301,
+     "score": 0.946
+    }
+   ],
+   "orig_id": 167,
+   "old_text": "Do not mistake the formless for mere form."
   },
   {
    "chapter": 7,
-   "text": "Remember the knower is never fully known.",
+   "text": "Stay humble. No one is ever fully known.",
    "verses": [
     "7:26"
    ],
@@ -2653,12 +2801,14 @@
    "verse_cvs": [
     "7:26"
    ],
-   "cluster_id": 168,
-   "near_dups": []
+   "cluster_id": 157,
+   "near_dups": [],
+   "orig_id": 168,
+   "old_text": "Remember the knower is never fully known."
   },
   {
    "chapter": 7,
-   "text": "Free yourself from the pull of like and dislike.",
+   "text": "Don't be ruled by every like and dislike.",
    "verses": [
     "7:27",
     "7:28"
@@ -2669,28 +2819,19 @@
     "7:27",
     "7:28"
    ],
-   "cluster_id": 169,
-   "near_dups": []
-  },
-  {
-   "chapter": 7,
-   "text": "Seek refuge to understand self, spirit, and action.",
-   "verses": [
-    "7:29",
-    "7:30"
+   "cluster_id": 158,
+   "near_dups": [
+    {
+     "id": 18,
+     "score": 0.939
+    }
    ],
-   "best_verse": "7:29",
-   "rationale": "Those who take refuge realize Brahman, the Self, and all action, and know the divine even at death.",
-   "verse_cvs": [
-    "7:29",
-    "7:30"
-   ],
-   "cluster_id": 170,
-   "near_dups": []
+   "orig_id": 169,
+   "old_text": "Free yourself from the pull of like and dislike."
   },
   {
    "chapter": 8,
-   "text": "Know the imperishable Self behind all changing forms.",
+   "text": "Something in you stays constant through every change.",
    "verses": [
     "8:1",
     "8:2",
@@ -2705,12 +2846,14 @@
     "8:3",
     "8:4"
    ],
-   "cluster_id": 171,
-   "near_dups": []
+   "cluster_id": 159,
+   "near_dups": [],
+   "orig_id": 171,
+   "old_text": "Know the imperishable Self behind all changing forms."
   },
   {
    "chapter": 8,
-   "text": "Whatever you remember at the end, you become.",
+   "text": "You become whatever you dwell on.",
    "verses": [
     "8:5",
     "8:6"
@@ -2721,12 +2864,14 @@
     "8:5",
     "8:6"
    ],
-   "cluster_id": 172,
-   "near_dups": []
+   "cluster_id": 160,
+   "near_dups": [],
+   "orig_id": 172,
+   "old_text": "Whatever you remember at the end, you become."
   },
   {
    "chapter": 8,
-   "text": "Remember what matters most while you still act.",
+   "text": "Keep what matters in mind while you work.",
    "verses": [
     "8:7"
    ],
@@ -2735,12 +2880,14 @@
    "verse_cvs": [
     "8:7"
    ],
-   "cluster_id": 173,
-   "near_dups": []
+   "cluster_id": 161,
+   "near_dups": [],
+   "orig_id": 173,
+   "old_text": "Remember what matters most while you still act."
   },
   {
    "chapter": 8,
-   "text": "Steady the mind through daily, unwavering practice.",
+   "text": "Steady the mind with daily practice.",
    "verses": [
     "8:8"
    ],
@@ -2749,12 +2896,14 @@
    "verse_cvs": [
     "8:8"
    ],
-   "cluster_id": 174,
-   "near_dups": []
+   "cluster_id": 162,
+   "near_dups": [],
+   "orig_id": 174,
+   "old_text": "Steady the mind through daily, unwavering practice."
   },
   {
    "chapter": 8,
-   "text": "Contemplate what is vast, ancient, and beyond darkness.",
+   "text": "Lift your mind toward something larger than yourself.",
    "verses": [
     "8:9",
     "8:10"
@@ -2765,12 +2914,14 @@
     "8:9",
     "8:10"
    ],
-   "cluster_id": 175,
-   "near_dups": []
+   "cluster_id": 163,
+   "near_dups": [],
+   "orig_id": 175,
+   "old_text": "Contemplate what is vast, ancient, and beyond darkness."
   },
   {
    "chapter": 8,
-   "text": "Close the senses and gather your mind inward.",
+   "text": "Quiet the noise and turn inward.",
    "verses": [
     "8:11",
     "8:12"
@@ -2781,12 +2932,14 @@
     "8:11",
     "8:12"
    ],
-   "cluster_id": 176,
-   "near_dups": []
+   "cluster_id": 164,
+   "near_dups": [],
+   "orig_id": 176,
+   "old_text": "Close the senses and gather your mind inward."
   },
   {
    "chapter": 8,
-   "text": "Anchor your restless mind to a single word.",
+   "text": "Anchor a restless mind on one word.",
    "verses": [
     "8:13"
    ],
@@ -2795,12 +2948,14 @@
    "verse_cvs": [
     "8:13"
    ],
-   "cluster_id": 177,
-   "near_dups": []
+   "cluster_id": 165,
+   "near_dups": [],
+   "orig_id": 177,
+   "old_text": "Anchor your restless mind to a single word."
   },
   {
    "chapter": 8,
-   "text": "Devote yourself constantly and the way grows easy.",
+   "text": "Practiced daily, the hard thing grows easy.",
    "verses": [
     "8:14"
    ],
@@ -2809,12 +2964,14 @@
    "verse_cvs": [
     "8:14"
    ],
-   "cluster_id": 178,
-   "near_dups": []
+   "cluster_id": 166,
+   "near_dups": [],
+   "orig_id": 178,
+   "old_text": "Devote yourself constantly and the way grows easy."
   },
   {
    "chapter": 8,
-   "text": "Reach the lasting, and leave suffering's cycle behind.",
+   "text": "Chase the lasting and step off the treadmill.",
    "verses": [
     "8:15",
     "8:16"
@@ -2825,12 +2982,14 @@
     "8:15",
     "8:16"
    ],
-   "cluster_id": 179,
-   "near_dups": []
+   "cluster_id": 167,
+   "near_dups": [],
+   "orig_id": 179,
+   "old_text": "Reach the lasting, and leave suffering's cycle behind."
   },
   {
    "chapter": 8,
-   "text": "Everything built in time will dissolve in time.",
+   "text": "Everything built in time eventually dissolves.",
    "verses": [
     "8:17",
     "8:18",
@@ -2843,12 +3002,14 @@
     "8:18",
     "8:19"
    ],
-   "cluster_id": 180,
-   "near_dups": []
+   "cluster_id": 168,
+   "near_dups": [],
+   "orig_id": 180,
+   "old_text": "Everything built in time will dissolve in time."
   },
   {
    "chapter": 8,
-   "text": "Seek the eternal that survives when all else ends.",
+   "text": "Invest in what outlasts you.",
    "verses": [
     "8:20",
     "8:21"
@@ -2859,12 +3020,14 @@
     "8:20",
     "8:21"
    ],
-   "cluster_id": 181,
-   "near_dups": []
+   "cluster_id": 169,
+   "near_dups": [],
+   "orig_id": 181,
+   "old_text": "Seek the eternal that survives when all else ends."
   },
   {
    "chapter": 8,
-   "text": "Give your whole heart to one undivided aim.",
+   "text": "Give your whole heart to one aim.",
    "verses": [
     "8:22"
    ],
@@ -2873,12 +3036,14 @@
    "verse_cvs": [
     "8:22"
    ],
-   "cluster_id": 182,
-   "near_dups": []
+   "cluster_id": 170,
+   "near_dups": [],
+   "orig_id": 182,
+   "old_text": "Give your whole heart to one undivided aim."
   },
   {
    "chapter": 8,
-   "text": "Move toward the light, not toward the smoke.",
+   "text": "Move toward the light, not the smoke.",
    "verses": [
     "8:23",
     "8:24",
@@ -2893,12 +3058,14 @@
     "8:25",
     "8:26"
    ],
-   "cluster_id": 183,
-   "near_dups": []
+   "cluster_id": 171,
+   "near_dups": [],
+   "orig_id": 183,
+   "old_text": "Move toward the light, not toward the smoke."
   },
   {
    "chapter": 8,
-   "text": "Stay steadfast in practice through every season.",
+   "text": "Stay steady in practice through every season.",
    "verses": [
     "8:27"
    ],
@@ -2907,12 +3074,14 @@
    "verse_cvs": [
     "8:27"
    ],
-   "cluster_id": 184,
-   "near_dups": []
+   "cluster_id": 172,
+   "near_dups": [],
+   "orig_id": 184,
+   "old_text": "Stay steadfast in practice through every season."
   },
   {
    "chapter": 8,
-   "text": "Inner practice outlasts every ritual and reward.",
+   "text": "Inner work outlasts every outward show.",
    "verses": [
     "8:28"
    ],
@@ -2921,12 +3090,14 @@
    "verse_cvs": [
     "8:28"
    ],
-   "cluster_id": 185,
-   "near_dups": []
+   "cluster_id": 173,
+   "near_dups": [],
+   "orig_id": 185,
+   "old_text": "Inner practice outlasts every ritual and reward."
   },
   {
    "chapter": 9,
-   "text": "Approach sacred knowledge without cynicism or cavil.",
+   "text": "Meet new ideas without cynicism.",
    "verses": [
     "9:1"
    ],
@@ -2935,12 +3106,14 @@
    "verse_cvs": [
     "9:1"
    ],
-   "cluster_id": 186,
-   "near_dups": []
+   "cluster_id": 174,
+   "near_dups": [],
+   "orig_id": 186,
+   "old_text": "Approach sacred knowledge without cynicism or cavil."
   },
   {
    "chapter": 9,
-   "text": "The highest path is the simplest to walk.",
+   "text": "The best path is often the simplest.",
    "verses": [
     "9:2"
    ],
@@ -2949,12 +3122,14 @@
    "verse_cvs": [
     "9:2"
    ],
-   "cluster_id": 187,
-   "near_dups": []
+   "cluster_id": 175,
+   "near_dups": [],
+   "orig_id": 187,
+   "old_text": "The highest path is the simplest to walk."
   },
   {
    "chapter": 9,
-   "text": "Without faith, you circle back where you started.",
+   "text": "Without conviction, you drift back to the start.",
    "verses": [
     "9:3"
    ],
@@ -2963,12 +3138,14 @@
    "verse_cvs": [
     "9:3"
    ],
-   "cluster_id": 188,
-   "near_dups": []
+   "cluster_id": 176,
+   "near_dups": [],
+   "orig_id": 188,
+   "old_text": "Without faith, you circle back where you started."
   },
   {
    "chapter": 9,
-   "text": "The divine pervades everything yet is bound by nothing.",
+   "text": "Be part of everything, attached to nothing.",
    "verses": [
     "9:4",
     "9:5",
@@ -2981,12 +3158,19 @@
     "9:5",
     "9:6"
    ],
-   "cluster_id": 189,
-   "near_dups": []
+   "cluster_id": 177,
+   "near_dups": [
+    {
+     "id": 231,
+     "score": 0.93
+    }
+   ],
+   "orig_id": 189,
+   "old_text": "The divine pervades everything yet is bound by nothing."
   },
   {
    "chapter": 9,
-   "text": "All that arises will dissolve and rise again.",
+   "text": "What ends makes room for a new beginning.",
    "verses": [
     "9:7",
     "9:8"
@@ -2997,12 +3181,14 @@
     "9:7",
     "9:8"
    ],
-   "cluster_id": 190,
-   "near_dups": []
+   "cluster_id": 178,
+   "near_dups": [],
+   "orig_id": 190,
+   "old_text": "All that arises will dissolve and rise again."
   },
   {
    "chapter": 9,
-   "text": "Act while resting untouched, like a witness.",
+   "text": "Do the work without getting tangled in it.",
    "verses": [
     "9:9",
     "9:10"
@@ -3013,12 +3199,19 @@
     "9:9",
     "9:10"
    ],
-   "cluster_id": 191,
-   "near_dups": []
+   "cluster_id": 179,
+   "near_dups": [
+    {
+     "id": 66,
+     "score": 0.953
+    }
+   ],
+   "orig_id": 191,
+   "old_text": "Act while resting untouched, like a witness."
   },
   {
    "chapter": 9,
-   "text": "Do not dismiss the sacred in ordinary form.",
+   "text": "Don't overlook greatness in ordinary packaging.",
    "verses": [
     "9:11",
     "9:12"
@@ -3029,12 +3222,14 @@
     "9:11",
     "9:12"
    ],
-   "cluster_id": 192,
-   "near_dups": []
+   "cluster_id": 180,
+   "near_dups": [],
+   "orig_id": 192,
+   "old_text": "Do not dismiss the sacred in ordinary form."
   },
   {
    "chapter": 9,
-   "text": "Worship with a single, undivided mind.",
+   "text": "Do one thing at a time, completely.",
    "verses": [
     "9:13",
     "9:14"
@@ -3045,12 +3240,14 @@
     "9:13",
     "9:14"
    ],
-   "cluster_id": 193,
-   "near_dups": []
+   "cluster_id": 181,
+   "near_dups": [],
+   "orig_id": 193,
+   "old_text": "Worship with a single, undivided mind."
   },
   {
    "chapter": 9,
-   "text": "See the one divine behind every form.",
+   "text": "The same thread runs through everyone.",
    "verses": [
     "9:15",
     "9:16",
@@ -3065,17 +3262,19 @@
     "9:17",
     "9:18"
    ],
-   "cluster_id": 194,
+   "cluster_id": 182,
    "near_dups": [
     {
-     "id": 81,
-     "score": 0.946
+     "id": 300,
+     "score": 0.984
     }
-   ]
+   ],
+   "orig_id": 194,
+   "old_text": "See the one divine behind every form."
   },
   {
    "chapter": 9,
-   "text": "Ritual rewards run out; the divine does not.",
+   "text": "Quick rewards run out. Deeper ones don't.",
    "verses": [
     "9:19",
     "9:20",
@@ -3088,12 +3287,14 @@
     "9:20",
     "9:21"
    ],
-   "cluster_id": 195,
-   "near_dups": []
+   "cluster_id": 183,
+   "near_dups": [],
+   "orig_id": 195,
+   "old_text": "Ritual rewards run out; the divine does not."
   },
   {
    "chapter": 9,
-   "text": "Devote yourself fully, and your needs are carried.",
+   "text": "Commit fully, and you'll find what you need.",
    "verses": [
     "9:22"
    ],
@@ -3102,12 +3303,14 @@
    "verse_cvs": [
     "9:22"
    ],
-   "cluster_id": 196,
-   "near_dups": []
+   "cluster_id": 184,
+   "near_dups": [],
+   "orig_id": 196,
+   "old_text": "Devote yourself fully, and your needs are carried."
   },
   {
    "chapter": 9,
-   "text": "Every sincere prayer reaches the same source.",
+   "text": "Every sincere effort counts, whatever its form.",
    "verses": [
     "9:23",
     "9:24",
@@ -3120,12 +3323,14 @@
     "9:24",
     "9:25"
    ],
-   "cluster_id": 197,
-   "near_dups": []
+   "cluster_id": 185,
+   "near_dups": [],
+   "orig_id": 197,
+   "old_text": "Every sincere prayer reaches the same source."
   },
   {
    "chapter": 9,
-   "text": "Even a leaf, given with love, is enough.",
+   "text": "Given sincerely, even a small gift means everything.",
    "verses": [
     "9:26"
    ],
@@ -3134,12 +3339,14 @@
    "verse_cvs": [
     "9:26"
    ],
-   "cluster_id": 198,
-   "near_dups": []
+   "cluster_id": 186,
+   "near_dups": [],
+   "orig_id": 198,
+   "old_text": "Even a leaf, given with love, is enough."
   },
   {
    "chapter": 9,
-   "text": "Offer whatever you do as devotion.",
+   "text": "Pour yourself fully into whatever you do.",
    "verses": [
     "9:27"
    ],
@@ -3148,12 +3355,14 @@
    "verse_cvs": [
     "9:27"
    ],
-   "cluster_id": 199,
-   "near_dups": []
+   "cluster_id": 187,
+   "near_dups": [],
+   "orig_id": 199,
+   "old_text": "Offer whatever you do as devotion."
   },
   {
    "chapter": 9,
-   "text": "Offer your actions and their fruits lose their grip.",
+   "text": "Do the work, release the outcome.",
    "verses": [
     "9:28"
    ],
@@ -3162,12 +3371,14 @@
    "verse_cvs": [
     "9:28"
    ],
-   "cluster_id": 200,
-   "near_dups": []
+   "cluster_id": 188,
+   "near_dups": [],
+   "orig_id": 200,
+   "old_text": "Offer your actions and their fruits lose their grip."
   },
   {
    "chapter": 9,
-   "text": "The divine is equal to all, yet near to the devoted.",
+   "text": "You get back the closeness you give.",
    "verses": [
     "9:29"
    ],
@@ -3176,12 +3387,14 @@
    "verse_cvs": [
     "9:29"
    ],
-   "cluster_id": 201,
-   "near_dups": []
+   "cluster_id": 189,
+   "near_dups": [],
+   "orig_id": 201,
+   "old_text": "The divine is equal to all, yet near to the devoted."
   },
   {
    "chapter": 9,
-   "text": "No one who truly turns back is beyond redemption.",
+   "text": "It's never too late to change direction.",
    "verses": [
     "9:30",
     "9:31"
@@ -3192,12 +3405,14 @@
     "9:30",
     "9:31"
    ],
-   "cluster_id": 202,
-   "near_dups": []
+   "cluster_id": 190,
+   "near_dups": [],
+   "orig_id": 202,
+   "old_text": "No one who truly turns back is beyond redemption."
   },
   {
    "chapter": 9,
-   "text": "The highest goal is open to everyone.",
+   "text": "The best in life is open to everyone.",
    "verses": [
     "9:32",
     "9:33"
@@ -3208,12 +3423,14 @@
     "9:32",
     "9:33"
    ],
-   "cluster_id": 203,
-   "near_dups": []
+   "cluster_id": 191,
+   "near_dups": [],
+   "orig_id": 203,
+   "old_text": "The highest goal is open to everyone."
   },
   {
    "chapter": 9,
-   "text": "Fix your mind, bow, and give yourself wholly.",
+   "text": "Show up fully: mind, heart, and effort.",
    "verses": [
     "9:34"
    ],
@@ -3222,12 +3439,14 @@
    "verse_cvs": [
     "9:34"
    ],
-   "cluster_id": 204,
-   "near_dups": []
+   "cluster_id": 192,
+   "near_dups": [],
+   "orig_id": 204,
+   "old_text": "Fix your mind, bow, and give yourself wholly."
   },
   {
    "chapter": 10,
-   "text": "Know the divine as unborn and beginningless, and be freed from delusion.",
+   "text": "See clearly, and illusion loses its grip.",
    "verses": [
     "10:1-3"
    ],
@@ -3238,12 +3457,14 @@
     "10:2",
     "10:3"
    ],
-   "cluster_id": 205,
-   "near_dups": []
+   "cluster_id": 193,
+   "near_dups": [],
+   "orig_id": 205,
+   "old_text": "Know the divine as unborn and beginningless, and be freed from delusion."
   },
   {
    "chapter": 10,
-   "text": "Absorb your mind in the divine and awaken others by sharing it.",
+   "text": "Share what moves you; it wakes others up.",
    "verses": [
     "10:8-9"
    ],
@@ -3253,12 +3474,14 @@
     "10:8",
     "10:9"
    ],
-   "cluster_id": 206,
-   "near_dups": []
+   "cluster_id": 194,
+   "near_dups": [],
+   "orig_id": 206,
+   "old_text": "Absorb your mind in the divine and awaken others by sharing it."
   },
   {
    "chapter": 10,
-   "text": "Worship steadfastly with love, and clear discernment will be given.",
+   "text": "Show up with love, and clarity follows.",
    "verses": [
     "10:10"
    ],
@@ -3267,12 +3490,14 @@
    "verse_cvs": [
     "10:10"
    ],
-   "cluster_id": 207,
-   "near_dups": []
+   "cluster_id": 195,
+   "near_dups": [],
+   "orig_id": 207,
+   "old_text": "Worship steadfastly with love, and clear discernment will be given."
   },
   {
    "chapter": 10,
-   "text": "Let the lamp of knowledge burn away the darkness of ignorance.",
+   "text": "Let understanding burn away your confusion.",
    "verses": [
     "10:11"
    ],
@@ -3281,17 +3506,14 @@
    "verse_cvs": [
     "10:11"
    ],
-   "cluster_id": 208,
-   "near_dups": [
-    {
-     "id": 105,
-     "score": 0.94
-    }
-   ]
+   "cluster_id": 196,
+   "near_dups": [],
+   "orig_id": 208,
+   "old_text": "Let the lamp of knowledge burn away the darkness of ignorance."
   },
   {
    "chapter": 10,
-   "text": "See every glory and power as a spark of the divine splendor.",
+   "text": "The best of anything is a glimpse of something larger.",
    "verses": [
     "10:41"
    ],
@@ -3300,26 +3522,14 @@
    "verse_cvs": [
     "10:41"
    ],
-   "cluster_id": 209,
-   "near_dups": []
-  },
-  {
-   "chapter": 10,
-   "text": "Trust that a single fragment of the divine upholds the whole world.",
-   "verses": [
-    "10:42"
-   ],
-   "best_verse": "10:42",
-   "rationale": "The closing teaching: the divine supports this entire universe with just one part of itself.",
-   "verse_cvs": [
-    "10:42"
-   ],
-   "cluster_id": 210,
-   "near_dups": []
+   "cluster_id": 197,
+   "near_dups": [],
+   "orig_id": 209,
+   "old_text": "See every glory and power as a spark of the divine splendor."
   },
   {
    "chapter": 11,
-   "text": "Bow your head before what dwarfs you.",
+   "text": "Meet what overwhelms you with humility, not fear.",
    "verses": [
     "11:14"
    ],
@@ -3328,12 +3538,14 @@
    "verse_cvs": [
     "11:14"
    ],
-   "cluster_id": 211,
-   "near_dups": []
+   "cluster_id": 198,
+   "near_dups": [],
+   "orig_id": 211,
+   "old_text": "Bow your head before what dwarfs you."
   },
   {
    "chapter": 11,
-   "text": "Do your part; the outcome is already set.",
+   "text": "Do your part; the outcome isn't yours to control.",
    "verses": [
     "11:32",
     "11:33"
@@ -3344,12 +3556,14 @@
     "11:32",
     "11:33"
    ],
-   "cluster_id": 212,
-   "near_dups": []
+   "cluster_id": 199,
+   "near_dups": [],
+   "orig_id": 212,
+   "old_text": "Do your part; the outcome is already set."
   },
   {
    "chapter": 11,
-   "text": "Fight your battle without fear of losing.",
+   "text": "Face your fight with courage, not dread.",
    "verses": [
     "11:34"
    ],
@@ -3358,12 +3572,14 @@
    "verse_cvs": [
     "11:34"
    ],
-   "cluster_id": 213,
-   "near_dups": []
+   "cluster_id": 200,
+   "near_dups": [],
+   "orig_id": 213,
+   "old_text": "Fight your battle without fear of losing."
   },
   {
    "chapter": 11,
-   "text": "Apologize for the times you took greatness lightly.",
+   "text": "Honor what you've been taking for granted.",
    "verses": [
     "11:41",
     "11:42",
@@ -3378,12 +3594,14 @@
     "11:43",
     "11:44"
    ],
-   "cluster_id": 214,
-   "near_dups": []
+   "cluster_id": 201,
+   "near_dups": [],
+   "orig_id": 214,
+   "old_text": "Apologize for the times you took greatness lightly."
   },
   {
    "chapter": 11,
-   "text": "Only devotion, not ritual, reveals the deepest truth.",
+   "text": "Wholehearted attention reveals what routine can't.",
    "verses": [
     "11:53",
     "11:54"
@@ -3394,12 +3612,14 @@
     "11:53",
     "11:54"
    ],
-   "cluster_id": 215,
-   "near_dups": []
+   "cluster_id": 202,
+   "near_dups": [],
+   "orig_id": 215,
+   "old_text": "Only devotion, not ritual, reveals the deepest truth."
   },
   {
    "chapter": 11,
-   "text": "Work for the sacred, unattached and free of enmity.",
+   "text": "Work without clinging, and hold no one as enemy.",
    "verses": [
     "11:55"
    ],
@@ -3408,12 +3628,14 @@
    "verse_cvs": [
     "11:55"
    ],
-   "cluster_id": 216,
-   "near_dups": []
+   "cluster_id": 203,
+   "near_dups": [],
+   "orig_id": 216,
+   "old_text": "Work for the sacred, unattached and free of enmity."
   },
   {
    "chapter": 12,
-   "text": "Loving the personal divine beats worshipping the abstract.",
+   "text": "The concrete is easier to hold than the abstract.",
    "verses": [
     "12:1",
     "12:2"
@@ -3424,12 +3646,14 @@
     "12:1",
     "12:2"
    ],
-   "cluster_id": 217,
-   "near_dups": []
+   "cluster_id": 204,
+   "near_dups": [],
+   "orig_id": 217,
+   "old_text": "Loving the personal divine beats worshipping the abstract."
   },
   {
    "chapter": 12,
-   "text": "The formless path is valid but harder to walk.",
+   "text": "The abstract road is valid, just steeper to walk.",
    "verses": [
     "12:3",
     "12:4",
@@ -3442,12 +3666,14 @@
     "12:4",
     "12:5"
    ],
-   "cluster_id": 218,
-   "near_dups": []
+   "cluster_id": 205,
+   "near_dups": [],
+   "orig_id": 218,
+   "old_text": "The formless path is valid but harder to walk."
   },
   {
    "chapter": 12,
-   "text": "Surrender your whole self and be carried across.",
+   "text": "Give yourself fully, and you'll be carried through.",
    "verses": [
     "12:6",
     "12:7"
@@ -3458,17 +3684,14 @@
     "12:6",
     "12:7"
    ],
-   "cluster_id": 219,
-   "near_dups": [
-    {
-     "id": 364,
-     "score": 0.946
-    }
-   ]
+   "cluster_id": 206,
+   "near_dups": [],
+   "orig_id": 219,
+   "old_text": "Surrender your whole self and be carried across."
   },
   {
    "chapter": 12,
-   "text": "First, simply fix your mind on the divine.",
+   "text": "Start by giving it your full attention.",
    "verses": [
     "12:8"
    ],
@@ -3477,17 +3700,14 @@
    "verse_cvs": [
     "12:8"
    ],
-   "cluster_id": 220,
-   "near_dups": [
-    {
-     "id": 366,
-     "score": 0.95
-    }
-   ]
+   "cluster_id": 207,
+   "near_dups": [],
+   "orig_id": 220,
+   "old_text": "First, simply fix your mind on the divine."
   },
   {
    "chapter": 12,
-   "text": "If you cannot hold focus, practice reaching for it.",
+   "text": "If focus fails, keep showing up.",
    "verses": [
     "12:9"
    ],
@@ -3496,12 +3716,14 @@
    "verse_cvs": [
     "12:9"
    ],
-   "cluster_id": 221,
-   "near_dups": []
+   "cluster_id": 208,
+   "near_dups": [],
+   "orig_id": 221,
+   "old_text": "If you cannot hold focus, practice reaching for it."
   },
   {
    "chapter": 12,
-   "text": "If practice is too hard, just work for the divine.",
+   "text": "Can't stay steady? Act on it anyway.",
    "verses": [
     "12:10"
    ],
@@ -3510,12 +3732,14 @@
    "verse_cvs": [
     "12:10"
    ],
-   "cluster_id": 222,
-   "near_dups": []
+   "cluster_id": 209,
+   "near_dups": [],
+   "orig_id": 222,
+   "old_text": "If practice is too hard, just work for the divine."
   },
   {
    "chapter": 12,
-   "text": "If all else fails, at least surrender the results.",
+   "text": "At minimum, let go of needing a reward.",
    "verses": [
     "12:11"
    ],
@@ -3524,12 +3748,14 @@
    "verse_cvs": [
     "12:11"
    ],
-   "cluster_id": 223,
-   "near_dups": []
+   "cluster_id": 210,
+   "near_dups": [],
+   "orig_id": 223,
+   "old_text": "If all else fails, at least surrender the results."
   },
   {
    "chapter": 12,
-   "text": "Let go of outcomes and peace arrives at once.",
+   "text": "Release the outcome and peace arrives at once.",
    "verses": [
     "12:12"
    ],
@@ -3538,12 +3764,14 @@
    "verse_cvs": [
     "12:12"
    ],
-   "cluster_id": 224,
-   "near_dups": []
+   "cluster_id": 211,
+   "near_dups": [],
+   "orig_id": 224,
+   "old_text": "Let go of outcomes and peace arrives at once."
   },
   {
    "chapter": 12,
-   "text": "Hate no creature; be a friend to all.",
+   "text": "Wish no one harm; be a friend to all.",
    "verses": [
     "12:13"
    ],
@@ -3552,12 +3780,14 @@
    "verse_cvs": [
     "12:13"
    ],
-   "cluster_id": 225,
-   "near_dups": []
+   "cluster_id": 212,
+   "near_dups": [],
+   "orig_id": 225,
+   "old_text": "Hate no creature; be a friend to all."
   },
   {
    "chapter": 12,
-   "text": "Stay balanced in pleasure and pain, quick to forgive.",
+   "text": "Stay steady through highs and lows; forgive quickly.",
    "verses": [
     "12:13"
    ],
@@ -3566,12 +3796,14 @@
    "verse_cvs": [
     "12:13"
    ],
-   "cluster_id": 226,
-   "near_dups": []
+   "cluster_id": 213,
+   "near_dups": [],
+   "orig_id": 226,
+   "old_text": "Stay balanced in pleasure and pain, quick to forgive."
   },
   {
    "chapter": 12,
-   "text": "Be content and steady, your resolve unshaken.",
+   "text": "Stay content and steady, your resolve firm.",
    "verses": [
     "12:14"
    ],
@@ -3580,12 +3812,14 @@
    "verse_cvs": [
     "12:14"
    ],
-   "cluster_id": 227,
-   "near_dups": []
+   "cluster_id": 214,
+   "near_dups": [],
+   "orig_id": 227,
+   "old_text": "Be content and steady, your resolve unshaken."
   },
   {
    "chapter": 12,
-   "text": "Neither disturb the world nor let it disturb you.",
+   "text": "Trouble no one, and let nothing trouble you.",
    "verses": [
     "12:15"
    ],
@@ -3594,12 +3828,14 @@
    "verse_cvs": [
     "12:15"
    ],
-   "cluster_id": 228,
-   "near_dups": []
+   "cluster_id": 215,
+   "near_dups": [],
+   "orig_id": 228,
+   "old_text": "Neither disturb the world nor let it disturb you."
   },
   {
    "chapter": 12,
-   "text": "Want nothing, stay pure, and drop every anxious scheme.",
+   "text": "Want less, stay clear, drop the anxious scheming.",
    "verses": [
     "12:16"
    ],
@@ -3608,12 +3844,14 @@
    "verse_cvs": [
     "12:16"
    ],
-   "cluster_id": 229,
-   "near_dups": []
+   "cluster_id": 216,
+   "near_dups": [],
+   "orig_id": 229,
+   "old_text": "Want nothing, stay pure, and drop every anxious scheme."
   },
   {
    "chapter": 12,
-   "text": "Stop chasing and recoiling; rise above good and bad.",
+   "text": "Stop clinging and recoiling; let things be.",
    "verses": [
     "12:17"
    ],
@@ -3622,12 +3860,14 @@
    "verse_cvs": [
     "12:17"
    ],
-   "cluster_id": 230,
-   "near_dups": []
+   "cluster_id": 217,
+   "near_dups": [],
+   "orig_id": 230,
+   "old_text": "Stop chasing and recoiling; rise above good and bad."
   },
   {
    "chapter": 12,
-   "text": "Treat friend and foe, honor and insult, the same.",
+   "text": "Treat friend and foe, honor and insult, alike.",
    "verses": [
     "12:18"
    ],
@@ -3636,12 +3876,14 @@
    "verse_cvs": [
     "12:18"
    ],
-   "cluster_id": 231,
-   "near_dups": []
+   "cluster_id": 218,
+   "near_dups": [],
+   "orig_id": 231,
+   "old_text": "Treat friend and foe, honor and insult, the same."
   },
   {
    "chapter": 12,
-   "text": "Take praise and blame alike; be content with anything.",
+   "text": "Let praise and blame pass through you.",
    "verses": [
     "12:19"
    ],
@@ -3650,12 +3892,19 @@
    "verse_cvs": [
     "12:19"
    ],
-   "cluster_id": 232,
-   "near_dups": []
+   "cluster_id": 219,
+   "near_dups": [
+    {
+     "id": 113,
+     "score": 0.933
+    }
+   ],
+   "orig_id": 232,
+   "old_text": "Take praise and blame alike; be content with anything."
   },
   {
    "chapter": 12,
-   "text": "Walk this path with faith and become truly beloved.",
+   "text": "Follow through with faith, all in.",
    "verses": [
     "12:20"
    ],
@@ -3664,40 +3913,14 @@
    "verse_cvs": [
     "12:20"
    ],
-   "cluster_id": 233,
-   "near_dups": []
+   "cluster_id": 220,
+   "near_dups": [],
+   "orig_id": 233,
+   "old_text": "Walk this path with faith and become truly beloved."
   },
   {
    "chapter": 13,
-   "text": "Know your body as a field you observe.",
-   "verses": [
-    "13:2"
-   ],
-   "best_verse": "13:2",
-   "rationale": "Defines the body as the 'field' and the self as its knower.",
-   "verse_cvs": [
-    "13:2"
-   ],
-   "cluster_id": 234,
-   "near_dups": []
-  },
-  {
-   "chapter": 13,
-   "text": "See the same knower present in every field.",
-   "verses": [
-    "13:3"
-   ],
-   "best_verse": "13:3",
-   "rationale": "The one knower dwells in all fields alike.",
-   "verse_cvs": [
-    "13:3"
-   ],
-   "cluster_id": 235,
-   "near_dups": []
-  },
-  {
-   "chapter": 13,
-   "text": "Count desire, hatred, and pain as passing field, not self.",
+   "text": "Let desire and pain pass; they aren't you.",
    "verses": [
     "13:6",
     "13:7"
@@ -3708,12 +3931,14 @@
     "13:6",
     "13:7"
    ],
-   "cluster_id": 236,
-   "near_dups": []
+   "cluster_id": 221,
+   "near_dups": [],
+   "orig_id": 236,
+   "old_text": "Count desire, hatred, and pain as passing field, not self."
   },
   {
    "chapter": 13,
-   "text": "Stay humble, upright, and free of pretense.",
+   "text": "Stay humble, honest, and free of pretense.",
    "verses": [
     "13:8"
    ],
@@ -3722,12 +3947,14 @@
    "verse_cvs": [
     "13:8"
    ],
-   "cluster_id": 237,
-   "near_dups": []
+   "cluster_id": 222,
+   "near_dups": [],
+   "orig_id": 237,
+   "old_text": "Stay humble, upright, and free of pretense."
   },
   {
    "chapter": 13,
-   "text": "Injure no one; forgive, and hold yourself in check.",
+   "text": "Harm no one; forgive; keep yourself in check.",
    "verses": [
     "13:8"
    ],
@@ -3736,12 +3963,14 @@
    "verse_cvs": [
     "13:8"
    ],
-   "cluster_id": 238,
-   "near_dups": []
+   "cluster_id": 223,
+   "near_dups": [],
+   "orig_id": 238,
+   "old_text": "Injure no one; forgive, and hold yourself in check."
   },
   {
    "chapter": 13,
-   "text": "Serve your teacher; stay pure and steadfast.",
+   "text": "Stay humble enough to keep learning.",
    "verses": [
     "13:8"
    ],
@@ -3750,17 +3979,15 @@
    "verse_cvs": [
     "13:8"
    ],
-   "cluster_id": 239,
-   "near_dups": [
-    {
-     "id": 315,
-     "score": 0.939
-    }
-   ]
+   "cluster_id": 224,
+   "near_dups": [],
+   "orig_id": 239,
+   "old_text": "Serve your teacher; stay pure and steadfast.",
+   "revoice_note": "Reframed 'serve your teacher' as lifelong learning."
   },
   {
    "chapter": 13,
-   "text": "Loosen the ego's grip on sense pleasures.",
+   "text": "Loosen your grip on pleasure and ego.",
    "verses": [
     "13:9"
    ],
@@ -3769,12 +3996,14 @@
    "verse_cvs": [
     "13:9"
    ],
-   "cluster_id": 240,
-   "near_dups": []
+   "cluster_id": 225,
+   "near_dups": [],
+   "orig_id": 240,
+   "old_text": "Loosen the ego's grip on sense pleasures."
   },
   {
    "chapter": 13,
-   "text": "Face clearly the pain in birth, sickness, and death.",
+   "text": "Face aging, sickness, and death clearly.",
    "verses": [
     "13:9"
    ],
@@ -3783,12 +4012,14 @@
    "verse_cvs": [
     "13:9"
    ],
-   "cluster_id": 241,
-   "near_dups": []
+   "cluster_id": 226,
+   "near_dups": [],
+   "orig_id": 241,
+   "old_text": "Face clearly the pain in birth, sickness, and death."
   },
   {
    "chapter": 13,
-   "text": "Don't bind your identity to family or home.",
+   "text": "Don't tie your identity to family or home.",
    "verses": [
     "13:10"
    ],
@@ -3797,8 +4028,10 @@
    "verse_cvs": [
     "13:10"
    ],
-   "cluster_id": 242,
-   "near_dups": []
+   "cluster_id": 227,
+   "near_dups": [],
+   "orig_id": 242,
+   "old_text": "Don't bind your identity to family or home."
   },
   {
    "chapter": 13,
@@ -3811,12 +4044,14 @@
    "verse_cvs": [
     "13:10"
    ],
-   "cluster_id": 243,
-   "near_dups": []
+   "cluster_id": 228,
+   "near_dups": [],
+   "orig_id": 243,
+   "old_text": "Stay even whether outcomes please or disappoint."
   },
   {
    "chapter": 13,
-   "text": "Withdraw into solitude to deepen your devotion.",
+   "text": "Make room for solitude to hear yourself.",
    "verses": [
     "13:11"
    ],
@@ -3825,12 +4060,15 @@
    "verse_cvs": [
     "13:11"
    ],
-   "cluster_id": 244,
-   "near_dups": []
+   "cluster_id": 229,
+   "near_dups": [],
+   "orig_id": 244,
+   "old_text": "Withdraw into solitude to deepen your devotion.",
+   "revoice_note": "Dropped 'devotion'; kept the value of solitude."
   },
   {
    "chapter": 13,
-   "text": "Keep returning your attention to the Self.",
+   "text": "Keep coming back to knowing yourself.",
    "verses": [
     "13:12"
    ],
@@ -3839,28 +4077,14 @@
    "verse_cvs": [
     "13:12"
    ],
-   "cluster_id": 245,
-   "near_dups": []
+   "cluster_id": 230,
+   "near_dups": [],
+   "orig_id": 245,
+   "old_text": "Keep returning your attention to the Self."
   },
   {
    "chapter": 13,
-   "text": "Know the eternal that has no beginning or end.",
-   "verses": [
-    "13:13",
-    "13:14"
-   ],
-   "best_verse": "13:13",
-   "rationale": "The beginningless Supreme Brahman, beyond being and non-being, pervading all.",
-   "verse_cvs": [
-    "13:13",
-    "13:14"
-   ],
-   "cluster_id": 246,
-   "near_dups": []
-  },
-  {
-   "chapter": 13,
-   "text": "Support everything while clinging to nothing.",
+   "text": "Support everything; cling to nothing.",
    "verses": [
     "13:15"
    ],
@@ -3869,71 +4093,19 @@
    "verse_cvs": [
     "13:15"
    ],
-   "cluster_id": 247,
-   "near_dups": []
-  },
-  {
-   "chapter": 13,
-   "text": "Find the one presence within and beyond all beings.",
-   "verses": [
-    "13:16",
-    "13:17"
-   ],
-   "best_verse": "13:16",
-   "rationale": "Subtle, near and far, undivided yet appearing divided in beings.",
-   "verse_cvs": [
-    "13:16",
-    "13:17"
-   ],
-   "cluster_id": 248,
+   "cluster_id": 231,
    "near_dups": [
     {
-     "id": 142,
-     "score": 0.932
-    },
-    {
-     "id": 143,
-     "score": 0.932
-    },
-    {
-     "id": 336,
+     "id": 177,
      "score": 0.93
     }
-   ]
+   ],
+   "orig_id": 247,
+   "old_text": "Support everything while clinging to nothing."
   },
   {
    "chapter": 13,
-   "text": "See the light of awareness seated in every heart.",
-   "verses": [
-    "13:18"
-   ],
-   "best_verse": "13:18",
-   "rationale": "The Light of all lights, beyond darkness, seated in the hearts of all.",
-   "verse_cvs": [
-    "13:18"
-   ],
-   "cluster_id": 249,
-   "near_dups": []
-  },
-  {
-   "chapter": 13,
-   "text": "Let nature own its actions and their effects.",
-   "verses": [
-    "13:20",
-    "13:21"
-   ],
-   "best_verse": "13:21",
-   "rationale": "Nature is the cause of action; modifications and qualities are born from it.",
-   "verse_cvs": [
-    "13:20",
-    "13:21"
-   ],
-   "cluster_id": 250,
-   "near_dups": []
-  },
-  {
-   "chapter": 13,
-   "text": "Notice how clinging to moods shapes your rebirth.",
+   "text": "What you cling to shapes who you become.",
    "verses": [
     "13:22"
    ],
@@ -3942,12 +4114,15 @@
    "verse_cvs": [
     "13:22"
    ],
-   "cluster_id": 251,
-   "near_dups": []
+   "cluster_id": 232,
+   "near_dups": [],
+   "orig_id": 251,
+   "old_text": "Notice how clinging to moods shapes your rebirth.",
+   "revoice_note": "Dropped rebirth; kept attachment-shapes-you kernel."
   },
   {
    "chapter": 13,
-   "text": "Let the inner witness watch and permit, not meddle.",
+   "text": "Watch your reactions without meddling in them.",
    "verses": [
     "13:23"
    ],
@@ -3956,26 +4131,14 @@
    "verse_cvs": [
     "13:23"
    ],
-   "cluster_id": 252,
-   "near_dups": []
+   "cluster_id": 233,
+   "near_dups": [],
+   "orig_id": 252,
+   "old_text": "Let the inner witness watch and permit, not meddle."
   },
   {
    "chapter": 13,
-   "text": "Grasp spirit and matter, and end your rebirth.",
-   "verses": [
-    "13:24"
-   ],
-   "best_verse": "13:24",
-   "rationale": "Knowing Spirit and Matter with their qualities, one is not reborn.",
-   "verse_cvs": [
-    "13:24"
-   ],
-   "cluster_id": 253,
-   "near_dups": []
-  },
-  {
-   "chapter": 13,
-   "text": "Reach the Self by meditation, knowledge, or action.",
+   "text": "Grow through reflection, learning, or action.",
    "verses": [
     "13:25"
    ],
@@ -3984,54 +4147,15 @@
    "verse_cvs": [
     "13:25"
    ],
-   "cluster_id": 254,
-   "near_dups": []
+   "cluster_id": 234,
+   "near_dups": [],
+   "orig_id": 254,
+   "old_text": "Reach the Self by meditation, knowledge, or action.",
+   "revoice_note": "Reframed the three paths as ways to grow."
   },
   {
    "chapter": 13,
-   "text": "Even faithful hearing can carry you past death.",
-   "verses": [
-    "13:26"
-   ],
-   "best_verse": "13:26",
-   "rationale": "Those who worship on what they have heard also cross beyond death.",
-   "verse_cvs": [
-    "13:26"
-   ],
-   "cluster_id": 255,
-   "near_dups": []
-  },
-  {
-   "chapter": 13,
-   "text": "See every birth as field and knower joined.",
-   "verses": [
-    "13:27"
-   ],
-   "best_verse": "13:27",
-   "rationale": "All beings arise from the union of the field and its knower.",
-   "verse_cvs": [
-    "13:27"
-   ],
-   "cluster_id": 256,
-   "near_dups": []
-  },
-  {
-   "chapter": 13,
-   "text": "See the imperishable Lord within all that perishes.",
-   "verses": [
-    "13:28"
-   ],
-   "best_verse": "13:28",
-   "rationale": "He who sees the imperishable within the perishable sees truly.",
-   "verse_cvs": [
-    "13:28"
-   ],
-   "cluster_id": 257,
-   "near_dups": []
-  },
-  {
-   "chapter": 13,
-   "text": "Seeing one Self everywhere, you stop harming yourself.",
+   "text": "Harm others and you harm yourself.",
    "verses": [
     "13:29"
    ],
@@ -4040,54 +4164,14 @@
    "verse_cvs": [
     "13:29"
    ],
-   "cluster_id": 258,
-   "near_dups": []
+   "cluster_id": 235,
+   "near_dups": [],
+   "orig_id": 258,
+   "old_text": "Seeing one Self everywhere, you stop harming yourself."
   },
   {
    "chapter": 13,
-   "text": "See that nature acts while the Self stays still.",
-   "verses": [
-    "13:30"
-   ],
-   "best_verse": "13:30",
-   "rationale": "All actions are performed by Nature; the Self is without action.",
-   "verse_cvs": [
-    "13:30"
-   ],
-   "cluster_id": 259,
-   "near_dups": []
-  },
-  {
-   "chapter": 13,
-   "text": "See all beings resting in and rising from the One.",
-   "verses": [
-    "13:31"
-   ],
-   "best_verse": "13:31",
-   "rationale": "Seeing all beings resting in and emanating from the One, one becomes Brahman.",
-   "verse_cvs": [
-    "13:31"
-   ],
-   "cluster_id": 260,
-   "near_dups": []
-  },
-  {
-   "chapter": 13,
-   "text": "Rest as the Self that neither acts nor stains.",
-   "verses": [
-    "13:32"
-   ],
-   "best_verse": "13:32",
-   "rationale": "The Supreme Self, dwelling in the body, neither acts nor is tainted.",
-   "verse_cvs": [
-    "13:32"
-   ],
-   "cluster_id": 261,
-   "near_dups": []
-  },
-  {
-   "chapter": 13,
-   "text": "Stay unstained like space that touches everything.",
+   "text": "Touch everything; let nothing stain you.",
    "verses": [
     "13:33"
    ],
@@ -4096,40 +4180,14 @@
    "verse_cvs": [
     "13:33"
    ],
-   "cluster_id": 262,
-   "near_dups": []
-  },
-  {
-   "chapter": 13,
-   "text": "Let one awareness light up your whole field.",
-   "verses": [
-    "13:34"
-   ],
-   "best_verse": "13:34",
-   "rationale": "As one sun lights the world, the Self illumines the entire field.",
-   "verse_cvs": [
-    "13:34"
-   ],
-   "cluster_id": 263,
-   "near_dups": []
-  },
-  {
-   "chapter": 13,
-   "text": "Use knowledge's eye to part the field from its knower.",
-   "verses": [
-    "13:35"
-   ],
-   "best_verse": "13:35",
-   "rationale": "Perceiving the distinction between field and knower leads to the Supreme.",
-   "verse_cvs": [
-    "13:35"
-   ],
-   "cluster_id": 264,
-   "near_dups": []
+   "cluster_id": 236,
+   "near_dups": [],
+   "orig_id": 262,
+   "old_text": "Stay unstained like space that touches everything."
   },
   {
    "chapter": 14,
-   "text": "Take refuge in the highest knowledge for freedom.",
+   "text": "Clear understanding sets you free.",
    "verses": [
     "14:1-2"
    ],
@@ -4139,27 +4197,19 @@
     "14:1",
     "14:2"
    ],
-   "cluster_id": 265,
-   "near_dups": []
+   "cluster_id": 237,
+   "near_dups": [
+    {
+     "id": 105,
+     "score": 0.937
+    }
+   ],
+   "orig_id": 265,
+   "old_text": "Take refuge in the highest knowledge for freedom."
   },
   {
    "chapter": 14,
-   "text": "Remember every being springs from one divine source.",
-   "verses": [
-    "14:3-4"
-   ],
-   "best_verse": "14:4",
-   "rationale": "Krishna as seed-giving father and Brahma as womb of all forms; grounds the whole chapter's teaching on where beings come from.",
-   "verse_cvs": [
-    "14:3",
-    "14:4"
-   ],
-   "cluster_id": 266,
-   "near_dups": []
-  },
-  {
-   "chapter": 14,
-   "text": "Recognize the three inborn forces that bind you.",
+   "text": "Three forces drive you: clarity, craving, inertia.",
    "verses": [
     "14:5"
    ],
@@ -4168,12 +4218,15 @@
    "verse_cvs": [
     "14:5"
    ],
-   "cluster_id": 267,
-   "near_dups": []
+   "cluster_id": 238,
+   "near_dups": [],
+   "orig_id": 267,
+   "old_text": "Recognize the three inborn forces that bind you.",
+   "revoice_note": "Gunas reframed in plain terms."
   },
   {
    "chapter": 14,
-   "text": "Watch how even clarity and joy quietly bind.",
+   "text": "Even clarity and joy can quietly trap you.",
    "verses": [
     "14:6"
    ],
@@ -4182,12 +4235,14 @@
    "verse_cvs": [
     "14:6"
    ],
-   "cluster_id": 268,
-   "near_dups": []
+   "cluster_id": 239,
+   "near_dups": [],
+   "orig_id": 268,
+   "old_text": "Watch how even clarity and joy quietly bind."
   },
   {
    "chapter": 14,
-   "text": "See how craving chains you to restless action.",
+   "text": "Craving chains you to restless action.",
    "verses": [
     "14:7"
    ],
@@ -4196,12 +4251,19 @@
    "verse_cvs": [
     "14:7"
    ],
-   "cluster_id": 269,
-   "near_dups": []
+   "cluster_id": 240,
+   "near_dups": [
+    {
+     "id": 244,
+     "score": 0.947
+    }
+   ],
+   "orig_id": 269,
+   "old_text": "See how craving chains you to restless action."
   },
   {
    "chapter": 14,
-   "text": "Catch the dullness luring you toward sleep and neglect.",
+   "text": "Catch the dullness pulling you toward neglect.",
    "verses": [
     "14:8"
    ],
@@ -4210,12 +4272,14 @@
    "verse_cvs": [
     "14:8"
    ],
-   "cluster_id": 270,
-   "near_dups": []
+   "cluster_id": 241,
+   "near_dups": [],
+   "orig_id": 270,
+   "old_text": "Catch the dullness luring you toward sleep and neglect."
   },
   {
    "chapter": 14,
-   "text": "Notice one force overpower the others, then shift.",
+   "text": "Notice which force is driving you right now.",
    "verses": [
     "14:9-10"
    ],
@@ -4225,12 +4289,14 @@
     "14:9",
     "14:10"
    ],
-   "cluster_id": 271,
-   "near_dups": []
+   "cluster_id": 242,
+   "near_dups": [],
+   "orig_id": 271,
+   "old_text": "Notice one force overpower the others, then shift."
   },
   {
    "chapter": 14,
-   "text": "When insight lights every sense, harmony is guiding you.",
+   "text": "When insight sharpens, clarity is leading you.",
    "verses": [
     "14:11"
    ],
@@ -4239,12 +4305,14 @@
    "verse_cvs": [
     "14:11"
    ],
-   "cluster_id": 272,
-   "near_dups": []
+   "cluster_id": 243,
+   "near_dups": [],
+   "orig_id": 272,
+   "old_text": "When insight lights every sense, harmony is guiding you."
   },
   {
    "chapter": 14,
-   "text": "When greed and restlessness surge, passion is driving you.",
+   "text": "When greed and restlessness surge, craving is driving you.",
    "verses": [
     "14:12"
    ],
@@ -4253,8 +4321,15 @@
    "verse_cvs": [
     "14:12"
    ],
-   "cluster_id": 273,
-   "near_dups": []
+   "cluster_id": 244,
+   "near_dups": [
+    {
+     "id": 240,
+     "score": 0.947
+    }
+   ],
+   "orig_id": 273,
+   "old_text": "When greed and restlessness surge, passion is driving you."
   },
   {
    "chapter": 14,
@@ -4267,12 +4342,14 @@
    "verse_cvs": [
     "14:13"
    ],
-   "cluster_id": 274,
-   "near_dups": []
+   "cluster_id": 245,
+   "near_dups": [],
+   "orig_id": 274,
+   "old_text": "When fog and laziness settle, inertia has taken hold."
   },
   {
    "chapter": 14,
-   "text": "Know the force ruling at death shapes your rebirth.",
+   "text": "The mood that rules you shapes where you end up.",
    "verses": [
     "14:14-15"
    ],
@@ -4282,12 +4359,15 @@
     "14:14",
     "14:15"
    ],
-   "cluster_id": 275,
-   "near_dups": []
+   "cluster_id": 246,
+   "near_dups": [],
+   "orig_id": 275,
+   "old_text": "Know the force ruling at death shapes your rebirth.",
+   "revoice_note": "Dropped rebirth; kept dominant-force-shapes-destiny kernel."
   },
   {
    "chapter": 14,
-   "text": "Weigh each act's fruit: clarity, pain, or dullness.",
+   "text": "Every act bears fruit: clarity, pain, or dullness.",
    "verses": [
     "14:16-17"
    ],
@@ -4297,12 +4377,14 @@
     "14:16",
     "14:17"
    ],
-   "cluster_id": 276,
-   "near_dups": []
+   "cluster_id": 247,
+   "near_dups": [],
+   "orig_id": 276,
+   "old_text": "Weigh each act's fruit: clarity, pain, or dullness."
   },
   {
    "chapter": 14,
-   "text": "Your ruling force lifts, holds, or sinks you.",
+   "text": "Your ruling mood lifts, holds, or sinks you.",
    "verses": [
     "14:18"
    ],
@@ -4311,12 +4393,14 @@
    "verse_cvs": [
     "14:18"
    ],
-   "cluster_id": 277,
-   "near_dups": []
+   "cluster_id": 248,
+   "near_dups": [],
+   "orig_id": 277,
+   "old_text": "Your ruling force lifts, holds, or sinks you."
   },
   {
    "chapter": 14,
-   "text": "See only the gunas acting, then rise beyond them.",
+   "text": "See the forces at work, then rise above them.",
    "verses": [
     "14:19-20"
    ],
@@ -4326,12 +4410,14 @@
     "14:19",
     "14:20"
    ],
-   "cluster_id": 278,
-   "near_dups": []
+   "cluster_id": 249,
+   "near_dups": [],
+   "orig_id": 278,
+   "old_text": "See only the gunas acting, then rise beyond them."
   },
   {
    "chapter": 14,
-   "text": "Stay unmoved whether the forces arise or fade.",
+   "text": "Stay steady whether moods rise or fade.",
    "verses": [
     "14:22-25"
    ],
@@ -4343,12 +4429,14 @@
     "14:24",
     "14:25"
    ],
-   "cluster_id": 279,
-   "near_dups": []
+   "cluster_id": 250,
+   "near_dups": [],
+   "orig_id": 279,
+   "old_text": "Stay unmoved whether the forces arise or fade."
   },
   {
    "chapter": 14,
-   "text": "Serve with steady devotion to cross beyond them.",
+   "text": "Steady commitment carries you beyond your moods.",
    "verses": [
     "14:26"
    ],
@@ -4357,26 +4445,15 @@
    "verse_cvs": [
     "14:26"
    ],
-   "cluster_id": 280,
-   "near_dups": []
-  },
-  {
-   "chapter": 14,
-   "text": "Rest in the deathless ground behind all change.",
-   "verses": [
-    "14:27"
-   ],
-   "best_verse": "14:27",
-   "rationale": "Krishna is the abode of Brahman, the immortal and everlasting; the unchanging support beneath the gunas' play.",
-   "verse_cvs": [
-    "14:27"
-   ],
-   "cluster_id": 281,
-   "near_dups": []
+   "cluster_id": 251,
+   "near_dups": [],
+   "orig_id": 280,
+   "old_text": "Serve with steady devotion to cross beyond them.",
+   "revoice_note": "Dropped 'devotion'; kept steadiness-transcends-moods kernel."
   },
   {
    "chapter": 15,
-   "text": "Cut the tangled tree of attachment at its root.",
+   "text": "Cut an unhealthy attachment at its root.",
    "verses": [
     "15:1-3"
    ],
@@ -4387,22 +4464,10 @@
     "15:2",
     "15:3"
    ],
-   "cluster_id": 282,
-   "near_dups": []
-  },
-  {
-   "chapter": 15,
-   "text": "Take refuge in the source from which none return.",
-   "verses": [
-    "15:4"
-   ],
-   "best_verse": "15:4",
-   "rationale": "Seek the primeval Purusha, the eternal goal beyond rebirth.",
-   "verse_cvs": [
-    "15:4"
-   ],
-   "cluster_id": 283,
-   "near_dups": []
+   "cluster_id": 252,
+   "near_dups": [],
+   "orig_id": 282,
+   "old_text": "Cut the tangled tree of attachment at its root."
   },
   {
    "chapter": 15,
@@ -4415,94 +4480,14 @@
    "verse_cvs": [
     "15:5"
    ],
-   "cluster_id": 284,
-   "near_dups": [
-    {
-     "id": 26,
-     "score": 0.937
-    }
-   ]
+   "cluster_id": 253,
+   "near_dups": [],
+   "orig_id": 284,
+   "old_text": "Rise above pride, delusion, and the pull of opposites."
   },
   {
    "chapter": 15,
-   "text": "Know yourself as an eternal fragment of the divine.",
-   "verses": [
-    "15:7-9"
-   ],
-   "best_verse": "15:7",
-   "rationale": "A portion of the Lord becomes the living soul that draws the senses to itself.",
-   "verse_cvs": [
-    "15:7",
-    "15:8",
-    "15:9"
-   ],
-   "cluster_id": 285,
-   "near_dups": []
-  },
-  {
-   "chapter": 15,
-   "text": "Open the eye of knowledge to see the Self.",
-   "verses": [
-    "15:10-11"
-   ],
-   "best_verse": "15:11",
-   "rationale": "The deluded miss the indwelling Self; those with the eye of knowledge behold Him.",
-   "verse_cvs": [
-    "15:10",
-    "15:11"
-   ],
-   "cluster_id": 286,
-   "near_dups": []
-  },
-  {
-   "chapter": 15,
-   "text": "Recognize one divine light in sun, moon, and fire.",
-   "verses": [
-    "15:12-14"
-   ],
-   "best_verse": "15:12",
-   "rationale": "The one energy illumines, nourishes, and digests through all of nature.",
-   "verse_cvs": [
-    "15:12",
-    "15:13",
-    "15:14"
-   ],
-   "cluster_id": 287,
-   "near_dups": []
-  },
-  {
-   "chapter": 15,
-   "text": "Trace your memory and knowledge to their source within.",
-   "verses": [
-    "15:15"
-   ],
-   "best_verse": "15:15",
-   "rationale": "The divine seated in the heart is the origin of memory and knowledge.",
-   "verse_cvs": [
-    "15:15"
-   ],
-   "cluster_id": 288,
-   "near_dups": []
-  },
-  {
-   "chapter": 15,
-   "text": "Look beyond the changing and unchanging to the supreme.",
-   "verses": [
-    "15:16-18"
-   ],
-   "best_verse": "15:18",
-   "rationale": "The Supreme Purusha transcends both the perishable and the imperishable.",
-   "verse_cvs": [
-    "15:16",
-    "15:17",
-    "15:18"
-   ],
-   "cluster_id": 289,
-   "near_dups": []
-  },
-  {
-   "chapter": 15,
-   "text": "Know the supreme Self and your duty fulfills itself.",
+   "text": "Understand what matters and right action follows.",
    "verses": [
     "15:19-20"
    ],
@@ -4512,12 +4497,15 @@
     "15:19",
     "15:20"
    ],
-   "cluster_id": 290,
-   "near_dups": []
+   "cluster_id": 254,
+   "near_dups": [],
+   "orig_id": 290,
+   "old_text": "Know the supreme Self and your duty fulfills itself.",
+   "revoice_note": "Kept the understanding-orders-action kernel."
   },
   {
    "chapter": 16,
-   "text": "Meet danger fearlessly and keep your heart pure.",
+   "text": "Face danger without fear, and keep your heart clean.",
    "verses": [
     "16:1"
    ],
@@ -4526,12 +4514,14 @@
    "verse_cvs": [
     "16:1"
    ],
-   "cluster_id": 291,
-   "near_dups": []
+   "cluster_id": 255,
+   "near_dups": [],
+   "orig_id": 291,
+   "old_text": "Meet danger fearlessly and keep your heart pure."
   },
   {
    "chapter": 16,
-   "text": "Master your senses and give without holding back.",
+   "text": "Master your impulses; give without holding back.",
    "verses": [
     "16:1"
    ],
@@ -4540,12 +4530,14 @@
    "verse_cvs": [
     "16:1"
    ],
-   "cluster_id": 292,
-   "near_dups": []
+   "cluster_id": 256,
+   "near_dups": [],
+   "orig_id": 292,
+   "old_text": "Master your senses and give without holding back."
   },
   {
    "chapter": 16,
-   "text": "Speak the truth and harm no living thing.",
+   "text": "Tell the truth. Harm nothing.",
    "verses": [
     "16:2"
    ],
@@ -4554,12 +4546,14 @@
    "verse_cvs": [
     "16:2"
    ],
-   "cluster_id": 293,
-   "near_dups": []
+   "cluster_id": 257,
+   "near_dups": [],
+   "orig_id": 293,
+   "old_text": "Speak the truth and harm no living thing."
   },
   {
    "chapter": 16,
-   "text": "Let anger go; stay gentle and free of greed.",
+   "text": "Let anger go. Stay gentle, want less.",
    "verses": [
     "16:2"
    ],
@@ -4568,12 +4562,14 @@
    "verse_cvs": [
     "16:2"
    ],
-   "cluster_id": 294,
-   "near_dups": []
+   "cluster_id": 258,
+   "near_dups": [],
+   "orig_id": 294,
+   "old_text": "Let anger go; stay gentle and free of greed."
   },
   {
    "chapter": 16,
-   "text": "Forgive readily and carry no hatred or pride.",
+   "text": "Forgive quickly. Carry no grudge, no pride.",
    "verses": [
     "16:3"
    ],
@@ -4582,12 +4578,14 @@
    "verse_cvs": [
     "16:3"
    ],
-   "cluster_id": 295,
-   "near_dups": []
+   "cluster_id": 259,
+   "near_dups": [],
+   "orig_id": 295,
+   "old_text": "Forgive readily and carry no hatred or pride."
   },
   {
    "chapter": 16,
-   "text": "Choose the divine path; it frees, the demonic binds.",
+   "text": "Good character frees you; cruelty traps you.",
    "verses": [
     "16:4",
     "16:5",
@@ -4600,12 +4598,14 @@
     "16:5",
     "16:6"
    ],
-   "cluster_id": 296,
-   "near_dups": []
+   "cluster_id": 260,
+   "near_dups": [],
+   "orig_id": 296,
+   "old_text": "Choose the divine path; it frees, the demonic binds."
   },
   {
    "chapter": 16,
-   "text": "Know what to do and what to shun.",
+   "text": "Know what to do, and what to leave alone.",
    "verses": [
     "16:7"
    ],
@@ -4614,12 +4614,14 @@
    "verse_cvs": [
     "16:7"
    ],
-   "cluster_id": 297,
-   "near_dups": []
+   "cluster_id": 261,
+   "near_dups": [],
+   "orig_id": 297,
+   "old_text": "Know what to do and what to shun."
   },
   {
    "chapter": 16,
-   "text": "Don't dismiss the world as meaningless and godless.",
+   "text": "Don't treat the world as meaningless.",
    "verses": [
     "16:8",
     "16:9"
@@ -4630,12 +4632,14 @@
     "16:8",
     "16:9"
    ],
-   "cluster_id": 298,
-   "near_dups": []
+   "cluster_id": 262,
+   "near_dups": [],
+   "orig_id": 298,
+   "old_text": "Don't dismiss the world as meaningless and godless."
   },
   {
    "chapter": 16,
-   "text": "Drop hypocrisy and the endless chase after craving.",
+   "text": "Drop the pretense and the endless chasing.",
    "verses": [
     "16:10",
     "16:11",
@@ -4648,12 +4652,14 @@
     "16:11",
     "16:12"
    ],
-   "cluster_id": 299,
-   "near_dups": []
+   "cluster_id": 263,
+   "near_dups": [],
+   "orig_id": 299,
+   "old_text": "Drop hypocrisy and the endless chase after craving."
   },
   {
    "chapter": 16,
-   "text": "Stop counting gains as proof of your greatness.",
+   "text": "Your possessions aren't proof of your worth.",
    "verses": [
     "16:13",
     "16:14",
@@ -4666,12 +4672,14 @@
     "16:14",
     "16:15"
    ],
-   "cluster_id": 300,
-   "near_dups": []
+   "cluster_id": 264,
+   "near_dups": [],
+   "orig_id": 300,
+   "old_text": "Stop counting gains as proof of your greatness."
   },
   {
    "chapter": 16,
-   "text": "Untangle from fancies before delusion drags you down.",
+   "text": "Don't let fantasy drag you under.",
    "verses": [
     "16:16"
    ],
@@ -4680,12 +4688,14 @@
    "verse_cvs": [
     "16:16"
    ],
-   "cluster_id": 301,
-   "near_dups": []
+   "cluster_id": 265,
+   "near_dups": [],
+   "orig_id": 301,
+   "old_text": "Untangle from fancies before delusion drags you down."
   },
   {
    "chapter": 16,
-   "text": "Never worship for show or to be seen.",
+   "text": "Don't make a show of your good acts.",
    "verses": [
     "16:17"
    ],
@@ -4694,17 +4704,14 @@
    "verse_cvs": [
     "16:17"
    ],
-   "cluster_id": 302,
-   "near_dups": [
-    {
-     "id": 314,
-     "score": 0.931
-    }
-   ]
+   "cluster_id": 266,
+   "near_dups": [],
+   "orig_id": 302,
+   "old_text": "Never worship for show or to be seen."
   },
   {
    "chapter": 16,
-   "text": "Let go of arrogance that turns you hateful.",
+   "text": "Arrogance curdles into cruelty. Drop it.",
    "verses": [
     "16:18",
     "16:19",
@@ -4717,8 +4724,10 @@
     "16:19",
     "16:20"
    ],
-   "cluster_id": 303,
-   "near_dups": []
+   "cluster_id": 267,
+   "near_dups": [],
+   "orig_id": 303,
+   "old_text": "Let go of arrogance that turns you hateful."
   },
   {
    "chapter": 16,
@@ -4731,12 +4740,14 @@
    "verse_cvs": [
     "16:21"
    ],
-   "cluster_id": 304,
-   "near_dups": []
+   "cluster_id": 268,
+   "near_dups": [],
+   "orig_id": 304,
+   "old_text": "Shut the three gates of ruin: lust, anger, greed."
   },
   {
    "chapter": 16,
-   "text": "Freed from those gates, do what truly benefits you.",
+   "text": "Free of those, do what truly serves you.",
    "verses": [
     "16:22"
    ],
@@ -4745,12 +4756,14 @@
    "verse_cvs": [
     "16:22"
    ],
-   "cluster_id": 305,
-   "near_dups": []
+   "cluster_id": 269,
+   "near_dups": [],
+   "orig_id": 305,
+   "old_text": "Freed from those gates, do what truly benefits you."
   },
   {
    "chapter": 16,
-   "text": "Don't let raw impulse override tested wisdom.",
+   "text": "Don't let impulse override hard-won wisdom.",
    "verses": [
     "16:23"
    ],
@@ -4759,12 +4772,14 @@
    "verse_cvs": [
     "16:23"
    ],
-   "cluster_id": 306,
-   "near_dups": []
+   "cluster_id": 270,
+   "near_dups": [],
+   "orig_id": 306,
+   "old_text": "Don't let raw impulse override tested wisdom."
   },
   {
    "chapter": 16,
-   "text": "Let sound principles decide what you should do.",
+   "text": "Let sound principles decide your actions.",
    "verses": [
     "16:24"
    ],
@@ -4773,12 +4788,14 @@
    "verse_cvs": [
     "16:24"
    ],
-   "cluster_id": 307,
-   "near_dups": []
+   "cluster_id": 271,
+   "near_dups": [],
+   "orig_id": 307,
+   "old_text": "Let sound principles decide what you should do."
   },
   {
    "chapter": 17,
-   "text": "You become the faith you hold.",
+   "text": "You become what you believe.",
    "verses": [
     "17:1",
     "17:2",
@@ -4793,17 +4810,14 @@
     "17:3",
     "17:4"
    ],
-   "cluster_id": 308,
-   "near_dups": [
-    {
-     "id": 165,
-     "score": 0.933
-    }
-   ]
+   "cluster_id": 272,
+   "near_dups": [],
+   "orig_id": 308,
+   "old_text": "You become the faith you hold."
   },
   {
    "chapter": 17,
-   "text": "Don't torture yourself with ego-driven, harsh discipline.",
+   "text": "Don't punish yourself to prove your discipline.",
    "verses": [
     "17:5",
     "17:6"
@@ -4814,12 +4828,14 @@
     "17:5",
     "17:6"
    ],
-   "cluster_id": 309,
-   "near_dups": []
+   "cluster_id": 273,
+   "near_dups": [],
+   "orig_id": 309,
+   "old_text": "Don't torture yourself with ego-driven, harsh discipline."
   },
   {
    "chapter": 17,
-   "text": "Eat wholesome food that brings health, strength, and cheer.",
+   "text": "Eat what brings you health, strength, and calm.",
    "verses": [
     "17:8"
    ],
@@ -4828,12 +4844,14 @@
    "verse_cvs": [
     "17:8"
    ],
-   "cluster_id": 310,
-   "near_dups": []
+   "cluster_id": 274,
+   "near_dups": [],
+   "orig_id": 310,
+   "old_text": "Eat wholesome food that brings health, strength, and cheer."
   },
   {
    "chapter": 17,
-   "text": "Avoid harsh, overstimulating food that breeds pain and disease.",
+   "text": "Skip food that overstimulates and leaves you wrecked.",
    "verses": [
     "17:9"
    ],
@@ -4842,12 +4860,14 @@
    "verse_cvs": [
     "17:9"
    ],
-   "cluster_id": 311,
-   "near_dups": []
+   "cluster_id": 275,
+   "near_dups": [],
+   "orig_id": 311,
+   "old_text": "Avoid harsh, overstimulating food that breeds pain and disease."
   },
   {
    "chapter": 17,
-   "text": "Refuse stale, spoiled, and lifeless food.",
+   "text": "Refuse what's stale, spoiled, and lifeless.",
    "verses": [
     "17:10"
    ],
@@ -4856,12 +4876,14 @@
    "verse_cvs": [
     "17:10"
    ],
-   "cluster_id": 312,
-   "near_dups": []
+   "cluster_id": 276,
+   "near_dups": [],
+   "orig_id": 312,
+   "old_text": "Refuse stale, spoiled, and lifeless food."
   },
   {
    "chapter": 17,
-   "text": "Do your work as sacred duty, not for reward.",
+   "text": "Do good because it's right, not for reward.",
    "verses": [
     "17:11"
    ],
@@ -4870,12 +4892,14 @@
    "verse_cvs": [
     "17:11"
    ],
-   "cluster_id": 313,
-   "near_dups": []
+   "cluster_id": 277,
+   "near_dups": [],
+   "orig_id": 313,
+   "old_text": "Do your work as sacred duty, not for reward."
   },
   {
    "chapter": 17,
-   "text": "Never perform good deeds merely for show.",
+   "text": "Good done for reward and display is hollow.",
    "verses": [
     "17:12"
    ],
@@ -4884,17 +4908,14 @@
    "verse_cvs": [
     "17:12"
    ],
-   "cluster_id": 314,
-   "near_dups": [
-    {
-     "id": 302,
-     "score": 0.931
-    }
-   ]
+   "cluster_id": 278,
+   "near_dups": [],
+   "orig_id": 314,
+   "old_text": "Never perform good deeds merely for show."
   },
   {
    "chapter": 17,
-   "text": "Honor your teachers and keep your body pure and gentle.",
+   "text": "Respect what's wise; keep yourself clean and gentle.",
    "verses": [
     "17:14"
    ],
@@ -4903,17 +4924,14 @@
    "verse_cvs": [
     "17:14"
    ],
-   "cluster_id": 315,
-   "near_dups": [
-    {
-     "id": 239,
-     "score": 0.939
-    }
-   ]
+   "cluster_id": 279,
+   "near_dups": [],
+   "orig_id": 315,
+   "old_text": "Honor your teachers and keep your body pure and gentle."
   },
   {
    "chapter": 17,
-   "text": "Speak words that are true, kind, and calming.",
+   "text": "Speak what's true, kind, and calm.",
    "verses": [
     "17:15"
    ],
@@ -4922,12 +4940,14 @@
    "verse_cvs": [
     "17:15"
    ],
-   "cluster_id": 316,
-   "near_dups": []
+   "cluster_id": 280,
+   "near_dups": [],
+   "orig_id": 316,
+   "old_text": "Speak words that are true, kind, and calming."
   },
   {
    "chapter": 17,
-   "text": "Steady your mind with serenity and self-control.",
+   "text": "Steady your mind with calm and self-control.",
    "verses": [
     "17:16"
    ],
@@ -4936,12 +4956,23 @@
    "verse_cvs": [
     "17:16"
    ],
-   "cluster_id": 317,
-   "near_dups": []
+   "cluster_id": 281,
+   "near_dups": [
+    {
+     "id": 121,
+     "score": 0.943
+    },
+    {
+     "id": 106,
+     "score": 0.934
+    }
+   ],
+   "orig_id": 317,
+   "old_text": "Steady your mind with serenity and self-control."
   },
   {
    "chapter": 17,
-   "text": "Don't practice discipline just to win praise.",
+   "text": "Discipline done for applause won't last.",
    "verses": [
     "17:18"
    ],
@@ -4950,12 +4981,14 @@
    "verse_cvs": [
     "17:18"
    ],
-   "cluster_id": 318,
-   "near_dups": []
+   "cluster_id": 282,
+   "near_dups": [],
+   "orig_id": 318,
+   "old_text": "Don't practice discipline just to win praise."
   },
   {
    "chapter": 17,
-   "text": "Never turn discipline into self-torture or harm to others.",
+   "text": "Never turn discipline into self-harm or cruelty.",
    "verses": [
     "17:19"
    ],
@@ -4964,12 +4997,14 @@
    "verse_cvs": [
     "17:19"
    ],
-   "cluster_id": 319,
-   "near_dups": []
+   "cluster_id": 283,
+   "near_dups": [],
+   "orig_id": 319,
+   "old_text": "Never turn discipline into self-torture or harm to others."
   },
   {
    "chapter": 17,
-   "text": "Give as a duty to those who truly deserve it.",
+   "text": "Give to those who need it, expecting nothing back.",
    "verses": [
     "17:20"
    ],
@@ -4978,12 +5013,14 @@
    "verse_cvs": [
     "17:20"
    ],
-   "cluster_id": 320,
-   "near_dups": []
+   "cluster_id": 284,
+   "near_dups": [],
+   "orig_id": 320,
+   "old_text": "Give as a duty to those who truly deserve it."
   },
   {
    "chapter": 17,
-   "text": "Give generously, never grudgingly or for return.",
+   "text": "Give generously, never grudgingly or for payback.",
    "verses": [
     "17:21"
    ],
@@ -4992,12 +5029,14 @@
    "verse_cvs": [
     "17:21"
    ],
-   "cluster_id": 321,
-   "near_dups": []
+   "cluster_id": 285,
+   "near_dups": [],
+   "orig_id": 321,
+   "old_text": "Give generously, never grudgingly or for return."
   },
   {
    "chapter": 17,
-   "text": "Give with respect, at the right place and time.",
+   "text": "Give with respect, at the right time and place.",
    "verses": [
     "17:22"
    ],
@@ -5006,12 +5045,14 @@
    "verse_cvs": [
     "17:22"
    ],
-   "cluster_id": 322,
-   "near_dups": []
+   "cluster_id": 286,
+   "near_dups": [],
+   "orig_id": 322,
+   "old_text": "Give with respect, at the right place and time."
   },
   {
    "chapter": 17,
-   "text": "Act with faith, or your effort comes to nothing.",
+   "text": "Without conviction, your effort comes to nothing.",
    "verses": [
     "17:28"
    ],
@@ -5020,12 +5061,14 @@
    "verse_cvs": [
     "17:28"
    ],
-   "cluster_id": 323,
-   "near_dups": []
+   "cluster_id": 287,
+   "near_dups": [],
+   "orig_id": 323,
+   "old_text": "Act with faith, or your effort comes to nothing."
   },
   {
    "chapter": 18,
-   "text": "Renounce selfish desire, not the action itself.",
+   "text": "Give up the craving, not the work.",
    "verses": [
     "18:1",
     "18:2"
@@ -5036,17 +5079,19 @@
     "18:1",
     "18:2"
    ],
-   "cluster_id": 324,
+   "cluster_id": 288,
    "near_dups": [
     {
-     "id": 119,
-     "score": 0.982
+     "id": 110,
+     "score": 0.939
     }
-   ]
+   ],
+   "orig_id": 324,
+   "old_text": "Renounce selfish desire, not the action itself."
   },
   {
    "chapter": 18,
-   "text": "Keep performing charity, sacrifice, and austerity.",
+   "text": "Don't abandon the practices that better you.",
    "verses": [
     "18:5"
    ],
@@ -5055,12 +5100,14 @@
    "verse_cvs": [
     "18:5"
    ],
-   "cluster_id": 325,
-   "near_dups": []
+   "cluster_id": 289,
+   "near_dups": [],
+   "orig_id": 325,
+   "old_text": "Keep performing charity, sacrifice, and austerity."
   },
   {
    "chapter": 18,
-   "text": "Do even worthy deeds without craving reward.",
+   "text": "Even good work, do it without clinging to results.",
    "verses": [
     "18:6"
    ],
@@ -5069,12 +5116,14 @@
    "verse_cvs": [
     "18:6"
    ],
-   "cluster_id": 326,
-   "near_dups": []
+   "cluster_id": 290,
+   "near_dups": [],
+   "orig_id": 326,
+   "old_text": "Do even worthy deeds without craving reward."
   },
   {
    "chapter": 18,
-   "text": "Never abandon your duty out of delusion.",
+   "text": "Never quit your duty out of confusion.",
    "verses": [
     "18:7"
    ],
@@ -5083,12 +5132,14 @@
    "verse_cvs": [
     "18:7"
    ],
-   "cluster_id": 327,
-   "near_dups": []
+   "cluster_id": 291,
+   "near_dups": [],
+   "orig_id": 327,
+   "old_text": "Never abandon your duty out of delusion."
   },
   {
    "chapter": 18,
-   "text": "Don't quit hard work to avoid discomfort.",
+   "text": "Don't quit hard work just to dodge discomfort.",
    "verses": [
     "18:8"
    ],
@@ -5097,12 +5148,19 @@
    "verse_cvs": [
     "18:8"
    ],
-   "cluster_id": 328,
-   "near_dups": []
+   "cluster_id": 292,
+   "near_dups": [
+    {
+     "id": 294,
+     "score": 0.935
+    }
+   ],
+   "orig_id": 328,
+   "old_text": "Don't quit hard work to avoid discomfort."
   },
   {
    "chapter": 18,
-   "text": "Do required work simply because it's right.",
+   "text": "Do what's needed simply because it's right.",
    "verses": [
     "18:9"
    ],
@@ -5111,12 +5169,14 @@
    "verse_cvs": [
     "18:9"
    ],
-   "cluster_id": 329,
-   "near_dups": []
+   "cluster_id": 293,
+   "near_dups": [],
+   "orig_id": 329,
+   "old_text": "Do required work simply because it's right."
   },
   {
    "chapter": 18,
-   "text": "Neither dread hard tasks nor crave easy ones.",
+   "text": "Don't dread hard tasks or crave easy ones.",
    "verses": [
     "18:10"
    ],
@@ -5125,12 +5185,19 @@
    "verse_cvs": [
     "18:10"
    ],
-   "cluster_id": 330,
-   "near_dups": []
+   "cluster_id": 294,
+   "near_dups": [
+    {
+     "id": 292,
+     "score": 0.935
+    }
+   ],
+   "orig_id": 330,
+   "old_text": "Neither dread hard tasks nor crave easy ones."
   },
   {
    "chapter": 18,
-   "text": "You cannot stop acting; release the fruits.",
+   "text": "You can't stop acting, so release the results.",
    "verses": [
     "18:11"
    ],
@@ -5139,12 +5206,14 @@
    "verse_cvs": [
     "18:11"
    ],
-   "cluster_id": 331,
-   "near_dups": []
+   "cluster_id": 295,
+   "near_dups": [],
+   "orig_id": 331,
+   "old_text": "You cannot stop acting; release the fruits."
   },
   {
    "chapter": 18,
-   "text": "Only the unattached escape action's binding fruits.",
+   "text": "Cling to outcomes and they own you.",
    "verses": [
     "18:12"
    ],
@@ -5153,12 +5222,14 @@
    "verse_cvs": [
     "18:12"
    ],
-   "cluster_id": 332,
-   "near_dups": []
+   "cluster_id": 296,
+   "near_dups": [],
+   "orig_id": 332,
+   "old_text": "Only the unattached escape action's binding fruits."
   },
   {
    "chapter": 18,
-   "text": "Know that many factors, not you alone, drive action.",
+   "text": "Many forces shape any outcome, not just you.",
    "verses": [
     "18:13",
     "18:14",
@@ -5171,12 +5242,14 @@
     "18:14",
     "18:15"
    ],
-   "cluster_id": 333,
-   "near_dups": []
+   "cluster_id": 297,
+   "near_dups": [],
+   "orig_id": 333,
+   "old_text": "Know that many factors, not you alone, drive action."
   },
   {
    "chapter": 18,
-   "text": "Stop seeing yourself as the sole doer.",
+   "text": "Stop taking sole credit for what happens.",
    "verses": [
     "18:16"
    ],
@@ -5185,12 +5258,14 @@
    "verse_cvs": [
     "18:16"
    ],
-   "cluster_id": 334,
-   "near_dups": []
+   "cluster_id": 298,
+   "near_dups": [],
+   "orig_id": 334,
+   "old_text": "Stop seeing yourself as the sole doer."
   },
   {
    "chapter": 18,
-   "text": "Act free of ego and remain unbound.",
+   "text": "Act without ego, and nothing binds you.",
    "verses": [
     "18:17"
    ],
@@ -5199,12 +5274,14 @@
    "verse_cvs": [
     "18:17"
    ],
-   "cluster_id": 335,
-   "near_dups": []
+   "cluster_id": 299,
+   "near_dups": [],
+   "orig_id": 335,
+   "old_text": "Act free of ego and remain unbound."
   },
   {
    "chapter": 18,
-   "text": "See one indestructible reality within all beings.",
+   "text": "See the same thread running through everyone.",
    "verses": [
     "18:20"
    ],
@@ -5213,17 +5290,19 @@
    "verse_cvs": [
     "18:20"
    ],
-   "cluster_id": 336,
+   "cluster_id": 300,
    "near_dups": [
     {
-     "id": 248,
-     "score": 0.93
+     "id": 182,
+     "score": 0.984
     }
-   ]
+   ],
+   "orig_id": 336,
+   "old_text": "See one indestructible reality within all beings."
   },
   {
    "chapter": 18,
-   "text": "Don't mistake one fragment for the whole.",
+   "text": "Don't mistake one piece for the whole picture.",
    "verses": [
     "18:22"
    ],
@@ -5232,12 +5311,19 @@
    "verse_cvs": [
     "18:22"
    ],
-   "cluster_id": 337,
-   "near_dups": []
+   "cluster_id": 301,
+   "near_dups": [
+    {
+     "id": 156,
+     "score": 0.946
+    }
+   ],
+   "orig_id": 337,
+   "old_text": "Don't mistake one fragment for the whole."
   },
   {
    "chapter": 18,
-   "text": "Do prescribed work without love, hate, or gain.",
+   "text": "Do your duty without craving, favoritism, or spite.",
    "verses": [
     "18:23"
    ],
@@ -5246,12 +5332,14 @@
    "verse_cvs": [
     "18:23"
    ],
-   "cluster_id": 338,
-   "near_dups": []
+   "cluster_id": 302,
+   "near_dups": [],
+   "orig_id": 338,
+   "old_text": "Do prescribed work without love, hate, or gain."
   },
   {
    "chapter": 18,
-   "text": "Weigh consequences and your ability before acting.",
+   "text": "Weigh the cost and your limits before acting.",
    "verses": [
     "18:25"
    ],
@@ -5260,12 +5348,14 @@
    "verse_cvs": [
     "18:25"
    ],
-   "cluster_id": 339,
-   "near_dups": []
+   "cluster_id": 303,
+   "near_dups": [],
+   "orig_id": 339,
+   "old_text": "Weigh consequences and your ability before acting."
   },
   {
    "chapter": 18,
-   "text": "Work with resolve, unmoved by success or failure.",
+   "text": "Work with resolve, unmoved by win or loss.",
    "verses": [
     "18:26"
    ],
@@ -5274,12 +5364,14 @@
    "verse_cvs": [
     "18:26"
    ],
-   "cluster_id": 340,
-   "near_dups": []
+   "cluster_id": 304,
+   "near_dups": [],
+   "orig_id": 340,
+   "old_text": "Work with resolve, unmoved by success or failure."
   },
   {
    "chapter": 18,
-   "text": "Root out laziness, deceit, and procrastination.",
+   "text": "Root out laziness, deceit, and delay.",
    "verses": [
     "18:28"
    ],
@@ -5288,12 +5380,14 @@
    "verse_cvs": [
     "18:28"
    ],
-   "cluster_id": 341,
-   "near_dups": []
+   "cluster_id": 305,
+   "near_dups": [],
+   "orig_id": 341,
+   "old_text": "Root out laziness, deceit, and procrastination."
   },
   {
    "chapter": 18,
-   "text": "Discern clearly what to do and avoid.",
+   "text": "Know clearly what to pursue and what to drop.",
    "verses": [
     "18:30"
    ],
@@ -5302,12 +5396,14 @@
    "verse_cvs": [
     "18:30"
    ],
-   "cluster_id": 342,
-   "near_dups": []
+   "cluster_id": 306,
+   "near_dups": [],
+   "orig_id": 342,
+   "old_text": "Discern clearly what to do and avoid."
   },
   {
    "chapter": 18,
-   "text": "Never let darkness call wrong things right.",
+   "text": "Don't let confusion make wrong look right.",
    "verses": [
     "18:32"
    ],
@@ -5316,12 +5412,14 @@
    "verse_cvs": [
     "18:32"
    ],
-   "cluster_id": 343,
-   "near_dups": []
+   "cluster_id": 307,
+   "near_dups": [],
+   "orig_id": 343,
+   "old_text": "Never let darkness call wrong things right."
   },
   {
    "chapter": 18,
-   "text": "Steady your mind, breath, and senses through discipline.",
+   "text": "Steady your mind, your breath, your senses.",
    "verses": [
     "18:33"
    ],
@@ -5330,12 +5428,19 @@
    "verse_cvs": [
     "18:33"
    ],
-   "cluster_id": 344,
-   "near_dups": []
+   "cluster_id": 308,
+   "near_dups": [
+    {
+     "id": 106,
+     "score": 0.937
+    }
+   ],
+   "orig_id": 344,
+   "old_text": "Steady your mind, breath, and senses through discipline."
   },
   {
    "chapter": 18,
-   "text": "Stop clinging to sleep, fear, grief, and despair.",
+   "text": "Stop clinging to fear, grief, and laziness.",
    "verses": [
     "18:35"
    ],
@@ -5344,12 +5449,14 @@
    "verse_cvs": [
     "18:35"
    ],
-   "cluster_id": 345,
-   "near_dups": []
+   "cluster_id": 309,
+   "near_dups": [],
+   "orig_id": 345,
+   "old_text": "Stop clinging to sleep, fear, grief, and despair."
   },
   {
    "chapter": 18,
-   "text": "Choose joy that starts bitter but ends sweet.",
+   "text": "Choose the joy that's hard first, sweet later.",
    "verses": [
     "18:37"
    ],
@@ -5358,12 +5465,14 @@
    "verse_cvs": [
     "18:37"
    ],
-   "cluster_id": 346,
-   "near_dups": []
+   "cluster_id": 310,
+   "near_dups": [],
+   "orig_id": 346,
+   "old_text": "Choose joy that starts bitter but ends sweet."
   },
   {
    "chapter": 18,
-   "text": "Beware pleasures sweet now but poisonous later.",
+   "text": "Beware pleasures sweet now, bitter later.",
    "verses": [
     "18:38"
    ],
@@ -5372,12 +5481,14 @@
    "verse_cvs": [
     "18:38"
    ],
-   "cluster_id": 347,
-   "near_dups": []
+   "cluster_id": 311,
+   "near_dups": [],
+   "orig_id": 347,
+   "old_text": "Beware pleasures sweet now but poisonous later."
   },
   {
    "chapter": 18,
-   "text": "Let your natural qualities shape your work.",
+   "text": "Let your natural strengths shape your work.",
    "verses": [
     "18:41",
     "18:42",
@@ -5392,12 +5503,14 @@
     "18:43",
     "18:44"
    ],
-   "cluster_id": 348,
-   "near_dups": []
+   "cluster_id": 312,
+   "near_dups": [],
+   "orig_id": 348,
+   "old_text": "Let your natural qualities shape your work."
   },
   {
    "chapter": 18,
-   "text": "Reach perfection through devotion to your own work.",
+   "text": "You grow most by mastering your own work.",
    "verses": [
     "18:45"
    ],
@@ -5406,12 +5519,14 @@
    "verse_cvs": [
     "18:45"
    ],
-   "cluster_id": 349,
-   "near_dups": []
+   "cluster_id": 313,
+   "near_dups": [],
+   "orig_id": 349,
+   "old_text": "Reach perfection through devotion to your own work."
   },
   {
    "chapter": 18,
-   "text": "Turn your everyday work into worship.",
+   "text": "Pour your whole heart into ordinary work.",
    "verses": [
     "18:46"
    ],
@@ -5420,12 +5535,14 @@
    "verse_cvs": [
     "18:46"
    ],
-   "cluster_id": 350,
-   "near_dups": []
+   "cluster_id": 314,
+   "near_dups": [],
+   "orig_id": 350,
+   "old_text": "Turn your everyday work into worship."
   },
   {
    "chapter": 18,
-   "text": "Do your own duty poorly over another's well.",
+   "text": "Better your own path done badly than another's done well.",
    "verses": [
     "18:47"
    ],
@@ -5434,17 +5551,19 @@
    "verse_cvs": [
     "18:47"
    ],
-   "cluster_id": 351,
+   "cluster_id": 315,
    "near_dups": [
     {
-     "id": 64,
-     "score": 0.977
+     "id": 56,
+     "score": 0.96
     }
-   ]
+   ],
+   "orig_id": 351,
+   "old_text": "Do your own duty poorly over another's well."
   },
   {
    "chapter": 18,
-   "text": "Don't abandon your calling for its flaws.",
+   "text": "Every job has flaws; don't quit yours over them.",
    "verses": [
     "18:48"
    ],
@@ -5453,12 +5572,14 @@
    "verse_cvs": [
     "18:48"
    ],
-   "cluster_id": 352,
-   "near_dups": []
+   "cluster_id": 316,
+   "near_dups": [],
+   "orig_id": 352,
+   "old_text": "Don't abandon your calling for its flaws."
   },
   {
    "chapter": 18,
-   "text": "Subdue desire to find freedom in action.",
+   "text": "Master your wants, and action stops weighing on you.",
    "verses": [
     "18:49"
    ],
@@ -5467,12 +5588,14 @@
    "verse_cvs": [
     "18:49"
    ],
-   "cluster_id": 353,
-   "near_dups": []
+   "cluster_id": 317,
+   "near_dups": [],
+   "orig_id": 353,
+   "old_text": "Subdue desire to find freedom in action."
   },
   {
    "chapter": 18,
-   "text": "Purify your intellect and drop attraction and hatred.",
+   "text": "Clear your head; let go of craving and hate.",
    "verses": [
     "18:51"
    ],
@@ -5481,12 +5604,14 @@
    "verse_cvs": [
     "18:51"
    ],
-   "cluster_id": 354,
-   "near_dups": []
+   "cluster_id": 318,
+   "near_dups": [],
+   "orig_id": 354,
+   "old_text": "Purify your intellect and drop attraction and hatred."
   },
   {
    "chapter": 18,
-   "text": "Live simply, speak little, and meditate steadily.",
+   "text": "Live simply, speak less, sit with yourself.",
    "verses": [
     "18:52"
    ],
@@ -5495,12 +5620,14 @@
    "verse_cvs": [
     "18:52"
    ],
-   "cluster_id": 355,
-   "near_dups": []
+   "cluster_id": 319,
+   "near_dups": [],
+   "orig_id": 355,
+   "old_text": "Live simply, speak little, and meditate steadily."
   },
   {
    "chapter": 18,
-   "text": "Release ego, arrogance, and the sense of 'mine'.",
+   "text": "Let go of ego, arrogance, and 'mine.'",
    "verses": [
     "18:53"
    ],
@@ -5509,12 +5636,19 @@
    "verse_cvs": [
     "18:53"
    ],
-   "cluster_id": 356,
-   "near_dups": []
+   "cluster_id": 320,
+   "near_dups": [
+    {
+     "id": 39,
+     "score": 0.936
+    }
+   ],
+   "orig_id": 356,
+   "old_text": "Release ego, arrogance, and the sense of 'mine'."
   },
   {
    "chapter": 18,
-   "text": "Grow serene and regard all beings alike.",
+   "text": "Grow calm, and treat everyone as equal.",
    "verses": [
     "18:54"
    ],
@@ -5523,12 +5657,14 @@
    "verse_cvs": [
     "18:54"
    ],
-   "cluster_id": 357,
-   "near_dups": []
+   "cluster_id": 321,
+   "near_dups": [],
+   "orig_id": 357,
+   "old_text": "Grow serene and regard all beings alike."
   },
   {
    "chapter": 18,
-   "text": "Know the divine through wholehearted devotion.",
+   "text": "Devote yourself fully, and real understanding follows.",
    "verses": [
     "18:55"
    ],
@@ -5537,12 +5673,14 @@
    "verse_cvs": [
     "18:55"
    ],
-   "cluster_id": 358,
-   "near_dups": []
+   "cluster_id": 322,
+   "near_dups": [],
+   "orig_id": 358,
+   "old_text": "Know the divine through wholehearted devotion."
   },
   {
    "chapter": 18,
-   "text": "Take refuge while still doing all your work.",
+   "text": "Do everything, but stay anchored to something steady.",
    "verses": [
     "18:56"
    ],
@@ -5551,12 +5689,14 @@
    "verse_cvs": [
     "18:56"
    ],
-   "cluster_id": 359,
-   "near_dups": []
+   "cluster_id": 323,
+   "near_dups": [],
+   "orig_id": 359,
+   "old_text": "Take refuge while still doing all your work."
   },
   {
    "chapter": 18,
-   "text": "Offer every action mentally to the divine.",
+   "text": "Act fully, then let go of what you did.",
    "verses": [
     "18:57"
    ],
@@ -5565,17 +5705,14 @@
    "verse_cvs": [
     "18:57"
    ],
-   "cluster_id": 360,
-   "near_dups": [
-    {
-     "id": 61,
-     "score": 0.941
-    }
-   ]
+   "cluster_id": 324,
+   "near_dups": [],
+   "orig_id": 360,
+   "old_text": "Offer every action mentally to the divine."
   },
   {
    "chapter": 18,
-   "text": "Surrender your ego to overcome every obstacle.",
+   "text": "Drop the ego, and the obstacles shrink.",
    "verses": [
     "18:58"
    ],
@@ -5584,12 +5721,14 @@
    "verse_cvs": [
     "18:58"
    ],
-   "cluster_id": 361,
-   "near_dups": []
+   "cluster_id": 325,
+   "near_dups": [],
+   "orig_id": 361,
+   "old_text": "Surrender your ego to overcome every obstacle."
   },
   {
    "chapter": 18,
-   "text": "Your nature compels what your ego refuses.",
+   "text": "Your nature will act, whether your ego likes it or not.",
    "verses": [
     "18:59",
     "18:60"
@@ -5600,26 +5739,14 @@
     "18:59",
     "18:60"
    ],
-   "cluster_id": 362,
-   "near_dups": []
+   "cluster_id": 326,
+   "near_dups": [],
+   "orig_id": 362,
+   "old_text": "Your nature compels what your ego refuses."
   },
   {
    "chapter": 18,
-   "text": "Remember a higher power moves within all.",
-   "verses": [
-    "18:61"
-   ],
-   "best_verse": "18:61",
-   "rationale": "The Lord dwells in every heart, turning all beings by His power.",
-   "verse_cvs": [
-    "18:61"
-   ],
-   "cluster_id": 363,
-   "near_dups": []
-  },
-  {
-   "chapter": 18,
-   "text": "Surrender with your whole being to find peace.",
+   "text": "Give yourself fully, and peace follows.",
    "verses": [
     "18:62"
    ],
@@ -5628,17 +5755,19 @@
    "verse_cvs": [
     "18:62"
    ],
-   "cluster_id": 364,
+   "cluster_id": 327,
    "near_dups": [
     {
-     "id": 219,
-     "score": 0.946
+     "id": 83,
+     "score": 0.942
     }
-   ]
+   ],
+   "orig_id": 364,
+   "old_text": "Surrender with your whole being to find peace."
   },
   {
    "chapter": 18,
-   "text": "Reflect deeply, then choose your own path.",
+   "text": "Think it through, then decide for yourself.",
    "verses": [
     "18:63"
    ],
@@ -5647,12 +5776,14 @@
    "verse_cvs": [
     "18:63"
    ],
-   "cluster_id": 365,
-   "near_dups": []
+   "cluster_id": 328,
+   "near_dups": [],
+   "orig_id": 365,
+   "old_text": "Reflect deeply, then choose your own path."
   },
   {
    "chapter": 18,
-   "text": "Fix your mind on the divine and arrive.",
+   "text": "Fix your focus, and you'll get there.",
    "verses": [
     "18:65"
    ],
@@ -5661,17 +5792,14 @@
    "verse_cvs": [
     "18:65"
    ],
-   "cluster_id": 366,
-   "near_dups": [
-    {
-     "id": 220,
-     "score": 0.95
-    }
-   ]
+   "cluster_id": 329,
+   "near_dups": [],
+   "orig_id": 366,
+   "old_text": "Fix your mind on the divine and arrive."
   },
   {
    "chapter": 18,
-   "text": "Let go of everything, take refuge, stop grieving.",
+   "text": "Do your best, then stop clinging to the rest.",
    "verses": [
     "18:66"
    ],
@@ -5680,12 +5808,14 @@
    "verse_cvs": [
     "18:66"
    ],
-   "cluster_id": 367,
-   "near_dups": []
+   "cluster_id": 330,
+   "near_dups": [],
+   "orig_id": 367,
+   "old_text": "Let go of everything, take refuge, stop grieving."
   },
   {
    "chapter": 18,
-   "text": "Share sacred wisdom only with the receptive.",
+   "text": "Don't force advice on those who won't hear it.",
    "verses": [
     "18:67",
     "18:68",
@@ -5698,26 +5828,14 @@
     "18:68",
     "18:69"
    ],
-   "cluster_id": 368,
-   "near_dups": []
+   "cluster_id": 331,
+   "near_dups": [],
+   "orig_id": 368,
+   "old_text": "Share sacred wisdom only with the receptive."
   },
   {
    "chapter": 18,
-   "text": "Study sacred teaching as an act of worship.",
-   "verses": [
-    "18:70"
-   ],
-   "best_verse": "18:70",
-   "rationale": "Studying this dialogue is worship through the sacrifice of wisdom.",
-   "verse_cvs": [
-    "18:70"
-   ],
-   "cluster_id": 369,
-   "near_dups": []
-  },
-  {
-   "chapter": 18,
-   "text": "Listen with faith and free from malice.",
+   "text": "Listen openly, without a hostile heart.",
    "verses": [
     "18:71"
    ],
@@ -5726,12 +5844,14 @@
    "verse_cvs": [
     "18:71"
    ],
-   "cluster_id": 370,
-   "near_dups": []
+   "cluster_id": 332,
+   "near_dups": [],
+   "orig_id": 370,
+   "old_text": "Listen with faith and free from malice."
   },
   {
    "chapter": 18,
-   "text": "Listen with full focus to dispel ignorance.",
+   "text": "Listen with full attention, and confusion clears.",
    "verses": [
     "18:72"
    ],
@@ -5740,12 +5860,14 @@
    "verse_cvs": [
     "18:72"
    ],
-   "cluster_id": 371,
-   "near_dups": []
+   "cluster_id": 333,
+   "near_dups": [],
+   "orig_id": 371,
+   "old_text": "Listen with full focus to dispel ignorance."
   },
   {
    "chapter": 18,
-   "text": "Let clarity return and act without doubt.",
+   "text": "Let clarity return, then act without hesitation.",
    "verses": [
     "18:73"
    ],
@@ -5754,8 +5876,10 @@
    "verse_cvs": [
     "18:73"
    ],
-   "cluster_id": 372,
-   "near_dups": []
+   "cluster_id": 334,
+   "near_dups": [],
+   "orig_id": 372,
+   "old_text": "Let clarity return and act without doubt."
   }
  ],
  "skipped": [
@@ -6528,6 +6652,236 @@
    "chapter": 18,
    "v": 78,
    "reason": "Sanjaya's benedictory conviction of victory; closing frame."
+  }
+ ],
+ "dropped_in_revoice": [
+  {
+   "orig_id": 11,
+   "chapter": 2,
+   "old_text": "The unreal never is; the real never ceases to be.",
+   "reason": "Pure metaphysics (transient vs. permanent) with no actionable kernel."
+  },
+  {
+   "orig_id": 12,
+   "chapter": 2,
+   "old_text": "Bodies perish, but what pervades them cannot be destroyed.",
+   "reason": "Metaphysics of the indestructible self; not universal daily wisdom."
+  },
+  {
+   "orig_id": 13,
+   "chapter": 2,
+   "old_text": "The self is never the slayer nor the slain.",
+   "reason": "Metaphysics of the unkillable self; abstract, not actionable."
+  },
+  {
+   "orig_id": 14,
+   "chapter": 2,
+   "old_text": "Death exchanges bodies like worn-out clothes for new.",
+   "reason": "Reincarnation imagery; scriptural cosmology, not modern wisdom."
+  },
+  {
+   "orig_id": 15,
+   "chapter": 2,
+   "old_text": "No weapon, fire, water, or wind can harm the soul.",
+   "reason": "Invulnerability-of-soul metaphysics; no human kernel."
+  },
+  {
+   "orig_id": 16,
+   "chapter": 2,
+   "old_text": "The self is unmanifest and beyond the mind's reach.",
+   "reason": "Self as unmanifest/unthinkable; pure metaphysics."
+  },
+  {
+   "orig_id": 18,
+   "chapter": 2,
+   "old_text": "The self is a marvel that few ever truly grasp.",
+   "reason": "Wonder-of-the-self verse; mystical, not actionable."
+  },
+  {
+   "orig_id": 19,
+   "chapter": 2,
+   "old_text": "The same deathless self dwells within every being.",
+   "reason": "Deathless indweller in all beings; metaphysical, not daily wisdom."
+  },
+  {
+   "orig_id": 108,
+   "chapter": 5,
+   "old_text": "Rest your mind in the flawless real and transcend rebirth.",
+   "reason": "Only content is resting the mind in Brahman to transcend rebirth—pure metaphysics, and overlaps modernizable mind-rest lessons (132, 134)."
+  },
+  {
+   "orig_id": 143,
+   "chapter": 6,
+   "old_text": "Worship the one presence dwelling in all beings.",
+   "reason": "Reduces to worshipping the one presence in all beings—religious framing that adds nothing beyond kept connection lessons (87, 107, 142, 144)."
+  },
+  {
+   "orig_id": 158,
+   "chapter": 7,
+   "old_text": "Recognize all states of being flow from one.",
+   "reason": "Pure guna metaphysics; kernel overlaps 154/159 (moods aren't you). Dropped to avoid redundancy."
+  },
+  {
+   "orig_id": 170,
+   "chapter": 7,
+   "old_text": "Seek refuge to understand self, spirit, and action.",
+   "reason": "Content is metaphysics (Brahman, the Self, the mechanics of action/death); no universal daily kernel survives translation."
+  },
+  {
+   "orig_id": 210,
+   "chapter": 10,
+   "old_text": "Trust that a single fragment of the divine upholds the whole world.",
+   "reason": "Pure cosmic-support metaphysics; no universal daily-wisdom kernel."
+  },
+  {
+   "orig_id": 234,
+   "chapter": 13,
+   "old_text": "Know your body as a field you observe.",
+   "reason": "Pure field/knower metaphysics; no universal kernel."
+  },
+  {
+   "orig_id": 235,
+   "chapter": 13,
+   "old_text": "See the same knower present in every field.",
+   "reason": "One-knower-in-all-fields abstraction; pure metaphysics."
+  },
+  {
+   "orig_id": 246,
+   "chapter": 13,
+   "old_text": "Know the eternal that has no beginning or end.",
+   "reason": "The eternal/Brahman; pure metaphysics."
+  },
+  {
+   "orig_id": 248,
+   "chapter": 13,
+   "old_text": "Find the one presence within and beyond all beings.",
+   "reason": "The one presence within/beyond all beings; metaphysics."
+  },
+  {
+   "orig_id": 249,
+   "chapter": 13,
+   "old_text": "See the light of awareness seated in every heart.",
+   "reason": "Light-of-lights in every heart; metaphysics."
+  },
+  {
+   "orig_id": 250,
+   "chapter": 13,
+   "old_text": "Let nature own its actions and their effects.",
+   "reason": "Nature as cause of action; abstract metaphysics."
+  },
+  {
+   "orig_id": 253,
+   "chapter": 13,
+   "old_text": "Grasp spirit and matter, and end your rebirth.",
+   "reason": "Spirit/matter and ending rebirth; metaphysics."
+  },
+  {
+   "orig_id": 255,
+   "chapter": 13,
+   "old_text": "Even faithful hearing can carry you past death.",
+   "reason": "Crossing beyond death by faithful hearing; religious metaphysics."
+  },
+  {
+   "orig_id": 256,
+   "chapter": 13,
+   "old_text": "See every birth as field and knower joined.",
+   "reason": "Field-and-knower union; metaphysics."
+  },
+  {
+   "orig_id": 257,
+   "chapter": 13,
+   "old_text": "See the imperishable Lord within all that perishes.",
+   "reason": "Imperishable within the perishable; metaphysics."
+  },
+  {
+   "orig_id": 259,
+   "chapter": 13,
+   "old_text": "See that nature acts while the Self stays still.",
+   "reason": "Nature acts, Self stays still; metaphysics (dup of 250)."
+  },
+  {
+   "orig_id": 260,
+   "chapter": 13,
+   "old_text": "See all beings resting in and rising from the One.",
+   "reason": "All beings resting in the One; metaphysics."
+  },
+  {
+   "orig_id": 261,
+   "chapter": 13,
+   "old_text": "Rest as the Self that neither acts nor stains.",
+   "reason": "The Self neither acts nor is tainted; metaphysics."
+  },
+  {
+   "orig_id": 263,
+   "chapter": 13,
+   "old_text": "Let one awareness light up your whole field.",
+   "reason": "One awareness illumining the field; metaphysics."
+  },
+  {
+   "orig_id": 264,
+   "chapter": 13,
+   "old_text": "Use knowledge's eye to part the field from its knower.",
+   "reason": "Distinguishing field from knower; metaphysics."
+  },
+  {
+   "orig_id": 266,
+   "chapter": 14,
+   "old_text": "Remember every being springs from one divine source.",
+   "reason": "Beings from one divine source; metaphysics."
+  },
+  {
+   "orig_id": 281,
+   "chapter": 14,
+   "old_text": "Rest in the deathless ground behind all change.",
+   "reason": "Deathless ground behind change; metaphysics."
+  },
+  {
+   "orig_id": 283,
+   "chapter": 15,
+   "old_text": "Take refuge in the source from which none return.",
+   "reason": "Primeval source beyond rebirth; metaphysics."
+  },
+  {
+   "orig_id": 285,
+   "chapter": 15,
+   "old_text": "Know yourself as an eternal fragment of the divine.",
+   "reason": "Self as a fragment of the divine; metaphysics."
+  },
+  {
+   "orig_id": 286,
+   "chapter": 15,
+   "old_text": "Open the eye of knowledge to see the Self.",
+   "reason": "Eye of knowledge to see the Self; metaphysics (dup of 245)."
+  },
+  {
+   "orig_id": 287,
+   "chapter": 15,
+   "old_text": "Recognize one divine light in sun, moon, and fire.",
+   "reason": "One divine light in sun/moon/fire; metaphysics."
+  },
+  {
+   "orig_id": 288,
+   "chapter": 15,
+   "old_text": "Trace your memory and knowledge to their source within.",
+   "reason": "Memory/knowledge from the divine within; abstract."
+  },
+  {
+   "orig_id": 289,
+   "chapter": 15,
+   "old_text": "Look beyond the changing and unchanging to the supreme.",
+   "reason": "Supreme beyond perishable/imperishable; metaphysics."
+  },
+  {
+   "orig_id": 363,
+   "chapter": 18,
+   "old_text": "Remember a higher power moves within all.",
+   "reason": "Pure metaphysics (a higher power dwelling in every heart, turning all beings) — no standalone modern kernel distinct from the surrender lines. Drop."
+  },
+  {
+   "orig_id": 369,
+   "chapter": 18,
+   "old_text": "Study sacred teaching as an act of worship.",
+   "reason": "Ritual: studying this text framed as an act of worship — self-referential to scripture, no universal kernel beyond the 'listen with focus' lines. Drop."
   }
  ]
 }
