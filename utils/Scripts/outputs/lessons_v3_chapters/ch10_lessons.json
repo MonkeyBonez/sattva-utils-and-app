@@ -1,0 +1,76 @@
+{
+  "chapter": 10,
+  "lessons": [
+    {
+      "text": "Know the divine as unborn and beginningless, and be freed from delusion.",
+      "verses": ["10:1-3"],
+      "best_verse": "10:3",
+      "rationale": "Verses 1-3 frame the chapter: knowing the source as unborn Lord liberates mortals from delusion and sin."
+    },
+    {
+      "text": "Absorb your mind in the divine and awaken others by sharing it.",
+      "verses": ["10:8-9"],
+      "best_verse": "10:9",
+      "rationale": "The wise, rooted in the source of all, worship with delight and enlighten one another — the devotional response to divine origin."
+    },
+    {
+      "text": "Worship steadfastly with love, and clear discernment will be given.",
+      "verses": ["10:10"],
+      "best_verse": "10:10",
+      "rationale": "Loving, steadfast devotion earns the yoga of discrimination that leads to the divine."
+    },
+    {
+      "text": "Let the lamp of knowledge burn away the darkness of ignorance.",
+      "verses": ["10:11"],
+      "best_verse": "10:11",
+      "rationale": "The divine dwelling within destroys ignorance with the luminous lamp of knowledge."
+    },
+    {
+      "text": "See every glory and power as a spark of the divine splendor.",
+      "verses": ["10:41"],
+      "best_verse": "10:41",
+      "rationale": "Whatever is glorious, prosperous, or powerful is a fragment of divine splendor."
+    },
+    {
+      "text": "Trust that a single fragment of the divine upholds the whole world.",
+      "verses": ["10:42"],
+      "best_verse": "10:42",
+      "rationale": "The closing teaching: the divine supports this entire universe with just one part of itself."
+    }
+  ],
+  "skipped": [
+    {"v": 4, "reason": "descriptive list — qualities of beings arising from the divine"},
+    {"v": 5, "reason": "descriptive list — qualities of beings arising from the divine"},
+    {"v": 6, "reason": "narrative — origin of the great sages and Manus"},
+    {"v": 7, "reason": "descriptive — restates knowing manifestations, overlaps origin teaching"},
+    {"v": 12, "reason": "narrative — Arjuna's praise of Krishna"},
+    {"v": 13, "reason": "narrative — Arjuna citing the sages"},
+    {"v": 14, "reason": "narrative — Arjuna affirming belief"},
+    {"v": 15, "reason": "narrative — Arjuna's continued praise"},
+    {"v": 16, "reason": "narrative — Arjuna's request to hear the glories"},
+    {"v": 17, "reason": "narrative — Arjuna asking how to meditate"},
+    {"v": 18, "reason": "narrative — Arjuna's request for more detail"},
+    {"v": 19, "reason": "narrative — Krishna's preface to the enumeration"},
+    {"v": 20, "reason": "vibhuti enumeration — descriptive list"},
+    {"v": 21, "reason": "vibhuti enumeration — descriptive list"},
+    {"v": 22, "reason": "vibhuti enumeration — descriptive list"},
+    {"v": 23, "reason": "vibhuti enumeration — descriptive list"},
+    {"v": 24, "reason": "vibhuti enumeration — descriptive list"},
+    {"v": 25, "reason": "vibhuti enumeration — descriptive list"},
+    {"v": 26, "reason": "vibhuti enumeration — descriptive list"},
+    {"v": 27, "reason": "vibhuti enumeration — descriptive list"},
+    {"v": 28, "reason": "vibhuti enumeration — descriptive list"},
+    {"v": 29, "reason": "vibhuti enumeration — descriptive list"},
+    {"v": 30, "reason": "vibhuti enumeration — descriptive list"},
+    {"v": 31, "reason": "vibhuti enumeration — descriptive list"},
+    {"v": 32, "reason": "vibhuti enumeration — descriptive list"},
+    {"v": 33, "reason": "vibhuti enumeration — descriptive list"},
+    {"v": 34, "reason": "vibhuti enumeration — descriptive list"},
+    {"v": 35, "reason": "vibhuti enumeration — descriptive list"},
+    {"v": 36, "reason": "vibhuti enumeration — descriptive list"},
+    {"v": 37, "reason": "vibhuti enumeration — descriptive list"},
+    {"v": 38, "reason": "vibhuti enumeration — descriptive list"},
+    {"v": 39, "reason": "descriptive — the divine as seed of all beings, restates pervasiveness"},
+    {"v": 40, "reason": "narrative — no end to the divine glories, closing the list"}
+  ]
+}

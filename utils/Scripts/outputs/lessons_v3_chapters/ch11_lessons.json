@@ -1,0 +1,87 @@
+{
+ "chapter": 11,
+ "lessons": [
+  {
+   "text": "Bow your head before what dwarfs you.",
+   "verses": ["11:14"],
+   "best_verse": "11:14",
+   "rationale": "Arjuna, awestruck and trembling, joins his palms and bows — the human response of humility before the vast."
+  },
+  {
+   "text": "Do your part; the outcome is already set.",
+   "verses": ["11:32", "11:33"],
+   "best_verse": "11:33",
+   "rationale": "'I am Time, the destroyer; they are already slain — be a mere instrument.' Act your role; the result is not yours to author."
+  },
+  {
+   "text": "Fight your battle without fear of losing.",
+   "verses": ["11:34"],
+   "best_verse": "11:34",
+   "rationale": "Told the outcome is decided, Arjuna is urged to act with courage, not distress: fight and you shall prevail."
+  },
+  {
+   "text": "Apologize for the times you took greatness lightly.",
+   "verses": ["11:41", "11:42", "11:43", "11:44"],
+   "best_verse": "11:42",
+   "rationale": "Arjuna repents for his casual, familiar treatment of Krishna at play and meals, and humbly begs forgiveness."
+  },
+  {
+   "text": "Only devotion, not ritual, reveals the deepest truth.",
+   "verses": ["11:53", "11:54"],
+   "best_verse": "11:54",
+   "rationale": "Not by Vedas, austerity, or sacrifice — but by single-minded devotion alone can the divine be truly known and seen."
+  },
+  {
+   "text": "Work for the sacred, unattached and free of enmity.",
+   "verses": ["11:55"],
+   "best_verse": "11:55",
+   "rationale": "The one who acts for the Supreme, free from attachment and bearing no hatred toward any being, reaches the divine."
+  }
+ ],
+ "skipped": [
+  {"v": 1, "reason": "narrative — Arjuna's delusion dispelled, asks to see the form"},
+  {"v": 2, "reason": "narrative — Arjuna's request preamble"},
+  {"v": 3, "reason": "narrative — Arjuna requests to behold the divine form"},
+  {"v": 4, "reason": "narrative — Arjuna's request to see the imperishable Self"},
+  {"v": 5, "reason": "cosmic-form description"},
+  {"v": 6, "reason": "cosmic-form description"},
+  {"v": 7, "reason": "cosmic-form description"},
+  {"v": 8, "reason": "narrative — granting of the divine eye"},
+  {"v": 9, "reason": "narrative — Sanjaya narrates the revealing of the form"},
+  {"v": 10, "reason": "cosmic-form description"},
+  {"v": 11, "reason": "cosmic-form description"},
+  {"v": 12, "reason": "cosmic-form description"},
+  {"v": 13, "reason": "cosmic-form description"},
+  {"v": 15, "reason": "cosmic-form description"},
+  {"v": 16, "reason": "cosmic-form description"},
+  {"v": 17, "reason": "cosmic-form description"},
+  {"v": 18, "reason": "cosmic-form description — praise of the Supreme"},
+  {"v": 19, "reason": "cosmic-form description"},
+  {"v": 20, "reason": "cosmic-form description"},
+  {"v": 21, "reason": "cosmic-form description"},
+  {"v": 22, "reason": "cosmic-form description"},
+  {"v": 23, "reason": "cosmic-form description"},
+  {"v": 24, "reason": "cosmic-form description"},
+  {"v": 25, "reason": "cosmic-form description"},
+  {"v": 26, "reason": "cosmic-form description — warriors entering the mouths"},
+  {"v": 27, "reason": "cosmic-form description"},
+  {"v": 28, "reason": "cosmic-form description"},
+  {"v": 29, "reason": "cosmic-form description"},
+  {"v": 30, "reason": "cosmic-form description"},
+  {"v": 31, "reason": "narrative — Arjuna asks who this fierce form is"},
+  {"v": 35, "reason": "narrative — Arjuna trembling, prostrates himself"},
+  {"v": 36, "reason": "cosmic-form description — praise"},
+  {"v": 37, "reason": "cosmic-form description — praise"},
+  {"v": 38, "reason": "cosmic-form description — praise"},
+  {"v": 39, "reason": "cosmic-form description — salutations"},
+  {"v": 40, "reason": "cosmic-form description — salutations"},
+  {"v": 45, "reason": "narrative — plea to restore the familiar form"},
+  {"v": 46, "reason": "narrative — plea to see the former four-armed form"},
+  {"v": 47, "reason": "narrative — grace of showing the form (redundant with devotion lesson)"},
+  {"v": 48, "reason": "cosmic-form description — form unseen by others (redundant with 53-54)"},
+  {"v": 49, "reason": "narrative — reassurance to not fear"},
+  {"v": 50, "reason": "narrative — Krishna resumes his gentle form"},
+  {"v": 51, "reason": "narrative — Arjuna composed on seeing the human form"},
+  {"v": 52, "reason": "cosmic-form description — rarity of the vision"}
+ ]
+}

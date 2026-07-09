@@ -1,0 +1,124 @@
+{
+  "chapter": 3,
+  "lessons": [
+    {
+      "text": "You cannot escape action, even for a moment.",
+      "verses": ["3:4", "3:5"],
+      "best_verse": "3:5",
+      "rationale": "Renouncing deeds brings neither actionlessness nor perfection; Nature compels everyone to act ceaselessly."
+    },
+    {
+      "text": "Don't fake restraint while your mind chases pleasures.",
+      "verses": ["3:6", "3:7"],
+      "best_verse": "3:6",
+      "rationale": "Stilling the limbs while brooding on sense-objects is hypocrisy; true yoga controls the senses and still acts."
+    },
+    {
+      "text": "Do your appointed work; action beats inaction.",
+      "verses": ["3:8"],
+      "best_verse": "3:8",
+      "rationale": "Perform your bounden duty, for even sustaining the body is impossible through inaction."
+    },
+    {
+      "text": "Perform every action as an offering, not for gain.",
+      "verses": ["3:9"],
+      "best_verse": "3:9",
+      "rationale": "Work done for sacrifice frees you; all other action binds. Act for that sake alone, free of attachment."
+    },
+    {
+      "text": "Repay what sustains you; take nothing for free.",
+      "verses": ["3:10", "3:11", "3:12", "3:13"],
+      "best_verse": "3:12",
+      "rationale": "Mutual nourishment sustains creation; one who enjoys the gods' gifts without offering back is a thief, and who cooks for himself alone consumes sin."
+    },
+    {
+      "text": "Keep the wheel of giving turning, or live in vain.",
+      "verses": ["3:14", "3:15", "3:16"],
+      "best_verse": "3:16",
+      "rationale": "Food, rain, sacrifice, and action form one turning wheel rooted in Brahma; whoever refuses to keep it moving lives pointlessly."
+    },
+    {
+      "text": "The self-fulfilled need nothing from action or others.",
+      "verses": ["3:17", "3:18"],
+      "best_verse": "3:17",
+      "rationale": "One who rejoices and rests wholly in the Self has nothing to gain from deeds and depends on no being."
+    },
+    {
+      "text": "Work without attachment, and you reach the Supreme.",
+      "verses": ["3:19"],
+      "best_verse": "3:19",
+      "rationale": "Always do what must be done detached; by unattached action one attains the Supreme."
+    },
+    {
+      "text": "Set the standard; the world follows its leaders.",
+      "verses": ["3:20", "3:21"],
+      "best_verse": "3:21",
+      "rationale": "Janaka reached perfection through action; whatever a great person does and establishes, the world imitates."
+    },
+    {
+      "text": "Keep working though you need nothing, for the world's sake.",
+      "verses": ["3:22", "3:23", "3:24"],
+      "best_verse": "3:23",
+      "rationale": "Krishna has nothing left to attain yet acts, because if he stopped, people would falter and the worlds would fall into ruin."
+    },
+    {
+      "text": "Work detached for others' good, without unsettling them.",
+      "verses": ["3:25", "3:26"],
+      "best_verse": "3:25",
+      "rationale": "The wise act unattached wishing the world's welfare, and must not disturb the minds of those still attached to action."
+    },
+    {
+      "text": "Nature does the work; drop 'I am the doer.'",
+      "verses": ["3:27", "3:28", "3:29"],
+      "best_verse": "3:27",
+      "rationale": "Egoism alone claims doership; one who knows the gunas merely move among gunas stays unattached."
+    },
+    {
+      "text": "Offer all your actions to the Divine and fight.",
+      "verses": ["3:30"],
+      "best_verse": "3:30",
+      "rationale": "Surrender every act to the Divine, mind fixed on the Self, free of hope, ego, and mental fever."
+    },
+    {
+      "text": "Practice this teaching with faith, never scorn.",
+      "verses": ["3:31", "3:32"],
+      "best_verse": "3:31",
+      "rationale": "Those who follow it with faith are freed from bondage; those who criticize and ignore it are lost."
+    },
+    {
+      "text": "Never let attraction and aversion rule you.",
+      "verses": ["3:33", "3:34"],
+      "best_verse": "3:34",
+      "rationale": "Even the wise follow their nature; attachment and aversion seated in the senses are enemies whose sway you must refuse."
+    },
+    {
+      "text": "Do your own duty poorly rather than another's well.",
+      "verses": ["3:35"],
+      "best_verse": "3:35",
+      "rationale": "One's own duty, even flawed, surpasses another's done perfectly; another's path is fraught with fear."
+    },
+    {
+      "text": "Know desire and anger as your real enemy.",
+      "verses": ["3:36", "3:37"],
+      "best_verse": "3:37",
+      "rationale": "What drives a person to sin against his will is desire and anger, born of rajas, all-devouring foes."
+    },
+    {
+      "text": "Desire veils your wisdom like smoke hides fire.",
+      "verses": ["3:38", "3:39", "3:40"],
+      "best_verse": "3:39",
+      "rationale": "Insatiable desire, seated in senses, mind, and intellect, envelops wisdom as smoke covers fire and dust a mirror."
+    },
+    {
+      "text": "Master your senses, then slay desire by the Self.",
+      "verses": ["3:41", "3:42", "3:43"],
+      "best_verse": "3:41",
+      "rationale": "Control the senses first, then destroy desire; knowing the Self is highest, restrain the self by the Self and conquer this foe."
+    }
+  ],
+  "skipped": [
+    {"v": 1, "reason": "Narrative: Arjuna questions why Krishna urges terrible action if knowledge is superior."},
+    {"v": 2, "reason": "Narrative: Arjuna asks for one certain path to bliss; no distinct teaching."},
+    {"v": 3, "reason": "Expository framing restating the twofold path of knowledge and action; covered practically by 3:4-3:9."}
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "chapter": 17,
+  "lessons": [
+    {
+      "text": "You become the faith you hold.",
+      "verses": ["17:1", "17:2", "17:3", "17:4"],
+      "best_verse": "17:3",
+      "rationale": "17:3 states the chapter's thesis directly: a person is made of their faith; as their faith is, so are they."
+    },
+    {
+      "text": "Don't torture yourself with ego-driven, harsh discipline.",
+      "verses": ["17:5", "17:6"],
+      "best_verse": "17:6",
+      "rationale": "17:5-6 condemn austerities born of hypocrisy and lust that senselessly torment body and spirit."
+    },
+    {
+      "text": "Eat wholesome food that brings health, strength, and cheer.",
+      "verses": ["17:8"],
+      "best_verse": "17:8",
+      "rationale": "17:8 describes sattvic food that increases life, purity, health, and joy."
+    },
+    {
+      "text": "Avoid harsh, overstimulating food that breeds pain and disease.",
+      "verses": ["17:9"],
+      "best_verse": "17:9",
+      "rationale": "17:9 names rajasic foods (bitter, sour, burning) that produce pain, grief, and disease."
+    },
+    {
+      "text": "Refuse stale, spoiled, and lifeless food.",
+      "verses": ["17:10"],
+      "best_verse": "17:10",
+      "rationale": "17:10 describes tamasic food that is stale, putrid, and impure."
+    },
+    {
+      "text": "Do your work as sacred duty, not for reward.",
+      "verses": ["17:11"],
+      "best_verse": "17:11",
+      "rationale": "17:11 defines sattvic sacrifice: offered as duty, without desire for reward."
+    },
+    {
+      "text": "Never perform good deeds merely for show.",
+      "verses": ["17:12"],
+      "best_verse": "17:12",
+      "rationale": "17:12 marks sacrifice done for reward and display as rajasic."
+    },
+    {
+      "text": "Honor your teachers and keep your body pure and gentle.",
+      "verses": ["17:14"],
+      "best_verse": "17:14",
+      "rationale": "17:14 lists austerity of the body: reverence for the wise, purity, straightforwardness, non-injury."
+    },
+    {
+      "text": "Speak words that are true, kind, and calming.",
+      "verses": ["17:15"],
+      "best_verse": "17:15",
+      "rationale": "17:15 defines austerity of speech: truthful, pleasant, beneficial, causing no agitation."
+    },
+    {
+      "text": "Steady your mind with serenity and self-control.",
+      "verses": ["17:16"],
+      "best_verse": "17:16",
+      "rationale": "17:16 defines mental austerity: serenity, good-heartedness, self-control, purity of nature."
+    },
+    {
+      "text": "Don't practice discipline just to win praise.",
+      "verses": ["17:18"],
+      "best_verse": "17:18",
+      "rationale": "17:18 marks austerity done for honor and reception, with hypocrisy, as rajasic and unstable."
+    },
+    {
+      "text": "Never turn discipline into self-torture or harm to others.",
+      "verses": ["17:19"],
+      "best_verse": "17:19",
+      "rationale": "17:19 condemns tamasic austerity practiced through self-torture or to destroy another."
+    },
+    {
+      "text": "Give as a duty to those who truly deserve it.",
+      "verses": ["17:20"],
+      "best_verse": "17:20",
+      "rationale": "17:20 defines sattvic giving: to a worthy person, at a fitting place and time, expecting nothing back."
+    },
+    {
+      "text": "Give generously, never grudgingly or for return.",
+      "verses": ["17:21"],
+      "best_verse": "17:21",
+      "rationale": "17:21 marks giving that expects a reward or is done reluctantly as rajasic."
+    },
+    {
+      "text": "Give with respect, at the right place and time.",
+      "verses": ["17:22"],
+      "best_verse": "17:22",
+      "rationale": "17:22 condemns gifts given at the wrong time and place, to the unworthy, with insult."
+    },
+    {
+      "text": "Act with faith, or your effort comes to nothing.",
+      "verses": ["17:28"],
+      "best_verse": "17:28",
+      "rationale": "17:28 closes the chapter: whatever is done without faith is 'Asat', of no value here or hereafter."
+    }
+  ],
+  "skipped": [
+    {"v": 7, "reason": "Announces the threefold division of food, sacrifice, austerity, and gift — a framing statement developed in the following verses."},
+    {"v": 13, "reason": "Restates faithless (tamasic) sacrifice; its practical teaching is captured by the 'act with faith' lesson from 17:28."},
+    {"v": 17, "reason": "Summarizes the threefold austerity done with faith and no reward — already covered by the body, speech, and mind lessons plus the duty lesson."},
+    {"v": 23, "reason": "Om Tat Sat etymology / ritual origin, not a practical directive."},
+    {"v": 24, "reason": "Ritual instruction to begin acts with 'Om' — etymological, skipped per guidance."},
+    {"v": 25, "reason": "Ritual use of 'Tat'; its 'without aiming for fruits' sense is already covered by the duty lesson from 17:11."},
+    {"v": 26, "reason": "Etymology of the word 'Sat' — definitional, not a practical lesson."},
+    {"v": 27, "reason": "Etymological explanation of 'Sat' applied to steadfast action — ritual framing, skipped per guidance."}
+  ]
+}

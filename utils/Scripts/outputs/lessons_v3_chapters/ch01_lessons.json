@@ -1,0 +1,71 @@
+{
+  "chapter": 1,
+  "lessons": [
+    {
+      "text": "Notice when dread seizes your body before a hard duty.",
+      "verses": ["1:28-30"],
+      "best_verse": "1:29",
+      "rationale": "Captures Arjuna's visceral panic—failing limbs, parched mouth, trembling, the bow slipping—as the felt onset of fear before an overwhelming task, not an abstract mood."
+    },
+    {
+      "text": "Some victories bring only guilt, never happiness.",
+      "verses": ["1:31", "1:36-37"],
+      "best_verse": "1:36",
+      "rationale": "Anchors to Arjuna's insight that slaying his kin yields no good and only sin—distinct from the fear lesson because it judges the outcome of the act, not the emotion before it."
+    },
+    {
+      "text": "Refuse a prize bought with the ruin of those you love.",
+      "verses": ["1:32-35"],
+      "best_verse": "1:35",
+      "rationale": "Specific to Arjuna's rejection of kingdom and pleasures once he sees that the very people he'd win them for stand before him as the cost—about the worthlessness of the reward itself."
+    },
+    {
+      "text": "When greed blinds others to wrong, still choose to turn away.",
+      "verses": ["1:38-39", "1:45"],
+      "best_verse": "1:39",
+      "rationale": "Draws on Arjuna contrasting the enemy's greed-blinded conscience with his own clear sight, and his admission of being swept toward sin by greed—about moral responsibility despite what others excuse."
+    },
+    {
+      "text": "Weigh how one destructive act can unravel generations.",
+      "verses": ["1:40-44"],
+      "best_verse": "1:40",
+      "rationale": "Captures Arjuna's argument that destroying a family collapses its traditions, order, and lineage far beyond the battlefield—distinct as consequence spreading outward through time and society."
+    },
+    {
+      "text": "Beware letting despair make surrender feel preferable to acting.",
+      "verses": ["1:46"],
+      "best_verse": "1:46",
+      "rationale": "Isolates the moment Arjuna would rather be killed unresisting than fight—the paralysis where grief distorts judgment into passive collapse, distinct from his earlier reasoned objections."
+    }
+  ],
+  "skipped": [
+    {"v": 1, "reason": "narrative framing — Dhritarashtra's question to Sanjaya"},
+    {"v": 2, "reason": "narrative — Duryodhana approaches Drona"},
+    {"v": 3, "reason": "narrative — Duryodhana points out the Pandava army"},
+    {"v": 4, "reason": "narrative — roster of enemy warriors"},
+    {"v": 5, "reason": "narrative — roster of enemy warriors"},
+    {"v": 6, "reason": "narrative — roster of enemy warriors"},
+    {"v": 7, "reason": "narrative — Duryodhana names his own leaders"},
+    {"v": 8, "reason": "narrative — roster of Kaurava warriors"},
+    {"v": 9, "reason": "narrative — roster of Kaurava warriors"},
+    {"v": 10, "reason": "narrative — comparison of the two armies' strength"},
+    {"v": 11, "reason": "narrative — Duryodhana's order to protect Bhishma"},
+    {"v": 12, "reason": "narrative — Bhishma roars and blows his conch"},
+    {"v": 13, "reason": "narrative — Kaurava instruments sound"},
+    {"v": 14, "reason": "narrative — Krishna and Arjuna blow their conches"},
+    {"v": 15, "reason": "narrative — names of the conches blown"},
+    {"v": 16, "reason": "narrative — Pandava brothers blow their conches"},
+    {"v": 17, "reason": "narrative — roster of Pandava allies"},
+    {"v": 18, "reason": "narrative — more Pandava conches blown"},
+    {"v": 19, "reason": "narrative — the sound shakes the Kaurava hearts"},
+    {"v": 20, "reason": "narrative — Arjuna takes up his bow to speak"},
+    {"v": 21, "reason": "narrative — Arjuna asks Krishna to place the chariot"},
+    {"v": 22, "reason": "narrative — repeats Arjuna's request for chariot placement"},
+    {"v": 23, "reason": "narrative — Arjuna states his wish to survey the fighters"},
+    {"v": 24, "reason": "narrative — Krishna stations the chariot between armies"},
+    {"v": 25, "reason": "narrative — Krishna tells Arjuna to behold the Kurus"},
+    {"v": 26, "reason": "narrative — Arjuna sees his kinsmen in the ranks"},
+    {"v": 27, "reason": "narrative — Arjuna, filled with pity, begins to speak (transition into the lessons)"},
+    {"v": 47, "reason": "narrative — Arjuna casts down his bow and sinks in sorrow (closing frame)"}
+  ]
+}
